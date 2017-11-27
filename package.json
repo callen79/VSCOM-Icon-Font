@@ -1,0 +1,23 @@
+{
+  "name": "vscom-icon-font",
+  "version": "1.0.0",
+  "description": "VSCOM Web Icon Font Builder",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callen79/VSCOM-Icon-Font.git"
+  },
+  "keywords": [
+    "VSCOM",
+    "font"
+  ],
+  "author": "Chris Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callen79/VSCOM-Icon-Font/issues"
+  },
+  "homepage": "https://github.com/callen79/VSCOM-Icon-Font#readme"
+}
