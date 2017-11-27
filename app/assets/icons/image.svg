@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>image</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -3510.86 -3510.86)">
+<rect x="96" y="96" width="14" height="14" fill="#E5E5E5"/>
+<g id="image">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(96 97)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(96 97)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(96 96)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 14 0L 14 13L 0 13L 0 0L 14 0ZM 12 3.5C 12 4.32812 11.3281 5 10.5 5C 9.67188 5 9 4.32812 9 3.5C 9 2.67188 9.67188 2 10.5 2C 11.3281 2 12 2.67188 12 3.5ZM 1 1L 13 1L 13 10.293L 11 8.29297L 9 10.293L 4 5.29297L 1 8.29297L 1 1Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

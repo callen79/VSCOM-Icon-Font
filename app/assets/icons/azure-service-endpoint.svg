@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>azure-service-endpoint</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -19309.7 0)">
+<rect x="528" y="0" width="14" height="14" fill="#E5E5E5"/>
+<g id="azure-service-endpoint">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(528 3)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(528 3)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(528 0)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7.30298 7.30076L 6.49652 6.49427C 5.27118 7.71515 3.28387 7.71515 2.05853 6.49427C 1.46594 5.90165 1.14069 5.11298 1.14069 4.2753C 1.14069 3.43762 1.46594 2.64895 2.05853 2.05633C 3.28387 0.835455 5.27118 0.835455 6.49652 2.05633L 7.30298 1.24984C 5.63208 -0.416613 2.91852 -0.416613 1.25208 1.24984C 0.445557 2.06079 0 3.13463 0 4.2753C 0 5.41598 0.445557 6.48981 1.25208 7.30076C 2.08533 8.13399 3.1814 8.54838 4.27753 8.54838C 5.37366 8.54838 6.46979 8.13399 7.30298 7.30076ZM 5.91278 3.70496L 14 3.70496L 14 4.84564L 5.91278 4.84564C 5.67664 5.50955 5.0484 5.98631 4.30426 5.98631C 3.35968 5.98631 2.59326 5.21992 2.59326 4.2753C 2.59326 3.33068 3.35968 2.56429 4.30426 2.56429C 5.0484 2.56429 5.67664 3.04106 5.91278 3.70496Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

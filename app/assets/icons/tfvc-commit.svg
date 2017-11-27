@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>tfvc-commit</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -14921.1 -7021.71)">
+<rect x="408" y="192" width="14" height="14" fill="#E5E5E5"/>
+<g id="tfvc-commit">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(412 192)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(412 192)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(408 192)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3.5 4.05078C 4.91406 4.28906 6 5.51562 6 7C 6 8.48438 4.91406 9.71094 3.5 9.94922L 3.5 14L 2.5 14L 2.5 9.94922C 1.08594 9.71094 0 8.48438 0 7C 0 5.51562 1.08594 4.28906 2.5 4.05078L 2.5 0L 3.5 0L 3.5 4.05078ZM 1 7C 1 8.10156 1.89844 9 3 9C 4.10156 9 5 8.10156 5 7C 5 5.89844 4.10156 5 3 5C 1.89844 5 1 5.89844 1 7Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

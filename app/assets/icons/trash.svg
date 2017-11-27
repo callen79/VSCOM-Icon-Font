@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>trash</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -33353.1 -7021.71)">
+<rect x="912" y="192" width="14" height="14" fill="#E5E5E5"/>
+<g id="trash">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(914 192)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(914 192)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(912 192)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 11 3L 11 2L 8 2L 8 1C 8 0.449219 7.55078 0 7 0L 4 0C 3.44922 0 3 0.449219 3 1L 3 2L 0 2L 0 3L 1 3L 1 13C 1 13.5508 1.44922 14 2 14L 9 14C 9.55078 14 10 13.5508 10 13L 10 3L 11 3ZM 3 11L 4 11L 4 5L 3 5L 3 11ZM 5 5L 6 5L 6 11L 5 11L 5 5ZM 8 5L 7 5L 7 11L 8 11L 8 5ZM 4 2L 7 2L 7 1L 4 1L 4 2ZM 2 3L 9 3L 9 13L 2 13L 2 3Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

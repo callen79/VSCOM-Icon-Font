@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>notification-off</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -7021.71 -4388.57)">
+<rect x="192" y="120" width="14" height="14" fill="#E5E5E5"/>
+<g id="notification-off">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(193 120)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(193 120)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(192 120)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 2.94928 1.41016L 3.67261 2.11719C 4.40793 1.42969 5.40302 1 6.498 1C 8.75592 1 10.5902 2.79297 10.5902 5L 10.5902 8.87891L 11.6133 9.87891L 11.6133 5C 11.6133 2.24219 9.3194 0 6.498 0C 5.11928 0 3.87242 0.542969 2.94928 1.41016ZM 9.44328 12L 8.42023 11L 2.40578 11L 2.40578 5.12109L 1.46664 4.20312C 1.42268 4.46484 1.38272 4.72656 1.38272 5L 1.38272 11L 0.359665 11L 0.359665 12L 4.45189 12C 4.45189 13.1016 5.37103 14 6.498 14C 7.62495 14 8.54411 13.1016 8.54411 12L 9.44328 12ZM 5.47495 12C 5.47495 12.5508 5.93452 13 6.498 13C 7.06148 13 7.52106 12.5508 7.52106 12L 5.47495 12ZM 0 1.35156L 0.723328 0.648438L 13 12.6484L 12.2767 13.3516L 0 1.35156Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

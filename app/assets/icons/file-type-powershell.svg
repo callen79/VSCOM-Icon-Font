@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>file-type-powershell</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -10532.6 -2633.14)">
+<rect x="288" y="72" width="14" height="14" fill="#E5E5E5"/>
+<g id="file-type-powershell">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(288 72)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(288 72)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(288 72)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0.00631636 13.6719L 2.91971 0.210335C 2.94336 0.0883408 3.04584 0 3.16412 0L 13.7493 0C 13.9109 0 14.0291 0.159859 13.9937 0.328125L 11.0803 13.7897C 11.0566 13.9117 10.9542 14 10.8359 14L 0.250732 14C 0.0891105 14 -0.0291451 13.8401 0.00631636 13.6719ZM 1.20477 12.9231L 10.2327 12.9231L 12.7952 1.07692L 3.76727 1.07692L 1.20477 12.9231ZM 9.01846 11.8462L 4.98154 11.8462L 4.98154 10.7692L 9.01846 10.7692L 9.01846 11.8462ZM 7.29962 6.69711L 2.49786 11.0343L 3.37701 12.149L 9.31415 6.78966L 5.03671 2.22536L 4.07086 3.2518L 7.29962 6.69711Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

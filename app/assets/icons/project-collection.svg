@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>project-collection</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -36864 -4388.57)">
+<rect x="1008" y="120" width="14" height="14" fill="#E5E5E5"/>
+<g id="project-collection">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1008 121)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1008 121)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1008 120)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 14 3.99609L 14 12.9961L 0 12.9961L 0 3.99609L 1 3.99609L 1 2L 2 1.99609L 2 0L 11.9688 0L 11.9688 1.99609L 13 1.99609L 13 3.99609L 14 3.99609ZM 9 7.99609L 5 7.99609L 5 8.99609L 9 8.99609L 9 7.99609ZM 11 1.99609L 3 1.99609L 3 0.996094L 11 0.996094L 11 1.99609ZM 2 3.99609L 12.0039 3.99609L 12.0039 2.99609L 2 2.99609L 2 3.99609ZM 13 4.99609L 13 11.9961L 1 11.9961L 1 4.99609L 13 4.99609Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

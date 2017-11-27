@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>file-type-fs</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -1755.43 -2633.14)">
+<rect x="48" y="72" width="14" height="14" fill="#E5E5E5"/>
+<g id="file-type-fs">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(48 74)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(48 74)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(48 72)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 5.5918 1.83404L 2.17838 1.83404L 2.17838 4.29043L 5.3138 4.29043L 5.3138 6.11504L 2.17838 6.11504L 2.17838 10L 0 10L 0 0L 5.5918 0L 5.5918 1.83404ZM 14 2.54597L 13.7402 3.80009L 12.4915 3.80009L 12.1224 5.53041L 13.5169 5.53041L 13.2116 6.78454L 11.8717 6.78454L 11.3477 9.19849L 9.9987 9.19849L 10.4909 6.78454L 8.94596 6.78454L 8.44922 9.19849L 7.10026 9.19849L 7.57877 6.78454L 6.32552 6.78454L 6.57617 5.53041L 7.8431 5.53041L 8.19857 3.80009L 6.83594 3.80009L 7.06836 2.54597L 8.44922 2.54597L 8.94596 0.0612946L 10.3268 0.0612946L 9.83008 2.54597L 11.375 2.54597L 11.8854 0.0612946L 13.2526 0.0612946L 12.7559 2.54597L 14 2.54597ZM 9.56575 3.80009L 11.1289 3.80009L 10.7506 5.53041L 9.19661 5.53041L 9.56575 3.80009Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

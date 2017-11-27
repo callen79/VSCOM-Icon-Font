@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>briefcase</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -22820.6 -7899.43)">
+<rect x="624" y="216" width="14" height="14" fill="#E5E5E5"/>
+<g id="briefcase">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(624 217)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(624 217)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(624 216)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10 2L 10 0.875C 10 0.238281 9.23438 0 8.75 0L 5.25 0C 4.76562 0 4 0.238281 4 0.875L 4 2L 0 2L 0 12L 14 12L 14 2L 10 2ZM 5 1.04297C 5.07422 1.01953 5.17578 1 5.25 1L 8.75 1C 8.82422 1 8.92578 1.01953 9 1.04297L 9 2L 5 2L 5 1.04297ZM 13 4.17969L 13 3L 1 3L 1 4.17969L 5 6.32031L 5 6L 9 6L 9 6.32031L 13 4.17969ZM 8 7L 8 8L 6 8L 6 7L 8 7ZM 1 5.20703L 1 11L 13 11L 13 5.20703L 9 7.34766L 9 9L 5 9L 5 7.34766L 1 5.20703Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

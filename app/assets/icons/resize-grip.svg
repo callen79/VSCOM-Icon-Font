@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>resize-grip</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -6144 -5266.29)">
+<rect x="168" y="144" width="14" height="14" fill="#E5E5E5"/>
+<g id="resize-grip">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(173 144)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(173 144)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(168 144)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 4 0L 2.66629 0L 2.66629 1.07643L 4 1.07643L 4 0ZM 0 3.23021L 1.33371 3.23021L 1.33371 2.15378L 0 2.15378L 0 3.23021ZM 0 4.30756L 1.33371 4.30756L 1.33371 5.38399L 0 5.38399L 0 4.30756ZM 1.33371 6.46133L 0 6.46133L 0 7.53868L 1.33371 7.53868L 1.33371 6.46133ZM 0 8.61511L 1.33371 8.61511L 1.33371 9.69246L 0 9.69246L 0 8.61511ZM 1.33371 10.7689L 0 10.7689L 0 11.8462L 1.33371 11.8462L 1.33371 10.7689ZM 0 12.9227L 1.33371 12.9227L 1.33371 14L 0 14L 0 12.9227ZM 4 2.15378L 2.66629 2.15378L 2.66629 3.23021L 4 3.23021L 4 2.15378ZM 2.66629 4.30756L 4 4.30756L 4 5.38399L 2.66629 5.38399L 2.66629 4.30756ZM 4 6.46133L 2.66629 6.46133L 2.66629 7.53868L 4 7.53868L 4 6.46133ZM 2.66629 8.61511L 4 8.61511L 4 9.69246L 2.66629 9.69246L 2.66629 8.61511ZM 4 10.7689L 2.66629 10.7689L 2.66629 11.8462L 4 11.8462L 4 10.7689ZM 2.66629 12.9227L 4 12.9227L 4 14L 2.66629 14L 2.66629 12.9227ZM 0 0L 1.33371 0L 1.33371 1.07643L 0 1.07643L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

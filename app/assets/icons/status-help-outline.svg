@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>status-help-outline</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -4388.57 -6144)">
+<rect x="120" y="168" width="14" height="14" fill="#E5E5E5"/>
+<g id="status-help-outline">
+<g id="ic/bowtie-status-help-outline">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(120 168)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(120 168)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(120 168)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7 14C 3.14243 14 0 10.8618 0 7C 0 3.13821 3.14243 0 7 0C 10.8576 0 14 3.14243 14 7C 14 10.8576 10.8618 14 7 14ZM 6.46154 8.40083L 6.46154 8.61539L 7.53846 8.61539L 7.53846 8.40083C 7.53846 8.09796 7.65205 7.8119 7.84976 7.60577L 8.79628 6.65926C 9.19591 6.24699 9.41887 5.69591 9.41887 5.11118C 9.41887 3.77765 8.33354 2.69231 7 2.69231C 5.66647 2.69231 4.58113 3.77765 4.58113 5.11118L 5.65805 5.11118C 5.65805 4.37079 6.25961 3.76923 7 3.76923C 7.74039 3.76923 8.34195 4.37079 8.34195 5.11118C 8.34195 5.41406 8.22836 5.70012 8.03065 5.90625L 7.08414 6.85277C 6.68029 7.26923 6.46154 7.8161 6.46154 8.40083ZM 6.46154 9.69231L 6.46154 10.7692L 7.53846 10.7692L 7.53846 9.69231L 6.46154 9.69231ZM 1.07692 7C 1.07692 3.73558 3.73557 1.07692 7 1.07692C 10.2644 1.07692 12.9231 3.73558 12.9231 7C 12.9231 10.2644 10.2644 12.9231 7 12.9231C 3.73557 12.9231 1.07692 10.2644 1.07692 7Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

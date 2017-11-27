@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>edit-undo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -16676.6 -1755.43)">
+<rect x="456" y="48" width="14" height="14" fill="#E5E5E5"/>
+<g id="edit-undo">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(458 48)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(458 48)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(456 48)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 9.55192 1.45312C 7.70116 -0.414062 4.68884 -0.414062 2.83808 1.45312L 0.9912 3.31641L 0.9912 0L 0 0L 0 5L 4.956 5L 4.956 4L 1.71524 4L 3.53889 2.16016C 5.00634 0.683594 7.38754 0.683594 8.90919 2.22266C 9.62161 2.9375 10.0088 3.88672 10.0088 4.89844C 10.0088 5.91016 9.62161 6.86328 8.90919 7.57812L 3.24076 13.2969L 3.9648 14L 9.61 8.28516C 10.5083 7.37891 11 6.17969 11 4.89844C 11 3.62109 10.5083 2.41797 9.55192 1.45312Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

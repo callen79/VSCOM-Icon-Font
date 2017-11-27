@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>brand-mtm</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -27209.1 0)">
+<rect x="744" y="0" width="14" height="14" fill="#E5E5E5"/>
+<g id="brand-mtm">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(744 2)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(744 2)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(744 0)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3.05971 2.39844L 6.72768 4.79297L 10.4621 2.39844L 6.72768 0L 3.05971 2.39844ZM 11.7277 5.90625L 11.7316 4.88281C 14.7042 7.0625 13.9855 8.86719 11.2238 8.92969C 11.151 8.93154 11.0662 8.93411 10.972 8.93696C 10.2718 8.95815 9.05306 8.99504 8.42299 8.87109L 6.72768 10L 2.72378 7.48438L 2.72378 6.06641C 2.3644 5.80469 2.03237 5.53906 1.72768 5.26562C -0.569194 3.17969 -0.803569 1.08594 2.41909 1.06641C 2.44881 1.06641 2.47732 1.06412 2.50448 1.06194C 2.62362 1.05239 2.71657 1.04493 2.77065 1.24219L 2.10268 1.98828C 1.45034 2.71875 0.891744 3.69141 2.44253 5.10156C 2.49343 5.14581 2.54805 5.1888 2.60286 5.23195C 2.64492 5.265 2.68703 5.29815 2.72768 5.33203L 2.72768 3.33594L 6.72768 5.85156L 10.7277 3.375L 10.7277 6.96875L 9.43081 7.89844C 9.54177 7.90997 9.68465 7.9332 9.83431 7.95753C 10.0903 7.99914 10.3662 8.04399 10.5363 8.03906C 12.9855 8 13.1105 6.90625 11.7277 5.90625Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

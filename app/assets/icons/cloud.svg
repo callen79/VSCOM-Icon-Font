@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>cloud</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -26331.4 -877.714)">
+<rect x="720" y="24" width="14" height="14" fill="#E5E5E5"/>
+<g id="cloud">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(720 27)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(720 27)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(720 24)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 4.12891 1.79688C 4.85938 0.695312 6.09766 0 7.42969 0C 9.44531 0 11.1133 1.52734 11.3828 3.5C 12.832 3.54688 14 4.76172 14 6.25C 14 7.76562 12.7891 9 11.2969 9L 3.5625 9C 1.59766 9 0 7.375 0 5.375C 0 3.375 1.59766 1.75 3.5625 1.75C 3.75 1.75 3.94141 1.76562 4.12891 1.79688ZM 10.4375 4.0625C 10.4375 2.37109 9.08984 1 7.42969 1C 6.14062 1 5.05078 1.82812 4.62109 2.98828C 4.29688 2.83984 3.94141 2.75 3.5625 2.75C 2.13672 2.75 0.984375 3.92578 0.984375 5.375C 0.984375 6.82422 2.13672 8 3.5625 8L 11.2969 8C 12.2461 8 13.0156 7.21484 13.0156 6.25C 13.0156 5.28516 12.2461 4.5 11.2969 4.5L 10.4375 4.5L 10.4375 4.0625Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

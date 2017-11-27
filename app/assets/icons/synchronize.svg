@@ -1,0 +1,26 @@
+<svg width="512" height="549" viewBox="0 0 512 549" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>synchronize</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(36.5714 0 0 36.5714 -40374.9 -6144)">
+<rect x="1104" y="168" width="14" height="15" fill="#E5E5E5"/>
+<g id="synchronize">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1104 168)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1104 168)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1104 168)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 5.96301 0L 0.777832 0L 0.777832 1.07143L 3.79578 1.07143C 2.87207 1.56529 2.05786 2.26842 1.4259 3.12221C 0.494263 4.39035 0 5.90541 0 7.5C 0 10.1409 1.39355 12.5725 3.6377 13.8449L 4.13599 12.9074C 2.224 11.8234 1.03699 9.75168 1.03699 7.5C 1.03699 4.92606 2.61694 2.60742 4.9259 1.72433L 4.9259 5.35715L 5.96301 5.35715L 5.96301 0ZM 14 7.5C 14 9.09459 13.5057 10.6096 12.574 11.8778C 11.9421 12.7316 11.1278 13.4347 10.2042 13.9286L 13.2222 13.9286L 13.2222 15L 8.03699 15L 8.03699 9.64285L 9.07397 9.64285L 9.07397 13.2757C 11.3831 12.3926 12.9629 10.0739 12.9629 7.5C 12.9629 5.24832 11.776 3.17662 9.86401 2.09264L 10.3622 1.15514C 12.6064 2.42746 14 4.8591 14 7.5Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>
