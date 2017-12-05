@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/callen79/VSCOM-Icon-Font/issues"
   },
-  "homepage": "https://github.com/callen79/VSCOM-Icon-Font#readme"
+  "homepage": "https://github.com/callen79/VSCOM-Icon-Font#readme",
+  "devDependencies": {
+    "gulp-iconfont": "^9.0.2",
+    "gulp-iconfont-css": "^2.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
