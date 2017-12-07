@@ -1,0 +1,2921 @@
+/* Variable for cache-busting */
+$css-version: random(999999999999999);
+
+@font-face {
+	font-family: "vscom-icons";
+	src: url('../fonts/vscom-icons.eot?#' + $css-version);
+	src: url('../fonts/vscom-icons.eot?#iefix?#' + $css-version) format('eot'),
+		url('../fonts/vscom-icons.woff2?#' + $css-version) format('woff2'),
+		url('../fonts/vscom-icons.woff?#' + $css-version) format('woff'),
+		url('../fonts/vscom-icons.ttf?#' + $css-version) format('truetype'),
+		url('../fonts/vscom-icons.svg#vscom-icons?#' + $css-version) format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "vscom-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == -arrow-right {
+		$char: "\E001";
+	}
+	@if $filename == add-team {
+		$char: "\E002";
+	}
+	@if $filename == alert {
+		$char: "\E003";
+	}
+	@if $filename == application-window {
+		$char: "\E004";
+	}
+	@if $filename == approve-disapprove {
+		$char: "\E005";
+	}
+	@if $filename == approve {
+		$char: "\E006";
+	}
+	@if $filename == arrow-down-left {
+		$char: "\E007";
+	}
+	@if $filename == arrow-down-right {
+		$char: "\E008";
+	}
+	@if $filename == arrow-down {
+		$char: "\E009";
+	}
+	@if $filename == arrow-export {
+		$char: "\E00A";
+	}
+	@if $filename == arrow-import {
+		$char: "\E00B";
+	}
+	@if $filename == arrow-left {
+		$char: "\E00C";
+	}
+	@if $filename == arrow-open {
+		$char: "\E00D";
+	}
+	@if $filename == arrow-right {
+		$char: "\E00E";
+	}
+	@if $filename == arrow-up-left {
+		$char: "\E00F";
+	}
+	@if $filename == arrow-up-right {
+		$char: "\E010";
+	}
+	@if $filename == arrow-up {
+		$char: "\E011";
+	}
+	@if $filename == assessment-group-template {
+		$char: "\E012";
+	}
+	@if $filename == assessment-group {
+		$char: "\E013";
+	}
+	@if $filename == attach {
+		$char: "\E014";
+	}
+	@if $filename == auto-fill-template {
+		$char: "\E015";
+	}
+	@if $filename == azure-api-management {
+		$char: "\E016";
+	}
+	@if $filename == azure-service-endpoint {
+		$char: "\E017";
+	}
+	@if $filename == azure {
+		$char: "\E018";
+	}
+	@if $filename == backlog-view-list {
+		$char: "\E019";
+	}
+	@if $filename == backlog {
+		$char: "\E01A";
+	}
+	@if $filename == blender {
+		$char: "\E01B";
+	}
+	@if $filename == blur {
+		$char: "\E01C";
+	}
+	@if $filename == bowtie-work-item-bug {
+		$char: "\E01D";
+	}
+	@if $filename == bowtie-work-item-move {
+		$char: "\E01E";
+	}
+	@if $filename == brand-android {
+		$char: "\E01F";
+	}
+	@if $filename == brand-facebook {
+		$char: "\E020";
+	}
+	@if $filename == brand-git {
+		$char: "\E021";
+	}
+	@if $filename == brand-github {
+		$char: "\E022";
+	}
+	@if $filename == brand-maven {
+		$char: "\E023";
+	}
+	@if $filename == brand-mtm {
+		$char: "\E024";
+	}
+	@if $filename == brand-npm {
+		$char: "\E025";
+	}
+	@if $filename == brand-nuget {
+		$char: "\E026";
+	}
+	@if $filename == brand-svn {
+		$char: "\E027";
+	}
+	@if $filename == brand-tfvc {
+		$char: "\E028";
+	}
+	@if $filename == brand-twitter {
+		$char: "\E029";
+	}
+	@if $filename == briefcase {
+		$char: "\E02A";
+	}
+	@if $filename == build-issue {
+		$char: "\E02B";
+	}
+	@if $filename == build-queue-new {
+		$char: "\E02C";
+	}
+	@if $filename == build-reason-checkin-shelveset {
+		$char: "\E02D";
+	}
+	@if $filename == build {
+		$char: "\E02E";
+	}
+	@if $filename == calendar-check {
+		$char: "\E02F";
+	}
+	@if $filename == calendar-month {
+		$char: "\E030";
+	}
+	@if $filename == calendar {
+		$char: "\E031";
+	}
+	@if $filename == camera {
+		$char: "\E032";
+	}
+	@if $filename == chart-area {
+		$char: "\E033";
+	}
+	@if $filename == chart-bar {
+		$char: "\E034";
+	}
+	@if $filename == chart-column {
+		$char: "\E035";
+	}
+	@if $filename == chart-pie {
+		$char: "\E036";
+	}
+	@if $filename == chart-pivot {
+		$char: "\E037";
+	}
+	@if $filename == chart-stacked-area {
+		$char: "\E038";
+	}
+	@if $filename == chart-stacked-bar {
+		$char: "\E039";
+	}
+	@if $filename == chart-stacked-line {
+		$char: "\E03A";
+	}
+	@if $filename == check-light {
+		$char: "\E03B";
+	}
+	@if $filename == check {
+		$char: "\E03C";
+	}
+	@if $filename == checkbox-empty {
+		$char: "\E03D";
+	}
+	@if $filename == checkbox {
+		$char: "\E03E";
+	}
+	@if $filename == chevron-down-all {
+		$char: "\E03F";
+	}
+	@if $filename == chevron-down-end {
+		$char: "\E040";
+	}
+	@if $filename == chevron-down-light {
+		$char: "\E041";
+	}
+	@if $filename == chevron-down {
+		$char: "\E042";
+	}
+	@if $filename == chevron-left-all {
+		$char: "\E043";
+	}
+	@if $filename == chevron-left-end {
+		$char: "\E044";
+	}
+	@if $filename == chevron-left-light {
+		$char: "\E045";
+	}
+	@if $filename == chevron-left {
+		$char: "\E046";
+	}
+	@if $filename == chevron-right-all {
+		$char: "\E047";
+	}
+	@if $filename == chevron-right-light {
+		$char: "\E048";
+	}
+	@if $filename == chevron-right {
+		$char: "\E049";
+	}
+	@if $filename == chevron-up-all {
+		$char: "\E04A";
+	}
+	@if $filename == chevron-up-end {
+		$char: "\E04B";
+	}
+	@if $filename == chevron-up-light {
+		$char: "\E04C";
+	}
+	@if $filename == chevron-up {
+		$char: "\E04D";
+	}
+	@if $filename == clear-filter {
+		$char: "\E04E";
+	}
+	@if $filename == clone-to-desktop {
+		$char: "\E04F";
+	}
+	@if $filename == clone {
+		$char: "\E050";
+	}
+	@if $filename == cloud-fill {
+		$char: "\E051";
+	}
+	@if $filename == cloud {
+		$char: "\E052";
+	}
+	@if $filename == column-option {
+		$char: "\E053";
+	}
+	@if $filename == comment-add {
+		$char: "\E054";
+	}
+	@if $filename == comment-discussion {
+		$char: "\E055";
+	}
+	@if $filename == comment-lines {
+		$char: "\E056";
+	}
+	@if $filename == comment-next {
+		$char: "\E057";
+	}
+	@if $filename == comment-outline {
+		$char: "\E058";
+	}
+	@if $filename == comment-previous {
+		$char: "\E059";
+	}
+	@if $filename == comment-urgent {
+		$char: "\E05A";
+	}
+	@if $filename == comment {
+		$char: "\E05B";
+	}
+	@if $filename == connect-to-feed {
+		$char: "\E05C";
+	}
+	@if $filename == connected-fill {
+		$char: "\E05D";
+	}
+	@if $filename == contact-card {
+		$char: "\E05E";
+	}
+	@if $filename == control-panel {
+		$char: "\E05F";
+	}
+	@if $filename == copy-to-clipboard {
+		$char: "\E060";
+	}
+	@if $filename == corner-resize {
+		$char: "\E061";
+	}
+	@if $filename == dashboard-fill {
+		$char: "\E062";
+	}
+	@if $filename == dashboard {
+		$char: "\E063";
+	}
+	@if $filename == database {
+		$char: "\E064";
+	}
+	@if $filename == default-executable {
+		$char: "\E065";
+	}
+	@if $filename == deploy {
+		$char: "\E066";
+	}
+	@if $filename == details-pane {
+		$char: "\E067";
+	}
+	@if $filename == devices {
+		$char: "\E068";
+	}
+	@if $filename == diff-image-overlay {
+		$char: "\E069";
+	}
+	@if $filename == diff-image-pixel {
+		$char: "\E06A";
+	}
+	@if $filename == diff-image {
+		$char: "\E06B";
+	}
+	@if $filename == diff-inline {
+		$char: "\E06C";
+	}
+	@if $filename == diff-side-by-side {
+		$char: "\E06D";
+	}
+	@if $filename == disconnected {
+		$char: "\E06E";
+	}
+	@if $filename == dot {
+		$char: "\E06F";
+	}
+	@if $filename == draft {
+		$char: "\E070";
+	}
+	@if $filename == edit-copy {
+		$char: "\E071";
+	}
+	@if $filename == edit-cut {
+		$char: "\E072";
+	}
+	@if $filename == edit-delete {
+		$char: "\E073";
+	}
+	@if $filename == edit-outline {
+		$char: "\E074";
+	}
+	@if $filename == edit-paste {
+		$char: "\E075";
+	}
+	@if $filename == edit-redo {
+		$char: "\E076";
+	}
+	@if $filename == edit-remove {
+		$char: "\E077";
+	}
+	@if $filename == edit-rename {
+		$char: "\E078";
+	}
+	@if $filename == edit-undo {
+		$char: "\E079";
+	}
+	@if $filename == edit {
+		$char: "\E07A";
+	}
+	@if $filename == editor-list-bullet {
+		$char: "\E07B";
+	}
+	@if $filename == ellipsis-vertical {
+		$char: "\E07C";
+	}
+	@if $filename == ellipsis {
+		$char: "\E07D";
+	}
+	@if $filename == engineering-group {
+		$char: "\E07E";
+	}
+	@if $filename == environment {
+		$char: "\E07F";
+	}
+	@if $filename == family {
+		$char: "\E080";
+	}
+	@if $filename == fast-backward-fill {
+		$char: "\E081";
+	}
+	@if $filename == fast-backward {
+		$char: "\E082";
+	}
+	@if $filename == fast-forward-fill {
+		$char: "\E083";
+	}
+	@if $filename == fast-forward {
+		$char: "\E084";
+	}
+	@if $filename == favorite-outline {
+		$char: "\E085";
+	}
+	@if $filename == favorite {
+		$char: "\E086";
+	}
+	@if $filename == feed {
+		$char: "\E087";
+	}
+	@if $filename == feedback-negative-outline {
+		$char: "\E088";
+	}
+	@if $filename == feedback-negative {
+		$char: "\E089";
+	}
+	@if $filename == feedback-positive-outline {
+		$char: "\E08A";
+	}
+	@if $filename == feedback-positive {
+		$char: "\E08B";
+	}
+	@if $filename == file-bug {
+		$char: "\E08C";
+	}
+	@if $filename == file-code {
+		$char: "\E08D";
+	}
+	@if $filename == file-comment {
+		$char: "\E08E";
+	}
+	@if $filename == file-content {
+		$char: "\E08F";
+	}
+	@if $filename == file-image {
+		$char: "\E090";
+	}
+	@if $filename == file-preview {
+		$char: "\E091";
+	}
+	@if $filename == file-stack {
+		$char: "\E092";
+	}
+	@if $filename == file-symlink {
+		$char: "\E093";
+	}
+	@if $filename == file-type-aspx {
+		$char: "\E094";
+	}
+	@if $filename == file-type-cmd {
+		$char: "\E095";
+	}
+	@if $filename == file-type-coffeescript {
+		$char: "\E096";
+	}
+	@if $filename == file-type-cpp {
+		$char: "\E097";
+	}
+	@if $filename == file-type-cs {
+		$char: "\E098";
+	}
+	@if $filename == file-type-csproj {
+		$char: "\E099";
+	}
+	@if $filename == file-type-css {
+		$char: "\E09A";
+	}
+	@if $filename == file-type-fs {
+		$char: "\E09B";
+	}
+	@if $filename == file-type-fsproj {
+		$char: "\E09C";
+	}
+	@if $filename == file-type-html {
+		$char: "\E09D";
+	}
+	@if $filename == file-type-java {
+		$char: "\E09E";
+	}
+	@if $filename == file-type-js {
+		$char: "\E09F";
+	}
+	@if $filename == file-type-json {
+		$char: "\E0A0";
+	}
+	@if $filename == file-type-jsproj {
+		$char: "\E0A1";
+	}
+	@if $filename == file-type-less {
+		$char: "\E0A2";
+	}
+	@if $filename == file-type-md {
+		$char: "\E0A3";
+	}
+	@if $filename == file-type-pdb {
+		$char: "\E0A4";
+	}
+	@if $filename == file-type-powershell {
+		$char: "\E0A5";
+	}
+	@if $filename == file-type-pyproj {
+		$char: "\E0A6";
+	}
+	@if $filename == file-type-python {
+		$char: "\E0A7";
+	}
+	@if $filename == file-type-sass {
+		$char: "\E0A8";
+	}
+	@if $filename == file-type-settings {
+		$char: "\E0A9";
+	}
+	@if $filename == file-type-sln {
+		$char: "\E0AA";
+	}
+	@if $filename == file-type-sql {
+		$char: "\E0AB";
+	}
+	@if $filename == file-type-template {
+		$char: "\E0AC";
+	}
+	@if $filename == file-type-typescript {
+		$char: "\E0AD";
+	}
+	@if $filename == file-type-vb {
+		$char: "\E0AE";
+	}
+	@if $filename == file-type-vbproj {
+		$char: "\E0AF";
+	}
+	@if $filename == file-type-vcxproj {
+		$char: "\E0B0";
+	}
+	@if $filename == file-type-xml {
+		$char: "\E0B1";
+	}
+	@if $filename == file-type-zip {
+		$char: "\E0B2";
+	}
+	@if $filename == file {
+		$char: "\E0B3";
+	}
+	@if $filename == fold-less {
+		$char: "\E0B4";
+	}
+	@if $filename == fold-more {
+		$char: "\E0B5";
+	}
+	@if $filename == folder-plan {
+		$char: "\E0B6";
+	}
+	@if $filename == folder-query {
+		$char: "\E0B7";
+	}
+	@if $filename == folder {
+		$char: "\E0B8";
+	}
+	@if $filename == format-bold {
+		$char: "\E0B9";
+	}
+	@if $filename == format-clear {
+		$char: "\E0BA";
+	}
+	@if $filename == format-font-color {
+		$char: "\E0BB";
+	}
+	@if $filename == format-font-size {
+		$char: "\E0BC";
+	}
+	@if $filename == format-font {
+		$char: "\E0BD";
+	}
+	@if $filename == format-indent-decrease {
+		$char: "\E0BE";
+	}
+	@if $filename == format-indent-increase {
+		$char: "\E0BF";
+	}
+	@if $filename == format-italic {
+		$char: "\E0C0";
+	}
+	@if $filename == format-list-ordered {
+		$char: "\E0C1";
+	}
+	@if $filename == format-list-unordered {
+		$char: "\E0C2";
+	}
+	@if $filename == format-underline {
+		$char: "\E0C3";
+	}
+	@if $filename == full-history {
+		$char: "\E0C4";
+	}
+	@if $filename == giftbox-open {
+		$char: "\E0C5";
+	}
+	@if $filename == git-graph {
+		$char: "\E0C6";
+	}
+	@if $filename == git {
+		$char: "\E0C7";
+	}
+	@if $filename == globe {
+		$char: "\E0C8";
+	}
+	@if $filename == group-rows {
+		$char: "\E0C9";
+	}
+	@if $filename == heart-fill {
+		$char: "\E0CA";
+	}
+	@if $filename == heart {
+		$char: "\E0CB";
+	}
+	@if $filename == heartbeat-fill {
+		$char: "\E0CC";
+	}
+	@if $filename == heartbeat {
+		$char: "\E0CD";
+	}
+	@if $filename == home-fill {
+		$char: "\E0CE";
+	}
+	@if $filename == home {
+		$char: "\E0CF";
+	}
+	@if $filename == image-action-log {
+		$char: "\E0D0";
+	}
+	@if $filename == image {
+		$char: "\E0D1";
+	}
+	@if $filename == install {
+		$char: "\E0D2";
+	}
+	@if $filename == link-remove {
+		$char: "\E0D3";
+	}
+	@if $filename == link {
+		$char: "\E0D4";
+	}
+	@if $filename == live-update-feed-off {
+		$char: "\E0D5";
+	}
+	@if $filename == live-update-feed {
+		$char: "\E0D6";
+	}
+	@if $filename == locale-language {
+		$char: "\E0D7";
+	}
+	@if $filename == locale-timezone {
+		$char: "\E0D8";
+	}
+	@if $filename == log-remove {
+		$char: "\E0D9";
+	}
+	@if $filename == log {
+		$char: "\E0DA";
+	}
+	@if $filename == mail-message-fill {
+		$char: "\E0DB";
+	}
+	@if $filename == mail-message {
+		$char: "\E0DC";
+	}
+	@if $filename == map-destination-fill {
+		$char: "\E0DD";
+	}
+	@if $filename == map-destination {
+		$char: "\E0DE";
+	}
+	@if $filename == map-pin-fill {
+		$char: "\E0DF";
+	}
+	@if $filename == map-pin {
+		$char: "\E0E0";
+	}
+	@if $filename == math-minus-box-light {
+		$char: "\E0E1";
+	}
+	@if $filename == math-minus-box {
+		$char: "\E0E2";
+	}
+	@if $filename == math-minus-circle-outline {
+		$char: "\E0E3";
+	}
+	@if $filename == math-minus-circle {
+		$char: "\E0E4";
+	}
+	@if $filename == math-minus-light {
+		$char: "\E0E5";
+	}
+	@if $filename == math-minus {
+		$char: "\E0E6";
+	}
+	@if $filename == math-multiply-box-light {
+		$char: "\E0E7";
+	}
+	@if $filename == math-multiply-box-outline {
+		$char: "\E0E8";
+	}
+	@if $filename == math-multiply-box {
+		$char: "\E0E9";
+	}
+	@if $filename == math-multiply-light {
+		$char: "\E0EA";
+	}
+	@if $filename == math-multiply {
+		$char: "\E0EB";
+	}
+	@if $filename == math-plus-box-light {
+		$char: "\E0EC";
+	}
+	@if $filename == math-plus-box {
+		$char: "\E0ED";
+	}
+	@if $filename == math-plus-circle-outline {
+		$char: "\E0EE";
+	}
+	@if $filename == math-plus-circle {
+		$char: "\E0EF";
+	}
+	@if $filename == math-plus-heavy {
+		$char: "\E0F0";
+	}
+	@if $filename == math-plus-light {
+		$char: "\E0F1";
+	}
+	@if $filename == math-plus {
+		$char: "\E0F2";
+	}
+	@if $filename == media-play-fill {
+		$char: "\E0F3";
+	}
+	@if $filename == media-play {
+		$char: "\E0F4";
+	}
+	@if $filename == menu {
+		$char: "\E0F5";
+	}
+	@if $filename == merge-duplicate {
+		$char: "\E0F6";
+	}
+	@if $filename == navigate-back-circle {
+		$char: "\E0F7";
+	}
+	@if $filename == navigate-back-disc {
+		$char: "\E0F8";
+	}
+	@if $filename == navigate-close {
+		$char: "\E0F9";
+	}
+	@if $filename == navigate-external {
+		$char: "\E0FA";
+	}
+	@if $filename == navigate-forward-circle {
+		$char: "\E0FB";
+	}
+	@if $filename == navigate-forward-disc {
+		$char: "\E0FC";
+	}
+	@if $filename == navigate-history {
+		$char: "\E0FD";
+	}
+	@if $filename == navigate-refresh {
+		$char: "\E0FE";
+	}
+	@if $filename == navigate-reload {
+		$char: "\E0FF";
+	}
+	@if $filename == network-tower {
+		$char: "\E100";
+	}
+	@if $filename == new-team-project {
+		$char: "\E101";
+	}
+	@if $filename == next-frame-fill {
+		$char: "\E102";
+	}
+	@if $filename == next-frame {
+		$char: "\E103";
+	}
+	@if $filename == node {
+		$char: "\E104";
+	}
+	@if $filename == notification-off {
+		$char: "\E105";
+	}
+	@if $filename == notification {
+		$char: "\E106";
+	}
+	@if $filename == package-feed-local {
+		$char: "\E107";
+	}
+	@if $filename == package-feed-mix {
+		$char: "\E108";
+	}
+	@if $filename == package-feed-remote {
+		$char: "\E109";
+	}
+	@if $filename == package-fill {
+		$char: "\E10A";
+	}
+	@if $filename == package {
+		$char: "\E10B";
+	}
+	@if $filename == packages {
+		$char: "\E10C";
+	}
+	@if $filename == parameter {
+		$char: "\E10D";
+	}
+	@if $filename == pause-fill {
+		$char: "\E10E";
+	}
+	@if $filename == pause {
+		$char: "\E10F";
+	}
+	@if $filename == peopleAdd {
+		$char: "\E110";
+	}
+	@if $filename == personalize {
+		$char: "\E111";
+	}
+	@if $filename == pin-fill {
+		$char: "\E112";
+	}
+	@if $filename == pin-pinned-fill {
+		$char: "\E113";
+	}
+	@if $filename == pin-pinned {
+		$char: "\E114";
+	}
+	@if $filename == pin-unpin-fill {
+		$char: "\E115";
+	}
+	@if $filename == pin-unpin {
+		$char: "\E116";
+	}
+	@if $filename == pin {
+		$char: "\E117";
+	}
+	@if $filename == placeholder {
+		$char: "\E118";
+	}
+	@if $filename == plan {
+		$char: "\E119";
+	}
+	@if $filename == play-fill {
+		$char: "\E11A";
+	}
+	@if $filename == play-resume-fill {
+		$char: "\E11B";
+	}
+	@if $filename == play-resume {
+		$char: "\E11C";
+	}
+	@if $filename == play {
+		$char: "\E11D";
+	}
+	@if $filename == plug-connected {
+		$char: "\E11E";
+	}
+	@if $filename == plug-disconnected-fill {
+		$char: "\E11F";
+	}
+	@if $filename == plug-outline {
+		$char: "\E120";
+	}
+	@if $filename == plug {
+		$char: "\E121";
+	}
+	@if $filename == policy {
+		$char: "\E122";
+	}
+	@if $filename == previous-frame-fill {
+		$char: "\E123";
+	}
+	@if $filename == previous-frame {
+		$char: "\E124";
+	}
+	@if $filename == print {
+		$char: "\E125";
+	}
+	@if $filename == process-meta-task {
+		$char: "\E126";
+	}
+	@if $filename == process {
+		$char: "\E127";
+	}
+	@if $filename == project-collection {
+		$char: "\E128";
+	}
+	@if $filename == query-list {
+		$char: "\E129";
+	}
+	@if $filename == radio-button-empty {
+		$char: "\E12A";
+	}
+	@if $filename == radio-button {
+		$char: "\E12B";
+	}
+	@if $filename == record-fill {
+		$char: "\E12C";
+	}
+	@if $filename == record {
+		$char: "\E12D";
+	}
+	@if $filename == recycle-bin-restore {
+		$char: "\E12E";
+	}
+	@if $filename == recycle-bin {
+		$char: "\E12F";
+	}
+	@if $filename == recycle {
+		$char: "\E130";
+	}
+	@if $filename == redeploy {
+		$char: "\E131";
+	}
+	@if $filename == reminderGroup {
+		$char: "\E132";
+	}
+	@if $filename == repo-fill {
+		$char: "\E133";
+	}
+	@if $filename == repo-git {
+		$char: "\E134";
+	}
+	@if $filename == repo-submodule {
+		$char: "\E135";
+	}
+	@if $filename == repo-tfvc {
+		$char: "\E136";
+	}
+	@if $filename == repo {
+		$char: "\E137";
+	}
+	@if $filename == resize-grip {
+		$char: "\E138";
+	}
+	@if $filename == robot {
+		$char: "\E139";
+	}
+	@if $filename == row-child {
+		$char: "\E13A";
+	}
+	@if $filename == save-all {
+		$char: "\E13B";
+	}
+	@if $filename == save-as {
+		$char: "\E13C";
+	}
+	@if $filename == save-close {
+		$char: "\E13D";
+	}
+	@if $filename == save {
+		$char: "\E13E";
+	}
+	@if $filename == scope-template {
+		$char: "\E13F";
+	}
+	@if $filename == script {
+		$char: "\E140";
+	}
+	@if $filename == search-filter-fill {
+		$char: "\E141";
+	}
+	@if $filename == search-filter {
+		$char: "\E142";
+	}
+	@if $filename == search-in-branch {
+		$char: "\E143";
+	}
+	@if $filename == search {
+		$char: "\E144";
+	}
+	@if $filename == security-access {
+		$char: "\E145";
+	}
+	@if $filename == security-lock-fill {
+		$char: "\E146";
+	}
+	@if $filename == security-lock {
+		$char: "\E147";
+	}
+	@if $filename == security-unlock-fill {
+		$char: "\E148";
+	}
+	@if $filename == security-unlock {
+		$char: "\E149";
+	}
+	@if $filename == security {
+		$char: "\E14A";
+	}
+	@if $filename == send {
+		$char: "\E14B";
+	}
+	@if $filename == separator {
+		$char: "\E14C";
+	}
+	@if $filename == server-remote {
+		$char: "\E14D";
+	}
+	@if $filename == server {
+		$char: "\E14E";
+	}
+	@if $filename == set-actions {
+		$char: "\E14F";
+	}
+	@if $filename == settings-gear-outline {
+		$char: "\E150";
+	}
+	@if $filename == settings-gear {
+		$char: "\E151";
+	}
+	@if $filename == settings-wrench {
+		$char: "\E152";
+	}
+	@if $filename == share {
+		$char: "\E153";
+	}
+	@if $filename == shield-outline {
+		$char: "\E154";
+	}
+	@if $filename == shield {
+		$char: "\E155";
+	}
+	@if $filename == shop-server {
+		$char: "\E156";
+	}
+	@if $filename == shop {
+		$char: "\E157";
+	}
+	@if $filename == shopping-cart-fill {
+		$char: "\E158";
+	}
+	@if $filename == shopping-cart {
+		$char: "\E159";
+	}
+	@if $filename == sort-asc {
+		$char: "\E15A";
+	}
+	@if $filename == sort-ascending {
+		$char: "\E15B";
+	}
+	@if $filename == sort-desc {
+		$char: "\E15C";
+	}
+	@if $filename == sort-descending {
+		$char: "\E15D";
+	}
+	@if $filename == sort {
+		$char: "\E15E";
+	}
+	@if $filename == spinner {
+		$char: "\E15F";
+	}
+	@if $filename == split {
+		$char: "\E160";
+	}
+	@if $filename == square {
+		$char: "\E161";
+	}
+	@if $filename == star-half {
+		$char: "\E162";
+	}
+	@if $filename == status-error-outline {
+		$char: "\E163";
+	}
+	@if $filename == status-error {
+		$char: "\E164";
+	}
+	@if $filename == status-failure-outline {
+		$char: "\E165";
+	}
+	@if $filename == status-failure {
+		$char: "\E166";
+	}
+	@if $filename == status-help-outline {
+		$char: "\E167";
+	}
+	@if $filename == status-help {
+		$char: "\E168";
+	}
+	@if $filename == status-info-outline {
+		$char: "\E169";
+	}
+	@if $filename == status-info {
+		$char: "\E16A";
+	}
+	@if $filename == status-no-fill {
+		$char: "\E16B";
+	}
+	@if $filename == status-no {
+		$char: "\E16C";
+	}
+	@if $filename == status-pause-outline {
+		$char: "\E16D";
+	}
+	@if $filename == status-pause {
+		$char: "\E16E";
+	}
+	@if $filename == status-run-box {
+		$char: "\E16F";
+	}
+	@if $filename == status-run-outline {
+		$char: "\E170";
+	}
+	@if $filename == status-run {
+		$char: "\E171";
+	}
+	@if $filename == status-stop-outline {
+		$char: "\E172";
+	}
+	@if $filename == status-stop {
+		$char: "\E173";
+	}
+	@if $filename == status-success-box {
+		$char: "\E174";
+	}
+	@if $filename == status-success-outline {
+		$char: "\E175";
+	}
+	@if $filename == status-success {
+		$char: "\E176";
+	}
+	@if $filename == status-waiting-fill {
+		$char: "\E177";
+	}
+	@if $filename == status-waiting {
+		$char: "\E178";
+	}
+	@if $filename == status-warning-outline {
+		$char: "\E179";
+	}
+	@if $filename == status-warning {
+		$char: "\E17A";
+	}
+	@if $filename == step-insert {
+		$char: "\E17B";
+	}
+	@if $filename == step-shared-add {
+		$char: "\E17C";
+	}
+	@if $filename == step-shared-insert {
+		$char: "\E17D";
+	}
+	@if $filename == step-shared {
+		$char: "\E17E";
+	}
+	@if $filename == step {
+		$char: "\E17F";
+	}
+	@if $filename == stop-fill {
+		$char: "\E180";
+	}
+	@if $filename == stop {
+		$char: "\E181";
+	}
+	@if $filename == storyboard {
+		$char: "\E182";
+	}
+	@if $filename == switch {
+		$char: "\E183";
+	}
+	@if $filename == symbol-ask {
+		$char: "\E184";
+	}
+	@if $filename == symbol-book {
+		$char: "\E185";
+	}
+	@if $filename == symbol-bug {
+		$char: "\E186";
+	}
+	@if $filename == symbol-crown {
+		$char: "\E187";
+	}
+	@if $filename == symbol-custom {
+		$char: "\E188";
+	}
+	@if $filename == symbol-flame {
+		$char: "\E189";
+	}
+	@if $filename == symbol-impediment {
+		$char: "\E18A";
+	}
+	@if $filename == symbol-list {
+		$char: "\E18B";
+	}
+	@if $filename == symbol-review {
+		$char: "\E18C";
+	}
+	@if $filename == symbol-stickynote {
+		$char: "\E18D";
+	}
+	@if $filename == symbol-task {
+		$char: "\E18E";
+	}
+	@if $filename == symbol-trophy {
+		$char: "\E18F";
+	}
+	@if $filename == sync-user {
+		$char: "\E190";
+	}
+	@if $filename == synchronize {
+		$char: "\E191";
+	}
+	@if $filename == table {
+		$char: "\E192";
+	}
+	@if $filename == tag-fill {
+		$char: "\E193";
+	}
+	@if $filename == tag {
+		$char: "\E194";
+	}
+	@if $filename == task-group {
+		$char: "\E195";
+	}
+	@if $filename == team-favorite {
+		$char: "\E196";
+	}
+	@if $filename == teamwork {
+		$char: "\E197";
+	}
+	@if $filename == test-auto-fill {
+		$char: "\E198";
+	}
+	@if $filename == test-auto {
+		$char: "\E199";
+	}
+	@if $filename == test-explore-fill {
+		$char: "\E19A";
+	}
+	@if $filename == test-fill {
+		$char: "\E19B";
+	}
+	@if $filename == test-impact-fill {
+		$char: "\E19C";
+	}
+	@if $filename == test-parameter {
+		$char: "\E19D";
+	}
+	@if $filename == test-plan {
+		$char: "\E19E";
+	}
+	@if $filename == test-step {
+		$char: "\E19F";
+	}
+	@if $filename == test-suite {
+		$char: "\E1A0";
+	}
+	@if $filename == test-user-fill {
+		$char: "\E1A1";
+	}
+	@if $filename == test {
+		$char: "\E1A2";
+	}
+	@if $filename == tfvc-branch-locked {
+		$char: "\E1A3";
+	}
+	@if $filename == tfvc-branch {
+		$char: "\E1A4";
+	}
+	@if $filename == tfvc-change-list {
+		$char: "\E1A5";
+	}
+	@if $filename == tfvc-commit {
+		$char: "\E1A6";
+	}
+	@if $filename == tfvc-compare {
+		$char: "\E1A7";
+	}
+	@if $filename == tfvc-folder {
+		$char: "\E1A8";
+	}
+	@if $filename == tfvc-fork {
+		$char: "\E1A9";
+	}
+	@if $filename == tfvc-merge {
+		$char: "\E1AA";
+	}
+	@if $filename == tfvc-pull-request {
+		$char: "\E1AB";
+	}
+	@if $filename == tfvc-raw-source {
+		$char: "\E1AC";
+	}
+	@if $filename == tfvc-repo {
+		$char: "\E1AD";
+	}
+	@if $filename == tfvc-shelveset {
+		$char: "\E1AE";
+	}
+	@if $filename == timeline-delivery {
+		$char: "\E1AF";
+	}
+	@if $filename == timeline-matrix {
+		$char: "\E1B0";
+	}
+	@if $filename == timeline-progress {
+		$char: "\E1B1";
+	}
+	@if $filename == toggle-collapse-all {
+		$char: "\E1B2";
+	}
+	@if $filename == toggle-collapse {
+		$char: "\E1B3";
+	}
+	@if $filename == toggle-expand-all {
+		$char: "\E1B4";
+	}
+	@if $filename == toggle-expand {
+		$char: "\E1B5";
+	}
+	@if $filename == toggle-tree-collapsed {
+		$char: "\E1B6";
+	}
+	@if $filename == toggle-tree-expanded-outline {
+		$char: "\E1B7";
+	}
+	@if $filename == toggle-tree-expanded {
+		$char: "\E1B8";
+	}
+	@if $filename == transfer-download {
+		$char: "\E1B9";
+	}
+	@if $filename == transfer-upload {
+		$char: "\E1BA";
+	}
+	@if $filename == trash {
+		$char: "\E1BB";
+	}
+	@if $filename == triangle-down {
+		$char: "\E1BC";
+	}
+	@if $filename == triangle-left {
+		$char: "\E1BD";
+	}
+	@if $filename == triangle-right {
+		$char: "\E1BE";
+	}
+	@if $filename == triangle-up {
+		$char: "\E1BF";
+	}
+	@if $filename == triangle {
+		$char: "\E1C0";
+	}
+	@if $filename == trigger-auto {
+		$char: "\E1C1";
+	}
+	@if $filename == trigger-user {
+		$char: "\E1C2";
+	}
+	@if $filename == trigger {
+		$char: "\E1C3";
+	}
+	@if $filename == unpin-fill {
+		$char: "\E1C4";
+	}
+	@if $filename == unpin {
+		$char: "\E1C5";
+	}
+	@if $filename == user-pause {
+		$char: "\E1C6";
+	}
+	@if $filename == user-pending {
+		$char: "\E1C7";
+	}
+	@if $filename == user {
+		$char: "\E1C8";
+	}
+	@if $filename == users {
+		$char: "\E1C9";
+	}
+	@if $filename == variable-group {
+		$char: "\E1CA";
+	}
+	@if $filename == variable {
+		$char: "\E1CB";
+	}
+	@if $filename == video {
+		$char: "\E1CC";
+	}
+	@if $filename == view-full-screen-exit {
+		$char: "\E1CD";
+	}
+	@if $filename == view-full-screen {
+		$char: "\E1CE";
+	}
+	@if $filename == view-grid {
+		$char: "\E1CF";
+	}
+	@if $filename == view-list-tree {
+		$char: "\E1D0";
+	}
+	@if $filename == view-list {
+		$char: "\E1D1";
+	}
+	@if $filename == visualstudio {
+		$char: "\E1D2";
+	}
+	@if $filename == vsAppCenter {
+		$char: "\E1D3";
+	}
+	@if $filename == vsCode {
+		$char: "\E1D4";
+	}
+	@if $filename == vsIDE {
+		$char: "\E1D5";
+	}
+	@if $filename == vsts-alt-1 {
+		$char: "\E1D6";
+	}
+	@if $filename == vsts-alt-2 {
+		$char: "\E1D7";
+	}
+	@if $filename == vsts {
+		$char: "\E1D8";
+	}
+	@if $filename == watch-eye-fill {
+		$char: "\E1D9";
+	}
+	@if $filename == watch-eye-off {
+		$char: "\E1DA";
+	}
+	@if $filename == watch-eye {
+		$char: "\E1DB";
+	}
+	@if $filename == windows {
+		$char: "\E1DC";
+	}
+	@if $filename == work-item-bar-outline {
+		$char: "\E1DD";
+	}
+	@if $filename == work-item-bar {
+		$char: "\E1DE";
+	}
+	@if $filename == work-item {
+		$char: "\E1DF";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon--arrow-right {
+	@include icon(-arrow-right);
+}
+.icon-add-team {
+	@include icon(add-team);
+}
+.icon-alert {
+	@include icon(alert);
+}
+.icon-application-window {
+	@include icon(application-window);
+}
+.icon-approve-disapprove {
+	@include icon(approve-disapprove);
+}
+.icon-approve {
+	@include icon(approve);
+}
+.icon-arrow-down-left {
+	@include icon(arrow-down-left);
+}
+.icon-arrow-down-right {
+	@include icon(arrow-down-right);
+}
+.icon-arrow-down {
+	@include icon(arrow-down);
+}
+.icon-arrow-export {
+	@include icon(arrow-export);
+}
+.icon-arrow-import {
+	@include icon(arrow-import);
+}
+.icon-arrow-left {
+	@include icon(arrow-left);
+}
+.icon-arrow-open {
+	@include icon(arrow-open);
+}
+.icon-arrow-right {
+	@include icon(arrow-right);
+}
+.icon-arrow-up-left {
+	@include icon(arrow-up-left);
+}
+.icon-arrow-up-right {
+	@include icon(arrow-up-right);
+}
+.icon-arrow-up {
+	@include icon(arrow-up);
+}
+.icon-assessment-group-template {
+	@include icon(assessment-group-template);
+}
+.icon-assessment-group {
+	@include icon(assessment-group);
+}
+.icon-attach {
+	@include icon(attach);
+}
+.icon-auto-fill-template {
+	@include icon(auto-fill-template);
+}
+.icon-azure-api-management {
+	@include icon(azure-api-management);
+}
+.icon-azure-service-endpoint {
+	@include icon(azure-service-endpoint);
+}
+.icon-azure {
+	@include icon(azure);
+}
+.icon-backlog-view-list {
+	@include icon(backlog-view-list);
+}
+.icon-backlog {
+	@include icon(backlog);
+}
+.icon-blender {
+	@include icon(blender);
+}
+.icon-blur {
+	@include icon(blur);
+}
+.icon-bowtie-work-item-bug {
+	@include icon(bowtie-work-item-bug);
+}
+.icon-bowtie-work-item-move {
+	@include icon(bowtie-work-item-move);
+}
+.icon-brand-android {
+	@include icon(brand-android);
+}
+.icon-brand-facebook {
+	@include icon(brand-facebook);
+}
+.icon-brand-git {
+	@include icon(brand-git);
+}
+.icon-brand-github {
+	@include icon(brand-github);
+}
+.icon-brand-maven {
+	@include icon(brand-maven);
+}
+.icon-brand-mtm {
+	@include icon(brand-mtm);
+}
+.icon-brand-npm {
+	@include icon(brand-npm);
+}
+.icon-brand-nuget {
+	@include icon(brand-nuget);
+}
+.icon-brand-svn {
+	@include icon(brand-svn);
+}
+.icon-brand-tfvc {
+	@include icon(brand-tfvc);
+}
+.icon-brand-twitter {
+	@include icon(brand-twitter);
+}
+.icon-briefcase {
+	@include icon(briefcase);
+}
+.icon-build-issue {
+	@include icon(build-issue);
+}
+.icon-build-queue-new {
+	@include icon(build-queue-new);
+}
+.icon-build-reason-checkin-shelveset {
+	@include icon(build-reason-checkin-shelveset);
+}
+.icon-build {
+	@include icon(build);
+}
+.icon-calendar-check {
+	@include icon(calendar-check);
+}
+.icon-calendar-month {
+	@include icon(calendar-month);
+}
+.icon-calendar {
+	@include icon(calendar);
+}
+.icon-camera {
+	@include icon(camera);
+}
+.icon-chart-area {
+	@include icon(chart-area);
+}
+.icon-chart-bar {
+	@include icon(chart-bar);
+}
+.icon-chart-column {
+	@include icon(chart-column);
+}
+.icon-chart-pie {
+	@include icon(chart-pie);
+}
+.icon-chart-pivot {
+	@include icon(chart-pivot);
+}
+.icon-chart-stacked-area {
+	@include icon(chart-stacked-area);
+}
+.icon-chart-stacked-bar {
+	@include icon(chart-stacked-bar);
+}
+.icon-chart-stacked-line {
+	@include icon(chart-stacked-line);
+}
+.icon-check-light {
+	@include icon(check-light);
+}
+.icon-check {
+	@include icon(check);
+}
+.icon-checkbox-empty {
+	@include icon(checkbox-empty);
+}
+.icon-checkbox {
+	@include icon(checkbox);
+}
+.icon-chevron-down-all {
+	@include icon(chevron-down-all);
+}
+.icon-chevron-down-end {
+	@include icon(chevron-down-end);
+}
+.icon-chevron-down-light {
+	@include icon(chevron-down-light);
+}
+.icon-chevron-down {
+	@include icon(chevron-down);
+}
+.icon-chevron-left-all {
+	@include icon(chevron-left-all);
+}
+.icon-chevron-left-end {
+	@include icon(chevron-left-end);
+}
+.icon-chevron-left-light {
+	@include icon(chevron-left-light);
+}
+.icon-chevron-left {
+	@include icon(chevron-left);
+}
+.icon-chevron-right-all {
+	@include icon(chevron-right-all);
+}
+.icon-chevron-right-light {
+	@include icon(chevron-right-light);
+}
+.icon-chevron-right {
+	@include icon(chevron-right);
+}
+.icon-chevron-up-all {
+	@include icon(chevron-up-all);
+}
+.icon-chevron-up-end {
+	@include icon(chevron-up-end);
+}
+.icon-chevron-up-light {
+	@include icon(chevron-up-light);
+}
+.icon-chevron-up {
+	@include icon(chevron-up);
+}
+.icon-clear-filter {
+	@include icon(clear-filter);
+}
+.icon-clone-to-desktop {
+	@include icon(clone-to-desktop);
+}
+.icon-clone {
+	@include icon(clone);
+}
+.icon-cloud-fill {
+	@include icon(cloud-fill);
+}
+.icon-cloud {
+	@include icon(cloud);
+}
+.icon-column-option {
+	@include icon(column-option);
+}
+.icon-comment-add {
+	@include icon(comment-add);
+}
+.icon-comment-discussion {
+	@include icon(comment-discussion);
+}
+.icon-comment-lines {
+	@include icon(comment-lines);
+}
+.icon-comment-next {
+	@include icon(comment-next);
+}
+.icon-comment-outline {
+	@include icon(comment-outline);
+}
+.icon-comment-previous {
+	@include icon(comment-previous);
+}
+.icon-comment-urgent {
+	@include icon(comment-urgent);
+}
+.icon-comment {
+	@include icon(comment);
+}
+.icon-connect-to-feed {
+	@include icon(connect-to-feed);
+}
+.icon-connected-fill {
+	@include icon(connected-fill);
+}
+.icon-contact-card {
+	@include icon(contact-card);
+}
+.icon-control-panel {
+	@include icon(control-panel);
+}
+.icon-copy-to-clipboard {
+	@include icon(copy-to-clipboard);
+}
+.icon-corner-resize {
+	@include icon(corner-resize);
+}
+.icon-dashboard-fill {
+	@include icon(dashboard-fill);
+}
+.icon-dashboard {
+	@include icon(dashboard);
+}
+.icon-database {
+	@include icon(database);
+}
+.icon-default-executable {
+	@include icon(default-executable);
+}
+.icon-deploy {
+	@include icon(deploy);
+}
+.icon-details-pane {
+	@include icon(details-pane);
+}
+.icon-devices {
+	@include icon(devices);
+}
+.icon-diff-image-overlay {
+	@include icon(diff-image-overlay);
+}
+.icon-diff-image-pixel {
+	@include icon(diff-image-pixel);
+}
+.icon-diff-image {
+	@include icon(diff-image);
+}
+.icon-diff-inline {
+	@include icon(diff-inline);
+}
+.icon-diff-side-by-side {
+	@include icon(diff-side-by-side);
+}
+.icon-disconnected {
+	@include icon(disconnected);
+}
+.icon-dot {
+	@include icon(dot);
+}
+.icon-draft {
+	@include icon(draft);
+}
+.icon-edit-copy {
+	@include icon(edit-copy);
+}
+.icon-edit-cut {
+	@include icon(edit-cut);
+}
+.icon-edit-delete {
+	@include icon(edit-delete);
+}
+.icon-edit-outline {
+	@include icon(edit-outline);
+}
+.icon-edit-paste {
+	@include icon(edit-paste);
+}
+.icon-edit-redo {
+	@include icon(edit-redo);
+}
+.icon-edit-remove {
+	@include icon(edit-remove);
+}
+.icon-edit-rename {
+	@include icon(edit-rename);
+}
+.icon-edit-undo {
+	@include icon(edit-undo);
+}
+.icon-edit {
+	@include icon(edit);
+}
+.icon-editor-list-bullet {
+	@include icon(editor-list-bullet);
+}
+.icon-ellipsis-vertical {
+	@include icon(ellipsis-vertical);
+}
+.icon-ellipsis {
+	@include icon(ellipsis);
+}
+.icon-engineering-group {
+	@include icon(engineering-group);
+}
+.icon-environment {
+	@include icon(environment);
+}
+.icon-family {
+	@include icon(family);
+}
+.icon-fast-backward-fill {
+	@include icon(fast-backward-fill);
+}
+.icon-fast-backward {
+	@include icon(fast-backward);
+}
+.icon-fast-forward-fill {
+	@include icon(fast-forward-fill);
+}
+.icon-fast-forward {
+	@include icon(fast-forward);
+}
+.icon-favorite-outline {
+	@include icon(favorite-outline);
+}
+.icon-favorite {
+	@include icon(favorite);
+}
+.icon-feed {
+	@include icon(feed);
+}
+.icon-feedback-negative-outline {
+	@include icon(feedback-negative-outline);
+}
+.icon-feedback-negative {
+	@include icon(feedback-negative);
+}
+.icon-feedback-positive-outline {
+	@include icon(feedback-positive-outline);
+}
+.icon-feedback-positive {
+	@include icon(feedback-positive);
+}
+.icon-file-bug {
+	@include icon(file-bug);
+}
+.icon-file-code {
+	@include icon(file-code);
+}
+.icon-file-comment {
+	@include icon(file-comment);
+}
+.icon-file-content {
+	@include icon(file-content);
+}
+.icon-file-image {
+	@include icon(file-image);
+}
+.icon-file-preview {
+	@include icon(file-preview);
+}
+.icon-file-stack {
+	@include icon(file-stack);
+}
+.icon-file-symlink {
+	@include icon(file-symlink);
+}
+.icon-file-type-aspx {
+	@include icon(file-type-aspx);
+}
+.icon-file-type-cmd {
+	@include icon(file-type-cmd);
+}
+.icon-file-type-coffeescript {
+	@include icon(file-type-coffeescript);
+}
+.icon-file-type-cpp {
+	@include icon(file-type-cpp);
+}
+.icon-file-type-cs {
+	@include icon(file-type-cs);
+}
+.icon-file-type-csproj {
+	@include icon(file-type-csproj);
+}
+.icon-file-type-css {
+	@include icon(file-type-css);
+}
+.icon-file-type-fs {
+	@include icon(file-type-fs);
+}
+.icon-file-type-fsproj {
+	@include icon(file-type-fsproj);
+}
+.icon-file-type-html {
+	@include icon(file-type-html);
+}
+.icon-file-type-java {
+	@include icon(file-type-java);
+}
+.icon-file-type-js {
+	@include icon(file-type-js);
+}
+.icon-file-type-json {
+	@include icon(file-type-json);
+}
+.icon-file-type-jsproj {
+	@include icon(file-type-jsproj);
+}
+.icon-file-type-less {
+	@include icon(file-type-less);
+}
+.icon-file-type-md {
+	@include icon(file-type-md);
+}
+.icon-file-type-pdb {
+	@include icon(file-type-pdb);
+}
+.icon-file-type-powershell {
+	@include icon(file-type-powershell);
+}
+.icon-file-type-pyproj {
+	@include icon(file-type-pyproj);
+}
+.icon-file-type-python {
+	@include icon(file-type-python);
+}
+.icon-file-type-sass {
+	@include icon(file-type-sass);
+}
+.icon-file-type-settings {
+	@include icon(file-type-settings);
+}
+.icon-file-type-sln {
+	@include icon(file-type-sln);
+}
+.icon-file-type-sql {
+	@include icon(file-type-sql);
+}
+.icon-file-type-template {
+	@include icon(file-type-template);
+}
+.icon-file-type-typescript {
+	@include icon(file-type-typescript);
+}
+.icon-file-type-vb {
+	@include icon(file-type-vb);
+}
+.icon-file-type-vbproj {
+	@include icon(file-type-vbproj);
+}
+.icon-file-type-vcxproj {
+	@include icon(file-type-vcxproj);
+}
+.icon-file-type-xml {
+	@include icon(file-type-xml);
+}
+.icon-file-type-zip {
+	@include icon(file-type-zip);
+}
+.icon-file {
+	@include icon(file);
+}
+.icon-fold-less {
+	@include icon(fold-less);
+}
+.icon-fold-more {
+	@include icon(fold-more);
+}
+.icon-folder-plan {
+	@include icon(folder-plan);
+}
+.icon-folder-query {
+	@include icon(folder-query);
+}
+.icon-folder {
+	@include icon(folder);
+}
+.icon-format-bold {
+	@include icon(format-bold);
+}
+.icon-format-clear {
+	@include icon(format-clear);
+}
+.icon-format-font-color {
+	@include icon(format-font-color);
+}
+.icon-format-font-size {
+	@include icon(format-font-size);
+}
+.icon-format-font {
+	@include icon(format-font);
+}
+.icon-format-indent-decrease {
+	@include icon(format-indent-decrease);
+}
+.icon-format-indent-increase {
+	@include icon(format-indent-increase);
+}
+.icon-format-italic {
+	@include icon(format-italic);
+}
+.icon-format-list-ordered {
+	@include icon(format-list-ordered);
+}
+.icon-format-list-unordered {
+	@include icon(format-list-unordered);
+}
+.icon-format-underline {
+	@include icon(format-underline);
+}
+.icon-full-history {
+	@include icon(full-history);
+}
+.icon-giftbox-open {
+	@include icon(giftbox-open);
+}
+.icon-git-graph {
+	@include icon(git-graph);
+}
+.icon-git {
+	@include icon(git);
+}
+.icon-globe {
+	@include icon(globe);
+}
+.icon-group-rows {
+	@include icon(group-rows);
+}
+.icon-heart-fill {
+	@include icon(heart-fill);
+}
+.icon-heart {
+	@include icon(heart);
+}
+.icon-heartbeat-fill {
+	@include icon(heartbeat-fill);
+}
+.icon-heartbeat {
+	@include icon(heartbeat);
+}
+.icon-home-fill {
+	@include icon(home-fill);
+}
+.icon-home {
+	@include icon(home);
+}
+.icon-image-action-log {
+	@include icon(image-action-log);
+}
+.icon-image {
+	@include icon(image);
+}
+.icon-install {
+	@include icon(install);
+}
+.icon-link-remove {
+	@include icon(link-remove);
+}
+.icon-link {
+	@include icon(link);
+}
+.icon-live-update-feed-off {
+	@include icon(live-update-feed-off);
+}
+.icon-live-update-feed {
+	@include icon(live-update-feed);
+}
+.icon-locale-language {
+	@include icon(locale-language);
+}
+.icon-locale-timezone {
+	@include icon(locale-timezone);
+}
+.icon-log-remove {
+	@include icon(log-remove);
+}
+.icon-log {
+	@include icon(log);
+}
+.icon-mail-message-fill {
+	@include icon(mail-message-fill);
+}
+.icon-mail-message {
+	@include icon(mail-message);
+}
+.icon-map-destination-fill {
+	@include icon(map-destination-fill);
+}
+.icon-map-destination {
+	@include icon(map-destination);
+}
+.icon-map-pin-fill {
+	@include icon(map-pin-fill);
+}
+.icon-map-pin {
+	@include icon(map-pin);
+}
+.icon-math-minus-box-light {
+	@include icon(math-minus-box-light);
+}
+.icon-math-minus-box {
+	@include icon(math-minus-box);
+}
+.icon-math-minus-circle-outline {
+	@include icon(math-minus-circle-outline);
+}
+.icon-math-minus-circle {
+	@include icon(math-minus-circle);
+}
+.icon-math-minus-light {
+	@include icon(math-minus-light);
+}
+.icon-math-minus {
+	@include icon(math-minus);
+}
+.icon-math-multiply-box-light {
+	@include icon(math-multiply-box-light);
+}
+.icon-math-multiply-box-outline {
+	@include icon(math-multiply-box-outline);
+}
+.icon-math-multiply-box {
+	@include icon(math-multiply-box);
+}
+.icon-math-multiply-light {
+	@include icon(math-multiply-light);
+}
+.icon-math-multiply {
+	@include icon(math-multiply);
+}
+.icon-math-plus-box-light {
+	@include icon(math-plus-box-light);
+}
+.icon-math-plus-box {
+	@include icon(math-plus-box);
+}
+.icon-math-plus-circle-outline {
+	@include icon(math-plus-circle-outline);
+}
+.icon-math-plus-circle {
+	@include icon(math-plus-circle);
+}
+.icon-math-plus-heavy {
+	@include icon(math-plus-heavy);
+}
+.icon-math-plus-light {
+	@include icon(math-plus-light);
+}
+.icon-math-plus {
+	@include icon(math-plus);
+}
+.icon-media-play-fill {
+	@include icon(media-play-fill);
+}
+.icon-media-play {
+	@include icon(media-play);
+}
+.icon-menu {
+	@include icon(menu);
+}
+.icon-merge-duplicate {
+	@include icon(merge-duplicate);
+}
+.icon-navigate-back-circle {
+	@include icon(navigate-back-circle);
+}
+.icon-navigate-back-disc {
+	@include icon(navigate-back-disc);
+}
+.icon-navigate-close {
+	@include icon(navigate-close);
+}
+.icon-navigate-external {
+	@include icon(navigate-external);
+}
+.icon-navigate-forward-circle {
+	@include icon(navigate-forward-circle);
+}
+.icon-navigate-forward-disc {
+	@include icon(navigate-forward-disc);
+}
+.icon-navigate-history {
+	@include icon(navigate-history);
+}
+.icon-navigate-refresh {
+	@include icon(navigate-refresh);
+}
+.icon-navigate-reload {
+	@include icon(navigate-reload);
+}
+.icon-network-tower {
+	@include icon(network-tower);
+}
+.icon-new-team-project {
+	@include icon(new-team-project);
+}
+.icon-next-frame-fill {
+	@include icon(next-frame-fill);
+}
+.icon-next-frame {
+	@include icon(next-frame);
+}
+.icon-node {
+	@include icon(node);
+}
+.icon-notification-off {
+	@include icon(notification-off);
+}
+.icon-notification {
+	@include icon(notification);
+}
+.icon-package-feed-local {
+	@include icon(package-feed-local);
+}
+.icon-package-feed-mix {
+	@include icon(package-feed-mix);
+}
+.icon-package-feed-remote {
+	@include icon(package-feed-remote);
+}
+.icon-package-fill {
+	@include icon(package-fill);
+}
+.icon-package {
+	@include icon(package);
+}
+.icon-packages {
+	@include icon(packages);
+}
+.icon-parameter {
+	@include icon(parameter);
+}
+.icon-pause-fill {
+	@include icon(pause-fill);
+}
+.icon-pause {
+	@include icon(pause);
+}
+.icon-peopleAdd {
+	@include icon(peopleAdd);
+}
+.icon-personalize {
+	@include icon(personalize);
+}
+.icon-pin-fill {
+	@include icon(pin-fill);
+}
+.icon-pin-pinned-fill {
+	@include icon(pin-pinned-fill);
+}
+.icon-pin-pinned {
+	@include icon(pin-pinned);
+}
+.icon-pin-unpin-fill {
+	@include icon(pin-unpin-fill);
+}
+.icon-pin-unpin {
+	@include icon(pin-unpin);
+}
+.icon-pin {
+	@include icon(pin);
+}
+.icon-placeholder {
+	@include icon(placeholder);
+}
+.icon-plan {
+	@include icon(plan);
+}
+.icon-play-fill {
+	@include icon(play-fill);
+}
+.icon-play-resume-fill {
+	@include icon(play-resume-fill);
+}
+.icon-play-resume {
+	@include icon(play-resume);
+}
+.icon-play {
+	@include icon(play);
+}
+.icon-plug-connected {
+	@include icon(plug-connected);
+}
+.icon-plug-disconnected-fill {
+	@include icon(plug-disconnected-fill);
+}
+.icon-plug-outline {
+	@include icon(plug-outline);
+}
+.icon-plug {
+	@include icon(plug);
+}
+.icon-policy {
+	@include icon(policy);
+}
+.icon-previous-frame-fill {
+	@include icon(previous-frame-fill);
+}
+.icon-previous-frame {
+	@include icon(previous-frame);
+}
+.icon-print {
+	@include icon(print);
+}
+.icon-process-meta-task {
+	@include icon(process-meta-task);
+}
+.icon-process {
+	@include icon(process);
+}
+.icon-project-collection {
+	@include icon(project-collection);
+}
+.icon-query-list {
+	@include icon(query-list);
+}
+.icon-radio-button-empty {
+	@include icon(radio-button-empty);
+}
+.icon-radio-button {
+	@include icon(radio-button);
+}
+.icon-record-fill {
+	@include icon(record-fill);
+}
+.icon-record {
+	@include icon(record);
+}
+.icon-recycle-bin-restore {
+	@include icon(recycle-bin-restore);
+}
+.icon-recycle-bin {
+	@include icon(recycle-bin);
+}
+.icon-recycle {
+	@include icon(recycle);
+}
+.icon-redeploy {
+	@include icon(redeploy);
+}
+.icon-reminderGroup {
+	@include icon(reminderGroup);
+}
+.icon-repo-fill {
+	@include icon(repo-fill);
+}
+.icon-repo-git {
+	@include icon(repo-git);
+}
+.icon-repo-submodule {
+	@include icon(repo-submodule);
+}
+.icon-repo-tfvc {
+	@include icon(repo-tfvc);
+}
+.icon-repo {
+	@include icon(repo);
+}
+.icon-resize-grip {
+	@include icon(resize-grip);
+}
+.icon-robot {
+	@include icon(robot);
+}
+.icon-row-child {
+	@include icon(row-child);
+}
+.icon-save-all {
+	@include icon(save-all);
+}
+.icon-save-as {
+	@include icon(save-as);
+}
+.icon-save-close {
+	@include icon(save-close);
+}
+.icon-save {
+	@include icon(save);
+}
+.icon-scope-template {
+	@include icon(scope-template);
+}
+.icon-script {
+	@include icon(script);
+}
+.icon-search-filter-fill {
+	@include icon(search-filter-fill);
+}
+.icon-search-filter {
+	@include icon(search-filter);
+}
+.icon-search-in-branch {
+	@include icon(search-in-branch);
+}
+.icon-search {
+	@include icon(search);
+}
+.icon-security-access {
+	@include icon(security-access);
+}
+.icon-security-lock-fill {
+	@include icon(security-lock-fill);
+}
+.icon-security-lock {
+	@include icon(security-lock);
+}
+.icon-security-unlock-fill {
+	@include icon(security-unlock-fill);
+}
+.icon-security-unlock {
+	@include icon(security-unlock);
+}
+.icon-security {
+	@include icon(security);
+}
+.icon-send {
+	@include icon(send);
+}
+.icon-separator {
+	@include icon(separator);
+}
+.icon-server-remote {
+	@include icon(server-remote);
+}
+.icon-server {
+	@include icon(server);
+}
+.icon-set-actions {
+	@include icon(set-actions);
+}
+.icon-settings-gear-outline {
+	@include icon(settings-gear-outline);
+}
+.icon-settings-gear {
+	@include icon(settings-gear);
+}
+.icon-settings-wrench {
+	@include icon(settings-wrench);
+}
+.icon-share {
+	@include icon(share);
+}
+.icon-shield-outline {
+	@include icon(shield-outline);
+}
+.icon-shield {
+	@include icon(shield);
+}
+.icon-shop-server {
+	@include icon(shop-server);
+}
+.icon-shop {
+	@include icon(shop);
+}
+.icon-shopping-cart-fill {
+	@include icon(shopping-cart-fill);
+}
+.icon-shopping-cart {
+	@include icon(shopping-cart);
+}
+.icon-sort-asc {
+	@include icon(sort-asc);
+}
+.icon-sort-ascending {
+	@include icon(sort-ascending);
+}
+.icon-sort-desc {
+	@include icon(sort-desc);
+}
+.icon-sort-descending {
+	@include icon(sort-descending);
+}
+.icon-sort {
+	@include icon(sort);
+}
+.icon-spinner {
+	@include icon(spinner);
+}
+.icon-split {
+	@include icon(split);
+}
+.icon-square {
+	@include icon(square);
+}
+.icon-star-half {
+	@include icon(star-half);
+}
+.icon-status-error-outline {
+	@include icon(status-error-outline);
+}
+.icon-status-error {
+	@include icon(status-error);
+}
+.icon-status-failure-outline {
+	@include icon(status-failure-outline);
+}
+.icon-status-failure {
+	@include icon(status-failure);
+}
+.icon-status-help-outline {
+	@include icon(status-help-outline);
+}
+.icon-status-help {
+	@include icon(status-help);
+}
+.icon-status-info-outline {
+	@include icon(status-info-outline);
+}
+.icon-status-info {
+	@include icon(status-info);
+}
+.icon-status-no-fill {
+	@include icon(status-no-fill);
+}
+.icon-status-no {
+	@include icon(status-no);
+}
+.icon-status-pause-outline {
+	@include icon(status-pause-outline);
+}
+.icon-status-pause {
+	@include icon(status-pause);
+}
+.icon-status-run-box {
+	@include icon(status-run-box);
+}
+.icon-status-run-outline {
+	@include icon(status-run-outline);
+}
+.icon-status-run {
+	@include icon(status-run);
+}
+.icon-status-stop-outline {
+	@include icon(status-stop-outline);
+}
+.icon-status-stop {
+	@include icon(status-stop);
+}
+.icon-status-success-box {
+	@include icon(status-success-box);
+}
+.icon-status-success-outline {
+	@include icon(status-success-outline);
+}
+.icon-status-success {
+	@include icon(status-success);
+}
+.icon-status-waiting-fill {
+	@include icon(status-waiting-fill);
+}
+.icon-status-waiting {
+	@include icon(status-waiting);
+}
+.icon-status-warning-outline {
+	@include icon(status-warning-outline);
+}
+.icon-status-warning {
+	@include icon(status-warning);
+}
+.icon-step-insert {
+	@include icon(step-insert);
+}
+.icon-step-shared-add {
+	@include icon(step-shared-add);
+}
+.icon-step-shared-insert {
+	@include icon(step-shared-insert);
+}
+.icon-step-shared {
+	@include icon(step-shared);
+}
+.icon-step {
+	@include icon(step);
+}
+.icon-stop-fill {
+	@include icon(stop-fill);
+}
+.icon-stop {
+	@include icon(stop);
+}
+.icon-storyboard {
+	@include icon(storyboard);
+}
+.icon-switch {
+	@include icon(switch);
+}
+.icon-symbol-ask {
+	@include icon(symbol-ask);
+}
+.icon-symbol-book {
+	@include icon(symbol-book);
+}
+.icon-symbol-bug {
+	@include icon(symbol-bug);
+}
+.icon-symbol-crown {
+	@include icon(symbol-crown);
+}
+.icon-symbol-custom {
+	@include icon(symbol-custom);
+}
+.icon-symbol-flame {
+	@include icon(symbol-flame);
+}
+.icon-symbol-impediment {
+	@include icon(symbol-impediment);
+}
+.icon-symbol-list {
+	@include icon(symbol-list);
+}
+.icon-symbol-review {
+	@include icon(symbol-review);
+}
+.icon-symbol-stickynote {
+	@include icon(symbol-stickynote);
+}
+.icon-symbol-task {
+	@include icon(symbol-task);
+}
+.icon-symbol-trophy {
+	@include icon(symbol-trophy);
+}
+.icon-sync-user {
+	@include icon(sync-user);
+}
+.icon-synchronize {
+	@include icon(synchronize);
+}
+.icon-table {
+	@include icon(table);
+}
+.icon-tag-fill {
+	@include icon(tag-fill);
+}
+.icon-tag {
+	@include icon(tag);
+}
+.icon-task-group {
+	@include icon(task-group);
+}
+.icon-team-favorite {
+	@include icon(team-favorite);
+}
+.icon-teamwork {
+	@include icon(teamwork);
+}
+.icon-test-auto-fill {
+	@include icon(test-auto-fill);
+}
+.icon-test-auto {
+	@include icon(test-auto);
+}
+.icon-test-explore-fill {
+	@include icon(test-explore-fill);
+}
+.icon-test-fill {
+	@include icon(test-fill);
+}
+.icon-test-impact-fill {
+	@include icon(test-impact-fill);
+}
+.icon-test-parameter {
+	@include icon(test-parameter);
+}
+.icon-test-plan {
+	@include icon(test-plan);
+}
+.icon-test-step {
+	@include icon(test-step);
+}
+.icon-test-suite {
+	@include icon(test-suite);
+}
+.icon-test-user-fill {
+	@include icon(test-user-fill);
+}
+.icon-test {
+	@include icon(test);
+}
+.icon-tfvc-branch-locked {
+	@include icon(tfvc-branch-locked);
+}
+.icon-tfvc-branch {
+	@include icon(tfvc-branch);
+}
+.icon-tfvc-change-list {
+	@include icon(tfvc-change-list);
+}
+.icon-tfvc-commit {
+	@include icon(tfvc-commit);
+}
+.icon-tfvc-compare {
+	@include icon(tfvc-compare);
+}
+.icon-tfvc-folder {
+	@include icon(tfvc-folder);
+}
+.icon-tfvc-fork {
+	@include icon(tfvc-fork);
+}
+.icon-tfvc-merge {
+	@include icon(tfvc-merge);
+}
+.icon-tfvc-pull-request {
+	@include icon(tfvc-pull-request);
+}
+.icon-tfvc-raw-source {
+	@include icon(tfvc-raw-source);
+}
+.icon-tfvc-repo {
+	@include icon(tfvc-repo);
+}
+.icon-tfvc-shelveset {
+	@include icon(tfvc-shelveset);
+}
+.icon-timeline-delivery {
+	@include icon(timeline-delivery);
+}
+.icon-timeline-matrix {
+	@include icon(timeline-matrix);
+}
+.icon-timeline-progress {
+	@include icon(timeline-progress);
+}
+.icon-toggle-collapse-all {
+	@include icon(toggle-collapse-all);
+}
+.icon-toggle-collapse {
+	@include icon(toggle-collapse);
+}
+.icon-toggle-expand-all {
+	@include icon(toggle-expand-all);
+}
+.icon-toggle-expand {
+	@include icon(toggle-expand);
+}
+.icon-toggle-tree-collapsed {
+	@include icon(toggle-tree-collapsed);
+}
+.icon-toggle-tree-expanded-outline {
+	@include icon(toggle-tree-expanded-outline);
+}
+.icon-toggle-tree-expanded {
+	@include icon(toggle-tree-expanded);
+}
+.icon-transfer-download {
+	@include icon(transfer-download);
+}
+.icon-transfer-upload {
+	@include icon(transfer-upload);
+}
+.icon-trash {
+	@include icon(trash);
+}
+.icon-triangle-down {
+	@include icon(triangle-down);
+}
+.icon-triangle-left {
+	@include icon(triangle-left);
+}
+.icon-triangle-right {
+	@include icon(triangle-right);
+}
+.icon-triangle-up {
+	@include icon(triangle-up);
+}
+.icon-triangle {
+	@include icon(triangle);
+}
+.icon-trigger-auto {
+	@include icon(trigger-auto);
+}
+.icon-trigger-user {
+	@include icon(trigger-user);
+}
+.icon-trigger {
+	@include icon(trigger);
+}
+.icon-unpin-fill {
+	@include icon(unpin-fill);
+}
+.icon-unpin {
+	@include icon(unpin);
+}
+.icon-user-pause {
+	@include icon(user-pause);
+}
+.icon-user-pending {
+	@include icon(user-pending);
+}
+.icon-user {
+	@include icon(user);
+}
+.icon-users {
+	@include icon(users);
+}
+.icon-variable-group {
+	@include icon(variable-group);
+}
+.icon-variable {
+	@include icon(variable);
+}
+.icon-video {
+	@include icon(video);
+}
+.icon-view-full-screen-exit {
+	@include icon(view-full-screen-exit);
+}
+.icon-view-full-screen {
+	@include icon(view-full-screen);
+}
+.icon-view-grid {
+	@include icon(view-grid);
+}
+.icon-view-list-tree {
+	@include icon(view-list-tree);
+}
+.icon-view-list {
+	@include icon(view-list);
+}
+.icon-visualstudio {
+	@include icon(visualstudio);
+}
+.icon-vsAppCenter {
+	@include icon(vsAppCenter);
+}
+.icon-vsCode {
+	@include icon(vsCode);
+}
+.icon-vsIDE {
+	@include icon(vsIDE);
+}
+.icon-vsts-alt-1 {
+	@include icon(vsts-alt-1);
+}
+.icon-vsts-alt-2 {
+	@include icon(vsts-alt-2);
+}
+.icon-vsts {
+	@include icon(vsts);
+}
+.icon-watch-eye-fill {
+	@include icon(watch-eye-fill);
+}
+.icon-watch-eye-off {
+	@include icon(watch-eye-off);
+}
+.icon-watch-eye {
+	@include icon(watch-eye);
+}
+.icon-windows {
+	@include icon(windows);
+}
+.icon-work-item-bar-outline {
+	@include icon(work-item-bar-outline);
+}
+.icon-work-item-bar {
+	@include icon(work-item-bar);
+}
+.icon-work-item {
+	@include icon(work-item);
+}
