@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>transfer-download</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -72928.6 -16142.9)">
+<rect x="1021" y="226" width="14" height="14" fill="#E5E5E5"/>
+<g id="transfer-download">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1023 226)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1023 226)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1021 226)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 5.51489 10.3203L 9.26788 6.64844L 10 7.35156L 5 12.2422L 0 7.35156L 0.732117 6.64844L 4.48511 10.3203L 4.48511 0L 5.51489 0L 5.51489 10.3203ZM 9.63391 14L 9.63391 13L 0.366028 13L 0.366028 14L 9.63391 14Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

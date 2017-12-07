@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>view-grid</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -36928.6 -17857.1)">
+<rect x="517" y="250" width="14" height="14" fill="#E5E5E5"/>
+<g id="view-grid">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(517 250)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(517 250)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(517 250)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3.81818 3.81818L 0 3.81818L 0 0L 3.81818 0L 3.81818 3.81818ZM 8.90909 0L 5.09091 0L 5.09091 3.81818L 8.90909 3.81818L 8.90909 0ZM 10.1818 0L 14 0L 14 3.81818L 10.1818 3.81818L 10.1818 0ZM 3.81818 5.09091L 0 5.09091L 0 8.90909L 3.81818 8.90909L 3.81818 5.09091ZM 5.09091 5.09091L 8.90909 5.09091L 8.90909 8.90909L 5.09091 8.90909L 5.09091 5.09091ZM 14 5.09091L 10.1818 5.09091L 10.1818 8.90909L 14 8.90909L 14 5.09091ZM 0 10.1818L 3.81818 10.1818L 3.81818 14L 0 14L 0 10.1818ZM 8.90909 10.1818L 5.09091 10.1818L 5.09091 14L 8.90909 14L 8.90909 10.1818ZM 10.1818 10.1818L 14 10.1818L 14 14L 10.1818 14L 10.1818 10.1818Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

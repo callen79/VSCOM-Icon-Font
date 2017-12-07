@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow-export</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -26642.9 -2428.57)">
+<rect x="373" y="34" width="14" height="14" fill="#E5E5E5"/>
+<g id="arrow-export">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(373 34)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(373 34)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(373 34)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 14 4.51385C 14 7.00196 11.9743 9.02771 9.48615 9.02771L 1.91995 9.02771L 5.57963 12.6874L 4.87042 13.3966L 0 8.52617L 4.87042 3.65575L 5.57963 4.36496L 1.91995 8.02463L 9.48615 8.02463C 11.4218 8.02463 12.9969 6.44948 12.9969 4.51385C 12.9969 2.57823 11.4218 1.00308 9.48615 1.00308L 9.48615 0C 11.9743 0 14 2.02575 14 4.51385Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

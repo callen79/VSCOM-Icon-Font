@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>shopping-cart-fill</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -79785.7 -12714.3)">
+<rect x="1117" y="178" width="14" height="14" fill="#E5E5E5"/>
+<g id="shopping-cart-fill">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1117 179)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1117 179)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1117 178)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 11 9.00781L 11 9L 5.16406 9L 4.80859 8L 11.9609 8L 14 2L 2.66797 2L 1.95703 0L 0 0L 0 1L 1.25 1L 4.16016 9.15625C 3.66016 9.39844 3.3125 9.90625 3.3125 10.5C 3.3125 11.3281 3.98438 12 4.8125 12C 5.64062 12 6.3125 11.3281 6.3125 10.5C 6.3125 10.3242 6.27734 10.1562 6.21875 10L 9.53125 10C 9.47266 10.1562 9.4375 10.3242 9.4375 10.5C 9.4375 11.3281 10.1094 12 10.9375 12C 11.7656 12 12.4375 11.3281 12.4375 10.5C 12.4375 9.69531 11.7969 9.03906 11 9.00781ZM 5.3125 10.5C 5.3125 10.7734 5.08984 11 4.8125 11C 4.53906 11 4.3125 10.7734 4.3125 10.5C 4.3125 10.2227 4.53906 10 4.8125 10C 5.08984 10 5.3125 10.2227 5.3125 10.5ZM 10.4375 10.5C 10.4375 10.7734 10.6602 11 10.9375 11C 11.2109 11 11.4375 10.7734 11.4375 10.5C 11.4375 10.2227 11.2109 10 10.9375 10C 10.6602 10 10.4375 10.2227 10.4375 10.5Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

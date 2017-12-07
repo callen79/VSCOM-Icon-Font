@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ellipsis-vertical</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -48928.6 -5857.14)">
+<rect x="685" y="82" width="14" height="14" fill="#E5E5E5"/>
+<g id="ellipsis-vertical">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(690 82)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(690 82)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(685 82)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.61536 3.23077C 0.723572 3.23077 0 2.50721 0 1.61538C 0 0.723557 0.723572 0 1.61536 0C 2.5072 0 3.23077 0.723557 3.23077 1.61538C 3.23077 2.50721 2.5072 3.23077 1.61536 3.23077ZM 0 7C 0 7.89183 0.723572 8.61539 1.61536 8.61539C 2.5072 8.61539 3.23077 7.89183 3.23077 7C 3.23077 6.10817 2.5072 5.38462 1.61536 5.38462C 0.723572 5.38462 0 6.10817 0 7ZM 1.61536 10.7692C 2.5072 10.7692 3.23077 11.4928 3.23077 12.3846C 3.23077 13.2764 2.5072 14 1.61536 14C 0.723572 14 0 13.2764 0 12.3846C 0 11.4928 0.723572 10.7692 1.61536 10.7692Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

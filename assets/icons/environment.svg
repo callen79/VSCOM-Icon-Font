@@ -1,0 +1,26 @@
+<svg width="934" height="1001" viewBox="0 0 934 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>environment</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(66.6667 0 0 66.6667 -48866.7 -5466.67)">
+<rect x="733" y="82" width="14" height="15" fill="#E5E5E5"/>
+<g id="environment">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(733 82)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(733 82)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(733 82)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 11.2165 9.64286L 12.6824 9.64286L 14 15L 0 15L 1.31763 9.64286L 2.78351 9.64286L 2.78351 1.03794C 2.78351 0.464565 3.2406 0 3.80469 0L 10.1953 0C 10.7594 0 11.2165 0.464565 11.2165 1.03794L 11.2165 9.64286ZM 10.1624 11.7857L 10.1624 1.03794L 3.80469 1.07143L 3.83765 11.7857L 10.1624 11.7857ZM 1.35059 13.9286L 2.14117 10.7143L 2.78351 10.7143L 2.78351 12.8571L 11.2165 12.8571L 11.2165 10.7143L 11.8588 10.7143L 12.6494 13.9286L 1.35059 13.9286ZM 4.89178 3.21429L 9.10828 3.21429L 9.10828 2.14286L 4.89178 2.14286L 4.89178 3.21429ZM 9.10828 8.57143L 4.89178 8.57143L 4.89178 7.5L 9.10828 7.5L 9.10828 8.57143ZM 4.89178 10.7143L 9.10828 10.7143L 9.10828 9.64286L 4.89178 9.64286L 4.89178 10.7143Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

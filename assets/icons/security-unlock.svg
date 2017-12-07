@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>security-unlock</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -52357.1 -12714.3)">
+<rect x="733" y="178" width="14" height="14" fill="#E5E5E5"/>
+<g id="security-unlock">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(734 178)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(734 178)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(733 178)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10 0C 8.17578 0 7 1.17969 7 3L 7 6L 0 6L 0 14L 10 14L 10 6L 8 6L 8 3C 8 1.73047 8.73047 1 10 1C 11.2695 1 12 1.73047 12 3L 12 6L 13 6L 13 3C 13 1.17969 11.8242 0 10 0ZM 9 7L 9 13L 1 13L 1 7L 9 7ZM 5.50391 12L 5.5 9.84766C 5.79297 9.67188 6 9.36719 6 9C 6 8.44922 5.55078 8 5 8C 4.44922 8 4 8.44922 4 9C 4 9.36719 4.20703 9.67188 4.5 9.84766L 4.50391 12L 5.50391 12Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

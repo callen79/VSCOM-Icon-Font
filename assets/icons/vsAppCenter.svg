@@ -1,0 +1,19 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>vsAppCenter</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -84928.6 -2428.57)">
+<g id="vsAppCenter">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 1189 34L 1203 34L 1203 48L 1189 48L 1189 34Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="BrandVisualStudioMobileCenter2017RTW_40x" clip-path="url(#clip-0)">
+<g id="vsAppCenter">
+<use xlink:href="#path0_fill" transform="translate(1189 34)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 14 1.456L 14 12.544L 10.5 14L 0 10.4647L 10.5 12.0243L 10.5 0L 14 1.456ZM 3.2942 9.96345L 0.875 7.97475L 0.875 7.04515L 2.44195 6.0263L 0.875 5.0071L 0.875 4.0775L 3.2942 2.08845L 4.49785 2.4591L 4.494 2.4619L 4.55 2.46295L 4.55 4.68895L 6.82465 3.17555L 8.75 3.76845L 8.75 8.28345L 6.82465 8.87635L 4.55 7.36295L 4.55 9.5886L 3.2942 9.96345ZM 4.5234 6.02595L 7 7.25515L 7 4.7971L 4.5234 6.02595ZM 3.15 6.75955L 1.62645 7.5733L 3.15 8.645L 3.15 6.75955ZM 3.15 3.4069L 1.62645 4.4786L 3.15 5.29235L 3.15 3.4069Z"/>
+</defs>
+</svg>

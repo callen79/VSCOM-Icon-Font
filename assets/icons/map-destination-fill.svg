@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>map-destination-fill</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -43785.7 -9285.71)">
+<rect x="613" y="130" width="14" height="14" fill="#E5E5E5"/>
+<g id="map-destination-fill">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(613 130)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(613 130)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(613 130)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7 0C 3.13998 0 0 3.13998 0 7C 0 10.86 3.13998 14 7 14C 10.86 14 14 10.86 14 7C 14 3.13998 10.86 0 7 0ZM 7 11.6667C 4.42514 11.6667 2.33334 9.57487 2.33334 7C 2.33334 4.42513 4.42514 2.33334 7 2.33334C 9.57489 2.33334 11.6667 4.42513 11.6667 7C 11.6667 9.57487 9.57489 11.6667 7 11.6667ZM 7 9.33333C 8.2897 9.33333 9.33331 8.28971 9.33331 7C 9.33331 5.71028 8.2897 4.66666 7 4.66666C 5.71027 4.66666 4.66666 5.71028 4.66666 7C 4.66666 8.28971 5.71027 9.33333 7 9.33333Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

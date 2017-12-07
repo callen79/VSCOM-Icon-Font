@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>pin-pinned-fill</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -48928.6 -11000)">
+<rect x="685" y="154" width="14" height="14" fill="#E5E5E5"/>
+<g id="pin-pinned-fill">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(688 154)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(688 154)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(685 154)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 9 9L 5 9L 5 13L 4.5 14L 4 13L 4 9L 0 9C 0 7.53125 0.941406 6.37109 2.25 5.90625L 2.25 1.96875C 1.58203 1.57812 1.125 0.832031 1.125 0L 7.875 0C 7.875 0.832031 7.41797 1.57812 6.75 1.96875L 6.75 5.90625C 8.05859 6.37109 9 7.53125 9 9Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

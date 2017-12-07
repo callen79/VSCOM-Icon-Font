@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>brand-facebook</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -57500 -2428.57)">
+<rect x="805" y="34" width="14" height="14" fill="#E5E5E5"/>
+<g id="brand-facebook">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(805 34)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(805 34)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(805 34)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0.773438 0C 0.347656 0 0 0.34375 0 0.773438L 0 13.2266C 0 13.6523 0.347656 14 0.773438 14L 7.47656 14L 7.47656 8.57812L 5.65234 8.57812L 5.65234 6.46484L 7.47656 6.46484L 7.47656 4.90625C 7.47656 3.09766 8.58203 2.11328 10.1953 2.11328C 10.9688 2.11328 11.6328 2.17188 11.8242 2.19531L 11.8242 4.08594L 10.707 4.08594C 9.82812 4.08594 9.66016 4.50391 9.66016 5.11719L 9.66016 6.46484L 11.7539 6.46484L 11.4805 8.57812L 9.66016 8.57812L 9.66016 14L 13.2266 14C 13.6523 14 14 13.6523 14 13.2266L 14 0.773438C 14 0.34375 13.6523 0 13.2266 0L 0.773438 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

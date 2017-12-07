@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>contact-card</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -83214.3 -4142.86)">
+<rect x="1165" y="58" width="14" height="14" fill="#E5E5E5"/>
+<g id="contact-card">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1165 59)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1165 59)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1165 58)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 12L 0 0L 14 0L 14 12L 0 12ZM 2.03125 9L 3.03125 9C 3.03125 7.91406 3.91406 7.02734 5 7.02734C 6.08594 7.02734 6.97266 7.91406 6.97266 9L 7.97266 9C 7.97266 7.91016 7.375 6.96484 6.5 6.44922C 6.96484 6.03516 7.26562 5.4375 7.26562 4.76562C 7.26562 3.51562 6.25 2.5 5 2.5C 3.75 2.5 2.73438 3.51562 2.73438 4.76562C 2.73438 5.4375 3.03516 6.03516 3.5 6.44922C 2.625 6.96484 2.03125 7.91016 2.03125 9ZM 3.73438 4.76562C 3.73438 4.06641 4.30469 3.5 5 3.5C 5.69531 3.5 6.26562 4.06641 6.26562 4.76562C 6.26562 5.46094 5.69922 6.03125 5 6.03125C 4.30078 6.03125 3.73438 5.46094 3.73438 4.76562ZM 13 11L 1 11L 1 1L 13 1L 13 11ZM 9 4L 12 4L 12 3L 9 3L 9 4ZM 12 6L 9 6L 9 5L 12 5L 12 6ZM 9 8L 12 8L 12 7L 9 7L 9 8Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

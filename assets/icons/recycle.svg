@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>recycle</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -93500 -11000)">
+<rect x="1309" y="154" width="14" height="14" fill="#E5E5E5"/>
+<g id="recycle">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1309 155)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1309 155)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1309 154)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 6.99999 1.11267L 10.0817 5.99799L 8.55822 5.76764L 8.39318 6.86727L 11.6876 7.36276L 12.1825 4.06386L 11.0886 3.8987L 10.8933 5.19826L 7.94189 0.51722C 7.73778 0.191238 7.38195 0 6.99999 0C 6.61803 0 6.26208 0.195587 6.0581 0.51722L 5.12487 1.99933L 6.06676 2.59479L 6.99999 1.11267ZM 13.8406 9.87062L 13.0289 8.57974L 12.087 9.17955L 12.6556 10.0836L 7.35583 10.0836L 8.37585 9.06654L 7.59032 8.27985L 5.23339 10.6399L 7.59032 13L 8.37585 12.2133L 7.35583 11.1963L 13.1113 11.1963C 13.4673 11.1963 13.7538 11.0398 13.9014 10.7703C 14.0532 10.5008 14.0272 10.1749 13.8406 9.87062ZM 5.39831 7.05417L 4.34801 7.4149L 3.88354 6.05015L 1.34008 10.0836L 3.6665 10.0836L 3.6665 11.1963L 0.888663 11.1963C 0.532706 11.1963 0.246207 11.0398 0.0986241 10.7703C -0.0532314 10.4965 -0.0272304 10.1705 0.159415 9.87061L 2.87658 5.55901L 1.5266 6.01972L 1.17077 4.96355L 4.32629 3.89435L 4.63012 4.79839L 4.66479 4.81578L 4.64745 4.84186L 5.39831 7.05417Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

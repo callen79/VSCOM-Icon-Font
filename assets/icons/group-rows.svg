@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>group-rows</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -91785.7 -7571.43)">
+<rect x="1285" y="106" width="14" height="14" fill="#E5E5E5"/>
+<g id="group-rows">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1285 108)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1285 108)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1285 106)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3.5 11C 2.25781 11 1.25 9.97656 1.25 8.71094L 1.25 7.28516C 1.25 6.57812 0.691406 6 0 6L 0 5C 0.691406 5 1.25 4.42188 1.25 3.71484L 1.25 2.28906C 1.25 1.02344 2.25781 0 3.5 0L 3.5 1C 2.80859 1 2.25 1.57812 2.25 2.28516L 2.25 3.71094C 2.25 4.43359 1.91797 5.07812 1.40234 5.49609C 1.91797 5.91797 2.25 6.56641 2.25 7.28906L 2.25 8.71484C 2.25 9.42578 2.80859 10.0039 3.5 10.0039L 3.5 11ZM 14 0.5L 5 0.5L 5 4.5L 14 4.5L 14 0.5ZM 13 1.5L 6 1.5L 6 3.5L 13 3.5L 13 1.5ZM 14 6.5L 5 6.5L 5 10.5L 14 10.5L 14 6.5ZM 13 7.5L 6 7.5L 6 9.5L 13 9.5L 13 7.5Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

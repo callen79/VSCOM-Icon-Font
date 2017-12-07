@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>shop</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -74642.9 -12714.3)">
+<rect x="1045" y="178" width="14" height="14" fill="#E5E5E5"/>
+<g id="shop">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(1045 178)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(1045 178)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(1045 178)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3.23077 3.11111L 3.23077 3.47975L 2.15387 3.67014L 2.15387 3.11111C 2.15387 1.39757 3.60101 0 5.38464 0C 6.96637 0 8.27887 1.10185 8.55652 2.54803L 7.50061 2.73438C 7.31134 1.77025 6.43634 1.03703 5.38464 1.03703C 4.19836 1.03703 3.23077 1.96875 3.23077 3.11111ZM 9.57452 2.36978L 10.6346 2.18344C 10.3023 0.96817 9.33057 0.0729065 7.95074 0.012146C 8.4093 0.401031 8.64905 0.870941 8.90149 1.40971C 9.25061 1.64467 9.46094 1.9809 9.57452 2.36978ZM 11.8461 2.59259L 14 3.62962L 14 12.963L 11.8461 14L 0 11.9259L 0 4.66667L 11.8461 2.59259Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>
