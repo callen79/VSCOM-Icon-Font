@@ -3,9 +3,6 @@
   "version": "1.0.3",
   "description": "SVG to Web Icon font builder for Visualstudio.com",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "Chris Allen",
   "license": "mit",
