@@ -1,11 +1,10 @@
-@charset "UTF-8";
 /* Variable for cache-busting */
 @font-face {
   font-family: "vscom-icons";
-  src: url("../fonts/vscom-icons.eot?#2836069835");
-  src: url("../fonts/vscom-icons.eot?#iefix?#2836069835") format("eot"), url("../fonts/vscom-icons.woff2?#2836069835") format("woff2"), url("../fonts/vscom-icons.woff?#2836069835") format("woff"), url("../fonts/vscom-icons.ttf?#2836069835") format("truetype"), url("../fonts/vscom-icons.svg#vscom-icons?#2836069835") format("svg"); }
+  src: url("../fonts/vscom-icons.eot");
+  src: url("../fonts/vscom-icons.eot?#iefix") format("eot"), url("../fonts/vscom-icons.woff2") format("woff2"), url("../fonts/vscom-icons.woff") format("woff"), url("../fonts/vscom-icons.ttf") format("truetype"), url("../fonts/vscom-icons.svg#vscom-icons") format("svg"); }
 
-.icon--arrow-right:before, .icon-add-team:before, .icon-alert:before, .icon-application-window:before, .icon-approve-disapprove:before, .icon-approve:before, .icon-arrow-down-left:before, .icon-arrow-down-right:before, .icon-arrow-down:before, .icon-arrow-export:before, .icon-arrow-import:before, .icon-arrow-left:before, .icon-arrow-open:before, .icon-arrow-right:before, .icon-arrow-up-left:before, .icon-arrow-up-right:before, .icon-arrow-up:before, .icon-assessment-group-template:before, .icon-assessment-group:before, .icon-attach:before, .icon-auto-fill-template:before, .icon-azure-api-management:before, .icon-azure-service-endpoint:before, .icon-azure:before, .icon-backlog-view-list:before, .icon-backlog:before, .icon-blender:before, .icon-blur:before, .icon-bowtie-work-item-bug:before, .icon-bowtie-work-item-move:before, .icon-brand-android:before, .icon-brand-facebook:before, .icon-brand-git:before, .icon-brand-github:before, .icon-brand-maven:before, .icon-brand-mtm:before, .icon-brand-npm:before, .icon-brand-nuget:before, .icon-brand-svn:before, .icon-brand-tfvc:before, .icon-brand-twitter:before, .icon-briefcase:before, .icon-build-issue:before, .icon-build-queue-new:before, .icon-build-reason-checkin-shelveset:before, .icon-build:before, .icon-calendar-check:before, .icon-calendar-month:before, .icon-calendar:before, .icon-camera:before, .icon-chart-area:before, .icon-chart-bar:before, .icon-chart-column:before, .icon-chart-pie:before, .icon-chart-pivot:before, .icon-chart-stacked-area:before, .icon-chart-stacked-bar:before, .icon-chart-stacked-line:before, .icon-check-light:before, .icon-check:before, .icon-checkbox-empty:before, .icon-checkbox:before, .icon-chevron-down-all:before, .icon-chevron-down-end:before, .icon-chevron-down-light:before, .icon-chevron-down:before, .icon-chevron-left-all:before, .icon-chevron-left-end:before, .icon-chevron-left-light:before, .icon-chevron-left:before, .icon-chevron-right-all:before, .icon-chevron-right-light:before, .icon-chevron-right:before, .icon-chevron-up-all:before, .icon-chevron-up-end:before, .icon-chevron-up-light:before, .icon-chevron-up:before, .icon-clear-filter:before, .icon-clone-to-desktop:before, .icon-clone:before, .icon-cloud-fill:before, .icon-cloud:before, .icon-column-option:before, .icon-comment-add:before, .icon-comment-discussion:before, .icon-comment-lines:before, .icon-comment-next:before, .icon-comment-outline:before, .icon-comment-previous:before, .icon-comment-urgent:before, .icon-comment:before, .icon-connect-to-feed:before, .icon-connected-fill:before, .icon-contact-card:before, .icon-control-panel:before, .icon-copy-to-clipboard:before, .icon-corner-resize:before, .icon-dashboard-fill:before, .icon-dashboard:before, .icon-database:before, .icon-default-executable:before, .icon-deploy:before, .icon-details-pane:before, .icon-devices:before, .icon-diff-image-overlay:before, .icon-diff-image-pixel:before, .icon-diff-image:before, .icon-diff-inline:before, .icon-diff-side-by-side:before, .icon-disconnected:before, .icon-dot:before, .icon-draft:before, .icon-edit-copy:before, .icon-edit-cut:before, .icon-edit-delete:before, .icon-edit-outline:before, .icon-edit-paste:before, .icon-edit-redo:before, .icon-edit-remove:before, .icon-edit-rename:before, .icon-edit-undo:before, .icon-edit:before, .icon-editor-list-bullet:before, .icon-ellipsis-vertical:before, .icon-ellipsis:before, .icon-engineering-group:before, .icon-environment:before, .icon-family:before, .icon-fast-backward-fill:before, .icon-fast-backward:before, .icon-fast-forward-fill:before, .icon-fast-forward:before, .icon-favorite-outline:before, .icon-favorite:before, .icon-feed:before, .icon-feedback-negative-outline:before, .icon-feedback-negative:before, .icon-feedback-positive-outline:before, .icon-feedback-positive:before, .icon-file-bug:before, .icon-file-code:before, .icon-file-comment:before, .icon-file-content:before, .icon-file-image:before, .icon-file-preview:before, .icon-file-stack:before, .icon-file-symlink:before, .icon-file-type-aspx:before, .icon-file-type-cmd:before, .icon-file-type-coffeescript:before, .icon-file-type-cpp:before, .icon-file-type-cs:before, .icon-file-type-csproj:before, .icon-file-type-css:before, .icon-file-type-fs:before, .icon-file-type-fsproj:before, .icon-file-type-html:before, .icon-file-type-java:before, .icon-file-type-js:before, .icon-file-type-json:before, .icon-file-type-jsproj:before, .icon-file-type-less:before, .icon-file-type-md:before, .icon-file-type-pdb:before, .icon-file-type-powershell:before, .icon-file-type-pyproj:before, .icon-file-type-python:before, .icon-file-type-sass:before, .icon-file-type-settings:before, .icon-file-type-sln:before, .icon-file-type-sql:before, .icon-file-type-template:before, .icon-file-type-typescript:before, .icon-file-type-vb:before, .icon-file-type-vbproj:before, .icon-file-type-vcxproj:before, .icon-file-type-xml:before, .icon-file-type-zip:before, .icon-file:before, .icon-fold-less:before, .icon-fold-more:before, .icon-folder-plan:before, .icon-folder-query:before, .icon-folder:before, .icon-format-bold:before, .icon-format-clear:before, .icon-format-font-color:before, .icon-format-font-size:before, .icon-format-font:before, .icon-format-indent-decrease:before, .icon-format-indent-increase:before, .icon-format-italic:before, .icon-format-list-ordered:before, .icon-format-list-unordered:before, .icon-format-underline:before, .icon-full-history:before, .icon-giftbox-open:before, .icon-git-graph:before, .icon-git:before, .icon-globe:before, .icon-group-rows:before, .icon-heart-fill:before, .icon-heart:before, .icon-heartbeat-fill:before, .icon-heartbeat:before, .icon-home-fill:before, .icon-home:before, .icon-image-action-log:before, .icon-image:before, .icon-install:before, .icon-link-remove:before, .icon-link:before, .icon-live-update-feed-off:before, .icon-live-update-feed:before, .icon-locale-language:before, .icon-locale-timezone:before, .icon-log-remove:before, .icon-log:before, .icon-mail-message-fill:before, .icon-mail-message:before, .icon-map-destination-fill:before, .icon-map-destination:before, .icon-map-pin-fill:before, .icon-map-pin:before, .icon-math-minus-box-light:before, .icon-math-minus-box:before, .icon-math-minus-circle-outline:before, .icon-math-minus-circle:before, .icon-math-minus-light:before, .icon-math-minus:before, .icon-math-multiply-box-light:before, .icon-math-multiply-box-outline:before, .icon-math-multiply-box:before, .icon-math-multiply-light:before, .icon-math-multiply:before, .icon-math-plus-box-light:before, .icon-math-plus-box:before, .icon-math-plus-circle-outline:before, .icon-math-plus-circle:before, .icon-math-plus-heavy:before, .icon-math-plus-light:before, .icon-math-plus:before, .icon-media-play-fill:before, .icon-media-play:before, .icon-menu:before, .icon-merge-duplicate:before, .icon-navigate-back-circle:before, .icon-navigate-back-disc:before, .icon-navigate-close:before, .icon-navigate-external:before, .icon-navigate-forward-circle:before, .icon-navigate-forward-disc:before, .icon-navigate-history:before, .icon-navigate-refresh:before, .icon-navigate-reload:before, .icon-network-tower:before, .icon-new-team-project:before, .icon-next-frame-fill:before, .icon-next-frame:before, .icon-node:before, .icon-notification-off:before, .icon-notification:before, .icon-package-feed-local:before, .icon-package-feed-mix:before, .icon-package-feed-remote:before, .icon-package-fill:before, .icon-package:before, .icon-packages:before, .icon-parameter:before, .icon-pause-fill:before, .icon-pause:before, .icon-peopleAdd:before, .icon-personalize:before, .icon-pin-fill:before, .icon-pin-pinned-fill:before, .icon-pin-pinned:before, .icon-pin-unpin-fill:before, .icon-pin-unpin:before, .icon-pin:before, .icon-placeholder:before, .icon-plan:before, .icon-play-fill:before, .icon-play-resume-fill:before, .icon-play-resume:before, .icon-play:before, .icon-plug-connected:before, .icon-plug-disconnected-fill:before, .icon-plug-outline:before, .icon-plug:before, .icon-policy:before, .icon-previous-frame-fill:before, .icon-previous-frame:before, .icon-print:before, .icon-process-meta-task:before, .icon-process:before, .icon-project-collection:before, .icon-query-list:before, .icon-radio-button-empty:before, .icon-radio-button:before, .icon-record-fill:before, .icon-record:before, .icon-recycle-bin-restore:before, .icon-recycle-bin:before, .icon-recycle:before, .icon-redeploy:before, .icon-reminderGroup:before, .icon-repo-fill:before, .icon-repo-git:before, .icon-repo-submodule:before, .icon-repo-tfvc:before, .icon-repo:before, .icon-resize-grip:before, .icon-robot:before, .icon-row-child:before, .icon-save-all:before, .icon-save-as:before, .icon-save-close:before, .icon-save:before, .icon-scope-template:before, .icon-script:before, .icon-search-filter-fill:before, .icon-search-filter:before, .icon-search-in-branch:before, .icon-search:before, .icon-security-access:before, .icon-security-lock-fill:before, .icon-security-lock:before, .icon-security-unlock-fill:before, .icon-security-unlock:before, .icon-security:before, .icon-send:before, .icon-separator:before, .icon-server-remote:before, .icon-server:before, .icon-set-actions:before, .icon-settings-gear-outline:before, .icon-settings-gear:before, .icon-settings-wrench:before, .icon-share:before, .icon-shield-outline:before, .icon-shield:before, .icon-shop-server:before, .icon-shop:before, .icon-shopping-cart-fill:before, .icon-shopping-cart:before, .icon-sort-asc:before, .icon-sort-ascending:before, .icon-sort-desc:before, .icon-sort-descending:before, .icon-sort:before, .icon-spinner:before, .icon-split:before, .icon-square:before, .icon-star-half:before, .icon-status-error-outline:before, .icon-status-error:before, .icon-status-failure-outline:before, .icon-status-failure:before, .icon-status-help-outline:before, .icon-status-help:before, .icon-status-info-outline:before, .icon-status-info:before, .icon-status-no-fill:before, .icon-status-no:before, .icon-status-pause-outline:before, .icon-status-pause:before, .icon-status-run-box:before, .icon-status-run-outline:before, .icon-status-run:before, .icon-status-stop-outline:before, .icon-status-stop:before, .icon-status-success-box:before, .icon-status-success-outline:before, .icon-status-success:before, .icon-status-waiting-fill:before, .icon-status-waiting:before, .icon-status-warning-outline:before, .icon-status-warning:before, .icon-step-insert:before, .icon-step-shared-add:before, .icon-step-shared-insert:before, .icon-step-shared:before, .icon-step:before, .icon-stop-fill:before, .icon-stop:before, .icon-storyboard:before, .icon-switch:before, .icon-symbol-ask:before, .icon-symbol-book:before, .icon-symbol-bug:before, .icon-symbol-crown:before, .icon-symbol-custom:before, .icon-symbol-flame:before, .icon-symbol-impediment:before, .icon-symbol-list:before, .icon-symbol-review:before, .icon-symbol-stickynote:before, .icon-symbol-task:before, .icon-symbol-trophy:before, .icon-sync-user:before, .icon-synchronize:before, .icon-table:before, .icon-tag-fill:before, .icon-tag:before, .icon-task-group:before, .icon-team-favorite:before, .icon-teamwork:before, .icon-test-auto-fill:before, .icon-test-auto:before, .icon-test-explore-fill:before, .icon-test-fill:before, .icon-test-impact-fill:before, .icon-test-parameter:before, .icon-test-plan:before, .icon-test-step:before, .icon-test-suite:before, .icon-test-user-fill:before, .icon-test:before, .icon-tfvc-branch-locked:before, .icon-tfvc-branch:before, .icon-tfvc-change-list:before, .icon-tfvc-commit:before, .icon-tfvc-compare:before, .icon-tfvc-folder:before, .icon-tfvc-fork:before, .icon-tfvc-merge:before, .icon-tfvc-pull-request:before, .icon-tfvc-raw-source:before, .icon-tfvc-repo:before, .icon-tfvc-shelveset:before, .icon-timeline-delivery:before, .icon-timeline-matrix:before, .icon-timeline-progress:before, .icon-toggle-collapse-all:before, .icon-toggle-collapse:before, .icon-toggle-expand-all:before, .icon-toggle-expand:before, .icon-toggle-tree-collapsed:before, .icon-toggle-tree-expanded-outline:before, .icon-toggle-tree-expanded:before, .icon-transfer-download:before, .icon-transfer-upload:before, .icon-trash:before, .icon-triangle-down:before, .icon-triangle-left:before, .icon-triangle-right:before, .icon-triangle-up:before, .icon-triangle:before, .icon-trigger-auto:before, .icon-trigger-user:before, .icon-trigger:before, .icon-unpin-fill:before, .icon-unpin:before, .icon-user-pause:before, .icon-user-pending:before, .icon-user:before, .icon-users:before, .icon-variable-group:before, .icon-variable:before, .icon-video:before, .icon-view-full-screen-exit:before, .icon-view-full-screen:before, .icon-view-grid:before, .icon-view-list-tree:before, .icon-view-list:before, .icon-visualstudio:before, .icon-vsAppCenter:before, .icon-vsCode:before, .icon-vsIDE:before, .icon-vsts-alt-1:before, .icon-vsts-alt-2:before, .icon-vsts:before, .icon-watch-eye-fill:before, .icon-watch-eye-off:before, .icon-watch-eye:before, .icon-windows:before, .icon-work-item-bar-outline:before, .icon-work-item-bar:before, .icon-work-item:before {
+.icon-add-team:before, .icon-alert:before, .icon-application-window:before, .icon-approve-disapprove:before, .icon-approve:before, .icon-arrow-down-left:before, .icon-arrow-down-right:before, .icon-arrow-down:before, .icon-arrow-export:before, .icon-arrow-import:before, .icon-arrow-left:before, .icon-arrow-open:before, .icon-arrow-right:before, .icon-arrow-up-left:before, .icon-arrow-up-right:before, .icon-arrow-up:before, .icon-assessment-group-template:before, .icon-assessment-group:before, .icon-attach:before, .icon-auto-fill-template:before, .icon-azure-api-management:before, .icon-azure-service-endpoint:before, .icon-azure:before, .icon-backlog-view-list:before, .icon-backlog:before, .icon-blender:before, .icon-blur:before, .icon-bowtie-work-item-bug:before, .icon-bowtie-work-item-move:before, .icon-brand-android:before, .icon-brand-facebook:before, .icon-brand-git:before, .icon-brand-github:before, .icon-brand-maven:before, .icon-brand-mtm:before, .icon-brand-npm:before, .icon-brand-nuget:before, .icon-brand-svn:before, .icon-brand-tfvc:before, .icon-brand-twitter:before, .icon-briefcase:before, .icon-build-issue:before, .icon-build-queue-new:before, .icon-build-reason-checkin-shelveset:before, .icon-build:before, .icon-calendar-check:before, .icon-calendar-month:before, .icon-calendar:before, .icon-camera:before, .icon-chart-area:before, .icon-chart-bar:before, .icon-chart-column:before, .icon-chart-pie:before, .icon-chart-pivot:before, .icon-chart-stacked-area:before, .icon-chart-stacked-bar:before, .icon-chart-stacked-line:before, .icon-check-light:before, .icon-check:before, .icon-checkbox-empty:before, .icon-checkbox:before, .icon-chevron-down-all:before, .icon-chevron-down-end:before, .icon-chevron-down-light:before, .icon-chevron-down:before, .icon-chevron-left-all:before, .icon-chevron-left-end:before, .icon-chevron-left-light:before, .icon-chevron-left:before, .icon-chevron-right-all:before, .icon-chevron-right-light:before, .icon-chevron-right:before, .icon-chevron-up-all:before, .icon-chevron-up-end:before, .icon-chevron-up-light:before, .icon-chevron-up:before, .icon-clear-filter:before, .icon-clone-to-desktop:before, .icon-clone:before, .icon-cloud-fill:before, .icon-cloud:before, .icon-column-option:before, .icon-comment-add:before, .icon-comment-discussion:before, .icon-comment-lines:before, .icon-comment-next:before, .icon-comment-outline:before, .icon-comment-previous:before, .icon-comment-urgent:before, .icon-comment:before, .icon-connect-to-feed:before, .icon-connected-fill:before, .icon-contact-card:before, .icon-control-panel:before, .icon-copy-to-clipboard:before, .icon-corner-resize:before, .icon-dashboard-fill:before, .icon-dashboard:before, .icon-database:before, .icon-default-executable:before, .icon-deploy:before, .icon-details-pane:before, .icon-devices:before, .icon-diff-image-overlay:before, .icon-diff-image-pixel:before, .icon-diff-image:before, .icon-diff-inline:before, .icon-diff-side-by-side:before, .icon-disconnected:before, .icon-dot:before, .icon-draft:before, .icon-edit-copy:before, .icon-edit-cut:before, .icon-edit-delete:before, .icon-edit-outline:before, .icon-edit-paste:before, .icon-edit-redo:before, .icon-edit-remove:before, .icon-edit-rename:before, .icon-edit-undo:before, .icon-edit:before, .icon-editor-list-bullet:before, .icon-ellipsis-vertical:before, .icon-ellipsis:before, .icon-engineering-group:before, .icon-environment:before, .icon-family:before, .icon-fast-backward-fill:before, .icon-fast-backward:before, .icon-fast-forward-fill:before, .icon-fast-forward:before, .icon-favorite-outline:before, .icon-favorite:before, .icon-feed:before, .icon-feedback-negative-outline:before, .icon-feedback-negative:before, .icon-feedback-positive-outline:before, .icon-feedback-positive:before, .icon-file-bug:before, .icon-file-code:before, .icon-file-comment:before, .icon-file-content:before, .icon-file-image:before, .icon-file-preview:before, .icon-file-stack:before, .icon-file-symlink:before, .icon-file-type-aspx:before, .icon-file-type-cmd:before, .icon-file-type-coffeescript:before, .icon-file-type-cpp:before, .icon-file-type-cs:before, .icon-file-type-csproj:before, .icon-file-type-css:before, .icon-file-type-fs:before, .icon-file-type-fsproj:before, .icon-file-type-html:before, .icon-file-type-java:before, .icon-file-type-js:before, .icon-file-type-json:before, .icon-file-type-jsproj:before, .icon-file-type-less:before, .icon-file-type-md:before, .icon-file-type-pdb:before, .icon-file-type-powershell:before, .icon-file-type-pyproj:before, .icon-file-type-python:before, .icon-file-type-sass:before, .icon-file-type-settings:before, .icon-file-type-sln:before, .icon-file-type-sql:before, .icon-file-type-template:before, .icon-file-type-typescript:before, .icon-file-type-vb:before, .icon-file-type-vbproj:before, .icon-file-type-vcxproj:before, .icon-file-type-xml:before, .icon-file-type-zip:before, .icon-file:before, .icon-fold-less:before, .icon-fold-more:before, .icon-folder-plan:before, .icon-folder-query:before, .icon-folder:before, .icon-format-bold:before, .icon-format-clear:before, .icon-format-font-color:before, .icon-format-font-size:before, .icon-format-font:before, .icon-format-indent-decrease:before, .icon-format-indent-increase:before, .icon-format-italic:before, .icon-format-list-ordered:before, .icon-format-list-unordered:before, .icon-format-underline:before, .icon-full-history:before, .icon-giftbox-open:before, .icon-git-graph:before, .icon-git:before, .icon-globe:before, .icon-group-rows:before, .icon-heart-fill:before, .icon-heart:before, .icon-heartbeat-fill:before, .icon-heartbeat:before, .icon-home-fill:before, .icon-home:before, .icon-image-action-log:before, .icon-image:before, .icon-install:before, .icon-link-remove:before, .icon-link:before, .icon-live-update-feed-off:before, .icon-live-update-feed:before, .icon-locale-language:before, .icon-locale-timezone:before, .icon-log-remove:before, .icon-log:before, .icon-mail-message-fill:before, .icon-mail-message:before, .icon-map-destination-fill:before, .icon-map-destination:before, .icon-map-pin-fill:before, .icon-map-pin:before, .icon-math-minus-box-light:before, .icon-math-minus-box:before, .icon-math-minus-circle-outline:before, .icon-math-minus-circle:before, .icon-math-minus-light:before, .icon-math-minus:before, .icon-math-multiply-box-light:before, .icon-math-multiply-box-outline:before, .icon-math-multiply-box:before, .icon-math-multiply-light:before, .icon-math-multiply:before, .icon-math-plus-box-light:before, .icon-math-plus-box:before, .icon-math-plus-circle-outline:before, .icon-math-plus-circle:before, .icon-math-plus-heavy:before, .icon-math-plus-light:before, .icon-math-plus:before, .icon-media-play-fill:before, .icon-media-play:before, .icon-menu:before, .icon-merge-duplicate:before, .icon-navigate-back-circle:before, .icon-navigate-back-disc:before, .icon-navigate-close:before, .icon-navigate-external:before, .icon-navigate-forward-circle:before, .icon-navigate-forward-disc:before, .icon-navigate-history:before, .icon-navigate-refresh:before, .icon-navigate-reload:before, .icon-network-tower:before, .icon-new-team-project:before, .icon-next-frame-fill:before, .icon-next-frame:before, .icon-node:before, .icon-notification-off:before, .icon-notification:before, .icon-package-feed-local:before, .icon-package-feed-mix:before, .icon-package-feed-remote:before, .icon-package-fill:before, .icon-package:before, .icon-packages:before, .icon-parameter:before, .icon-pause-fill:before, .icon-pause:before, .icon-peopleAdd:before, .icon-personalize:before, .icon-pin-fill:before, .icon-pin-pinned-fill:before, .icon-pin-pinned:before, .icon-pin-unpin-fill:before, .icon-pin-unpin:before, .icon-pin:before, .icon-placeholder:before, .icon-plan:before, .icon-play-fill:before, .icon-play-resume-fill:before, .icon-play-resume:before, .icon-play:before, .icon-plug-connected:before, .icon-plug-disconnected-fill:before, .icon-plug-outline:before, .icon-plug:before, .icon-policy:before, .icon-previous-frame-fill:before, .icon-previous-frame:before, .icon-print:before, .icon-process-meta-task:before, .icon-process:before, .icon-project-collection:before, .icon-query-list:before, .icon-radio-button-empty:before, .icon-radio-button:before, .icon-record-fill:before, .icon-record:before, .icon-recycle-bin-restore:before, .icon-recycle-bin:before, .icon-recycle:before, .icon-redeploy:before, .icon-reminderGroup:before, .icon-repo-fill:before, .icon-repo-git:before, .icon-repo-submodule:before, .icon-repo-tfvc:before, .icon-repo:before, .icon-resize-grip:before, .icon-robot:before, .icon-row-child:before, .icon-save-all:before, .icon-save-as:before, .icon-save-close:before, .icon-save:before, .icon-scope-template:before, .icon-script:before, .icon-search-filter-fill:before, .icon-search-filter:before, .icon-search-in-branch:before, .icon-search:before, .icon-security-access:before, .icon-security-lock-fill:before, .icon-security-lock:before, .icon-security-unlock-fill:before, .icon-security-unlock:before, .icon-security:before, .icon-send:before, .icon-separator:before, .icon-server-remote:before, .icon-server:before, .icon-set-actions:before, .icon-settings-gear-outline:before, .icon-settings-gear:before, .icon-settings-wrench:before, .icon-share:before, .icon-shield-outline:before, .icon-shield:before, .icon-shop-server:before, .icon-shop:before, .icon-shopping-cart-fill:before, .icon-shopping-cart:before, .icon-sort-asc:before, .icon-sort-ascending:before, .icon-sort-desc:before, .icon-sort-descending:before, .icon-sort:before, .icon-spinner:before, .icon-split:before, .icon-square:before, .icon-star-half:before, .icon-status-error-outline:before, .icon-status-error:before, .icon-status-failure-outline:before, .icon-status-failure:before, .icon-status-help-outline:before, .icon-status-help:before, .icon-status-info-outline:before, .icon-status-info:before, .icon-status-no-fill:before, .icon-status-no:before, .icon-status-pause-outline:before, .icon-status-pause:before, .icon-status-run-box:before, .icon-status-run-outline:before, .icon-status-run:before, .icon-status-stop-outline:before, .icon-status-stop:before, .icon-status-success-box:before, .icon-status-success-outline:before, .icon-status-success:before, .icon-status-waiting-fill:before, .icon-status-waiting:before, .icon-status-warning-outline:before, .icon-status-warning:before, .icon-step-insert:before, .icon-step-shared-add:before, .icon-step-shared-insert:before, .icon-step-shared:before, .icon-step:before, .icon-stop-fill:before, .icon-stop:before, .icon-storyboard:before, .icon-switch:before, .icon-symbol-ask:before, .icon-symbol-book:before, .icon-symbol-bug:before, .icon-symbol-crown:before, .icon-symbol-custom:before, .icon-symbol-flame:before, .icon-symbol-impediment:before, .icon-symbol-list:before, .icon-symbol-review:before, .icon-symbol-stickynote:before, .icon-symbol-task:before, .icon-symbol-trophy:before, .icon-sync-user:before, .icon-synchronize:before, .icon-table:before, .icon-tag-fill:before, .icon-tag:before, .icon-task-group:before, .icon-team-favorite:before, .icon-teamwork:before, .icon-test-auto-fill:before, .icon-test-auto:before, .icon-test-explore-fill:before, .icon-test-fill:before, .icon-test-impact-fill:before, .icon-test-parameter:before, .icon-test-plan:before, .icon-test-step:before, .icon-test-suite:before, .icon-test-user-fill:before, .icon-test:before, .icon-tfvc-branch-locked:before, .icon-tfvc-branch:before, .icon-tfvc-change-list:before, .icon-tfvc-commit:before, .icon-tfvc-compare:before, .icon-tfvc-folder:before, .icon-tfvc-fork:before, .icon-tfvc-merge:before, .icon-tfvc-pull-request:before, .icon-tfvc-raw-source:before, .icon-tfvc-repo:before, .icon-tfvc-shelveset:before, .icon-timeline-delivery:before, .icon-timeline-matrix:before, .icon-timeline-progress:before, .icon-toggle-collapse-all:before, .icon-toggle-collapse:before, .icon-toggle-expand-all:before, .icon-toggle-expand:before, .icon-toggle-tree-collapsed:before, .icon-toggle-tree-expanded-outline:before, .icon-toggle-tree-expanded:before, .icon-transfer-download:before, .icon-transfer-upload:before, .icon-trash:before, .icon-triangle-down:before, .icon-triangle-left:before, .icon-triangle-right:before, .icon-triangle-up:before, .icon-triangle:before, .icon-trigger-auto:before, .icon-trigger-user:before, .icon-trigger:before, .icon-unpin-fill:before, .icon-unpin:before, .icon-user-pause:before, .icon-user-pending:before, .icon-user:before, .icon-users:before, .icon-variable-group:before, .icon-variable:before, .icon-video:before, .icon-view-full-screen-exit:before, .icon-view-full-screen:before, .icon-view-grid:before, .icon-view-list-tree:before, .icon-view-list:before, .icon-visualstudio:before, .icon-vsAppCenter:before, .icon-vsCode:before, .icon-vsIDE:before, .icon-vsts-alt-1:before, .icon-vsts-alt-2:before, .icon-vsts:before, .icon-watch-eye-fill:before, .icon-watch-eye-off:before, .icon-watch-eye:before, .icon-windows:before, .icon-work-item-bar-outline:before, .icon-work-item-bar:before, .icon-work-item:before {
   font-family: "vscom-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,1439 +14,1436 @@
   text-decoration: none;
   text-transform: none; }
 
-.icon--arrow-right:before {
-  content: ""; }
-
 .icon-add-team:before {
-  content: ""; }
+  content: "/E001"; }
 
 .icon-alert:before {
-  content: ""; }
+  content: "/E002"; }
 
 .icon-application-window:before {
-  content: ""; }
+  content: "/E003"; }
 
 .icon-approve-disapprove:before {
-  content: ""; }
+  content: "/E004"; }
 
 .icon-approve:before {
-  content: ""; }
+  content: "/E005"; }
 
 .icon-arrow-down-left:before {
-  content: ""; }
+  content: "/E006"; }
 
 .icon-arrow-down-right:before {
-  content: ""; }
+  content: "/E007"; }
 
 .icon-arrow-down:before {
-  content: ""; }
+  content: "/E008"; }
 
 .icon-arrow-export:before {
-  content: ""; }
+  content: "/E009"; }
 
 .icon-arrow-import:before {
-  content: ""; }
+  content: "/E00A"; }
 
 .icon-arrow-left:before {
-  content: ""; }
+  content: "/E00B"; }
 
 .icon-arrow-open:before {
-  content: ""; }
+  content: "/E00C"; }
 
 .icon-arrow-right:before {
-  content: ""; }
+  content: "/E00D"; }
 
 .icon-arrow-up-left:before {
-  content: ""; }
+  content: "/E00E"; }
 
 .icon-arrow-up-right:before {
-  content: ""; }
+  content: "/E00F"; }
 
 .icon-arrow-up:before {
-  content: ""; }
+  content: "/E010"; }
 
 .icon-assessment-group-template:before {
-  content: ""; }
+  content: "/E011"; }
 
 .icon-assessment-group:before {
-  content: ""; }
+  content: "/E012"; }
 
 .icon-attach:before {
-  content: ""; }
+  content: "/E013"; }
 
 .icon-auto-fill-template:before {
-  content: ""; }
+  content: "/E014"; }
 
 .icon-azure-api-management:before {
-  content: ""; }
+  content: "/E015"; }
 
 .icon-azure-service-endpoint:before {
-  content: ""; }
+  content: "/E016"; }
 
 .icon-azure:before {
-  content: ""; }
+  content: "/E017"; }
 
 .icon-backlog-view-list:before {
-  content: ""; }
+  content: "/E018"; }
 
 .icon-backlog:before {
-  content: ""; }
+  content: "/E019"; }
 
 .icon-blender:before {
-  content: ""; }
+  content: "/E01A"; }
 
 .icon-blur:before {
-  content: ""; }
+  content: "/E01B"; }
 
 .icon-bowtie-work-item-bug:before {
-  content: ""; }
+  content: "/E01C"; }
 
 .icon-bowtie-work-item-move:before {
-  content: ""; }
+  content: "/E01D"; }
 
 .icon-brand-android:before {
-  content: ""; }
+  content: "/E01E"; }
 
 .icon-brand-facebook:before {
-  content: ""; }
+  content: "/E01F"; }
 
 .icon-brand-git:before {
-  content: ""; }
+  content: "/E020"; }
 
 .icon-brand-github:before {
-  content: ""; }
+  content: "/E021"; }
 
 .icon-brand-maven:before {
-  content: ""; }
+  content: "/E022"; }
 
 .icon-brand-mtm:before {
-  content: ""; }
+  content: "/E023"; }
 
 .icon-brand-npm:before {
-  content: ""; }
+  content: "/E024"; }
 
 .icon-brand-nuget:before {
-  content: ""; }
+  content: "/E025"; }
 
 .icon-brand-svn:before {
-  content: ""; }
+  content: "/E026"; }
 
 .icon-brand-tfvc:before {
-  content: ""; }
+  content: "/E027"; }
 
 .icon-brand-twitter:before {
-  content: ""; }
+  content: "/E028"; }
 
 .icon-briefcase:before {
-  content: ""; }
+  content: "/E029"; }
 
 .icon-build-issue:before {
-  content: ""; }
+  content: "/E02A"; }
 
 .icon-build-queue-new:before {
-  content: ""; }
+  content: "/E02B"; }
 
 .icon-build-reason-checkin-shelveset:before {
-  content: ""; }
+  content: "/E02C"; }
 
 .icon-build:before {
-  content: ""; }
+  content: "/E02D"; }
 
 .icon-calendar-check:before {
-  content: ""; }
+  content: "/E02E"; }
 
 .icon-calendar-month:before {
-  content: ""; }
+  content: "/E02F"; }
 
 .icon-calendar:before {
-  content: ""; }
+  content: "/E030"; }
 
 .icon-camera:before {
-  content: ""; }
+  content: "/E031"; }
 
 .icon-chart-area:before {
-  content: ""; }
+  content: "/E032"; }
 
 .icon-chart-bar:before {
-  content: ""; }
+  content: "/E033"; }
 
 .icon-chart-column:before {
-  content: ""; }
+  content: "/E034"; }
 
 .icon-chart-pie:before {
-  content: ""; }
+  content: "/E035"; }
 
 .icon-chart-pivot:before {
-  content: ""; }
+  content: "/E036"; }
 
 .icon-chart-stacked-area:before {
-  content: ""; }
+  content: "/E037"; }
 
 .icon-chart-stacked-bar:before {
-  content: ""; }
+  content: "/E038"; }
 
 .icon-chart-stacked-line:before {
-  content: ""; }
+  content: "/E039"; }
 
 .icon-check-light:before {
-  content: ""; }
+  content: "/E03A"; }
 
 .icon-check:before {
-  content: ""; }
+  content: "/E03B"; }
 
 .icon-checkbox-empty:before {
-  content: ""; }
+  content: "/E03C"; }
 
 .icon-checkbox:before {
-  content: ""; }
+  content: "/E03D"; }
 
 .icon-chevron-down-all:before {
-  content: ""; }
+  content: "/E03E"; }
 
 .icon-chevron-down-end:before {
-  content: ""; }
+  content: "/E03F"; }
 
 .icon-chevron-down-light:before {
-  content: ""; }
+  content: "/E040"; }
 
 .icon-chevron-down:before {
-  content: ""; }
+  content: "/E041"; }
 
 .icon-chevron-left-all:before {
-  content: ""; }
+  content: "/E042"; }
 
 .icon-chevron-left-end:before {
-  content: ""; }
+  content: "/E043"; }
 
 .icon-chevron-left-light:before {
-  content: ""; }
+  content: "/E044"; }
 
 .icon-chevron-left:before {
-  content: ""; }
+  content: "/E045"; }
 
 .icon-chevron-right-all:before {
-  content: ""; }
+  content: "/E046"; }
 
 .icon-chevron-right-light:before {
-  content: ""; }
+  content: "/E047"; }
 
 .icon-chevron-right:before {
-  content: ""; }
+  content: "/E048"; }
 
 .icon-chevron-up-all:before {
-  content: ""; }
+  content: "/E049"; }
 
 .icon-chevron-up-end:before {
-  content: ""; }
+  content: "/E04A"; }
 
 .icon-chevron-up-light:before {
-  content: ""; }
+  content: "/E04B"; }
 
 .icon-chevron-up:before {
-  content: ""; }
+  content: "/E04C"; }
 
 .icon-clear-filter:before {
-  content: ""; }
+  content: "/E04D"; }
 
 .icon-clone-to-desktop:before {
-  content: ""; }
+  content: "/E04E"; }
 
 .icon-clone:before {
-  content: ""; }
+  content: "/E04F"; }
 
 .icon-cloud-fill:before {
-  content: ""; }
+  content: "/E050"; }
 
 .icon-cloud:before {
-  content: ""; }
+  content: "/E051"; }
 
 .icon-column-option:before {
-  content: ""; }
+  content: "/E052"; }
 
 .icon-comment-add:before {
-  content: ""; }
+  content: "/E053"; }
 
 .icon-comment-discussion:before {
-  content: ""; }
+  content: "/E054"; }
 
 .icon-comment-lines:before {
-  content: ""; }
+  content: "/E055"; }
 
 .icon-comment-next:before {
-  content: ""; }
+  content: "/E056"; }
 
 .icon-comment-outline:before {
-  content: ""; }
+  content: "/E057"; }
 
 .icon-comment-previous:before {
-  content: ""; }
+  content: "/E058"; }
 
 .icon-comment-urgent:before {
-  content: ""; }
+  content: "/E059"; }
 
 .icon-comment:before {
-  content: ""; }
+  content: "/E05A"; }
 
 .icon-connect-to-feed:before {
-  content: ""; }
+  content: "/E05B"; }
 
 .icon-connected-fill:before {
-  content: ""; }
+  content: "/E05C"; }
 
 .icon-contact-card:before {
-  content: ""; }
+  content: "/E05D"; }
 
 .icon-control-panel:before {
-  content: ""; }
+  content: "/E05E"; }
 
 .icon-copy-to-clipboard:before {
-  content: ""; }
+  content: "/E05F"; }
 
 .icon-corner-resize:before {
-  content: ""; }
+  content: "/E060"; }
 
 .icon-dashboard-fill:before {
-  content: ""; }
+  content: "/E061"; }
 
 .icon-dashboard:before {
-  content: ""; }
+  content: "/E062"; }
 
 .icon-database:before {
-  content: ""; }
+  content: "/E063"; }
 
 .icon-default-executable:before {
-  content: ""; }
+  content: "/E064"; }
 
 .icon-deploy:before {
-  content: ""; }
+  content: "/E065"; }
 
 .icon-details-pane:before {
-  content: ""; }
+  content: "/E066"; }
 
 .icon-devices:before {
-  content: ""; }
+  content: "/E067"; }
 
 .icon-diff-image-overlay:before {
-  content: ""; }
+  content: "/E068"; }
 
 .icon-diff-image-pixel:before {
-  content: ""; }
+  content: "/E069"; }
 
 .icon-diff-image:before {
-  content: ""; }
+  content: "/E06A"; }
 
 .icon-diff-inline:before {
-  content: ""; }
+  content: "/E06B"; }
 
 .icon-diff-side-by-side:before {
-  content: ""; }
+  content: "/E06C"; }
 
 .icon-disconnected:before {
-  content: ""; }
+  content: "/E06D"; }
 
 .icon-dot:before {
-  content: ""; }
+  content: "/E06E"; }
 
 .icon-draft:before {
-  content: ""; }
+  content: "/E06F"; }
 
 .icon-edit-copy:before {
-  content: ""; }
+  content: "/E070"; }
 
 .icon-edit-cut:before {
-  content: ""; }
+  content: "/E071"; }
 
 .icon-edit-delete:before {
-  content: ""; }
+  content: "/E072"; }
 
 .icon-edit-outline:before {
-  content: ""; }
+  content: "/E073"; }
 
 .icon-edit-paste:before {
-  content: ""; }
+  content: "/E074"; }
 
 .icon-edit-redo:before {
-  content: ""; }
+  content: "/E075"; }
 
 .icon-edit-remove:before {
-  content: ""; }
+  content: "/E076"; }
 
 .icon-edit-rename:before {
-  content: ""; }
+  content: "/E077"; }
 
 .icon-edit-undo:before {
-  content: ""; }
+  content: "/E078"; }
 
 .icon-edit:before {
-  content: ""; }
+  content: "/E079"; }
 
 .icon-editor-list-bullet:before {
-  content: ""; }
+  content: "/E07A"; }
 
 .icon-ellipsis-vertical:before {
-  content: ""; }
+  content: "/E07B"; }
 
 .icon-ellipsis:before {
-  content: ""; }
+  content: "/E07C"; }
 
 .icon-engineering-group:before {
-  content: ""; }
+  content: "/E07D"; }
 
 .icon-environment:before {
-  content: ""; }
+  content: "/E07E"; }
 
 .icon-family:before {
-  content: ""; }
+  content: "/E07F"; }
 
 .icon-fast-backward-fill:before {
-  content: ""; }
+  content: "/E080"; }
 
 .icon-fast-backward:before {
-  content: ""; }
+  content: "/E081"; }
 
 .icon-fast-forward-fill:before {
-  content: ""; }
+  content: "/E082"; }
 
 .icon-fast-forward:before {
-  content: ""; }
+  content: "/E083"; }
 
 .icon-favorite-outline:before {
-  content: ""; }
+  content: "/E084"; }
 
 .icon-favorite:before {
-  content: ""; }
+  content: "/E085"; }
 
 .icon-feed:before {
-  content: ""; }
+  content: "/E086"; }
 
 .icon-feedback-negative-outline:before {
-  content: ""; }
+  content: "/E087"; }
 
 .icon-feedback-negative:before {
-  content: ""; }
+  content: "/E088"; }
 
 .icon-feedback-positive-outline:before {
-  content: ""; }
+  content: "/E089"; }
 
 .icon-feedback-positive:before {
-  content: ""; }
+  content: "/E08A"; }
 
 .icon-file-bug:before {
-  content: ""; }
+  content: "/E08B"; }
 
 .icon-file-code:before {
-  content: ""; }
+  content: "/E08C"; }
 
 .icon-file-comment:before {
-  content: ""; }
+  content: "/E08D"; }
 
 .icon-file-content:before {
-  content: ""; }
+  content: "/E08E"; }
 
 .icon-file-image:before {
-  content: ""; }
+  content: "/E08F"; }
 
 .icon-file-preview:before {
-  content: ""; }
+  content: "/E090"; }
 
 .icon-file-stack:before {
-  content: ""; }
+  content: "/E091"; }
 
 .icon-file-symlink:before {
-  content: ""; }
+  content: "/E092"; }
 
 .icon-file-type-aspx:before {
-  content: ""; }
+  content: "/E093"; }
 
 .icon-file-type-cmd:before {
-  content: ""; }
+  content: "/E094"; }
 
 .icon-file-type-coffeescript:before {
-  content: ""; }
+  content: "/E095"; }
 
 .icon-file-type-cpp:before {
-  content: ""; }
+  content: "/E096"; }
 
 .icon-file-type-cs:before {
-  content: ""; }
+  content: "/E097"; }
 
 .icon-file-type-csproj:before {
-  content: ""; }
+  content: "/E098"; }
 
 .icon-file-type-css:before {
-  content: ""; }
+  content: "/E099"; }
 
 .icon-file-type-fs:before {
-  content: ""; }
+  content: "/E09A"; }
 
 .icon-file-type-fsproj:before {
-  content: ""; }
+  content: "/E09B"; }
 
 .icon-file-type-html:before {
-  content: ""; }
+  content: "/E09C"; }
 
 .icon-file-type-java:before {
-  content: ""; }
+  content: "/E09D"; }
 
 .icon-file-type-js:before {
-  content: ""; }
+  content: "/E09E"; }
 
 .icon-file-type-json:before {
-  content: ""; }
+  content: "/E09F"; }
 
 .icon-file-type-jsproj:before {
-  content: ""; }
+  content: "/E0A0"; }
 
 .icon-file-type-less:before {
-  content: ""; }
+  content: "/E0A1"; }
 
 .icon-file-type-md:before {
-  content: ""; }
+  content: "/E0A2"; }
 
 .icon-file-type-pdb:before {
-  content: ""; }
+  content: "/E0A3"; }
 
 .icon-file-type-powershell:before {
-  content: ""; }
+  content: "/E0A4"; }
 
 .icon-file-type-pyproj:before {
-  content: ""; }
+  content: "/E0A5"; }
 
 .icon-file-type-python:before {
-  content: ""; }
+  content: "/E0A6"; }
 
 .icon-file-type-sass:before {
-  content: ""; }
+  content: "/E0A7"; }
 
 .icon-file-type-settings:before {
-  content: ""; }
+  content: "/E0A8"; }
 
 .icon-file-type-sln:before {
-  content: ""; }
+  content: "/E0A9"; }
 
 .icon-file-type-sql:before {
-  content: ""; }
+  content: "/E0AA"; }
 
 .icon-file-type-template:before {
-  content: ""; }
+  content: "/E0AB"; }
 
 .icon-file-type-typescript:before {
-  content: ""; }
+  content: "/E0AC"; }
 
 .icon-file-type-vb:before {
-  content: ""; }
+  content: "/E0AD"; }
 
 .icon-file-type-vbproj:before {
-  content: ""; }
+  content: "/E0AE"; }
 
 .icon-file-type-vcxproj:before {
-  content: ""; }
+  content: "/E0AF"; }
 
 .icon-file-type-xml:before {
-  content: ""; }
+  content: "/E0B0"; }
 
 .icon-file-type-zip:before {
-  content: ""; }
+  content: "/E0B1"; }
 
 .icon-file:before {
-  content: ""; }
+  content: "/E0B2"; }
 
 .icon-fold-less:before {
-  content: ""; }
+  content: "/E0B3"; }
 
 .icon-fold-more:before {
-  content: ""; }
+  content: "/E0B4"; }
 
 .icon-folder-plan:before {
-  content: ""; }
+  content: "/E0B5"; }
 
 .icon-folder-query:before {
-  content: ""; }
+  content: "/E0B6"; }
 
 .icon-folder:before {
-  content: ""; }
+  content: "/E0B7"; }
 
 .icon-format-bold:before {
-  content: ""; }
+  content: "/E0B8"; }
 
 .icon-format-clear:before {
-  content: ""; }
+  content: "/E0B9"; }
 
 .icon-format-font-color:before {
-  content: ""; }
+  content: "/E0BA"; }
 
 .icon-format-font-size:before {
-  content: ""; }
+  content: "/E0BB"; }
 
 .icon-format-font:before {
-  content: ""; }
+  content: "/E0BC"; }
 
 .icon-format-indent-decrease:before {
-  content: ""; }
+  content: "/E0BD"; }
 
 .icon-format-indent-increase:before {
-  content: ""; }
+  content: "/E0BE"; }
 
 .icon-format-italic:before {
-  content: ""; }
+  content: "/E0BF"; }
 
 .icon-format-list-ordered:before {
-  content: ""; }
+  content: "/E0C0"; }
 
 .icon-format-list-unordered:before {
-  content: ""; }
+  content: "/E0C1"; }
 
 .icon-format-underline:before {
-  content: ""; }
+  content: "/E0C2"; }
 
 .icon-full-history:before {
-  content: ""; }
+  content: "/E0C3"; }
 
 .icon-giftbox-open:before {
-  content: ""; }
+  content: "/E0C4"; }
 
 .icon-git-graph:before {
-  content: ""; }
+  content: "/E0C5"; }
 
 .icon-git:before {
-  content: ""; }
+  content: "/E0C6"; }
 
 .icon-globe:before {
-  content: ""; }
+  content: "/E0C7"; }
 
 .icon-group-rows:before {
-  content: ""; }
+  content: "/E0C8"; }
 
 .icon-heart-fill:before {
-  content: ""; }
+  content: "/E0C9"; }
 
 .icon-heart:before {
-  content: ""; }
+  content: "/E0CA"; }
 
 .icon-heartbeat-fill:before {
-  content: ""; }
+  content: "/E0CB"; }
 
 .icon-heartbeat:before {
-  content: ""; }
+  content: "/E0CC"; }
 
 .icon-home-fill:before {
-  content: ""; }
+  content: "/E0CD"; }
 
 .icon-home:before {
-  content: ""; }
+  content: "/E0CE"; }
 
 .icon-image-action-log:before {
-  content: ""; }
+  content: "/E0CF"; }
 
 .icon-image:before {
-  content: ""; }
+  content: "/E0D0"; }
 
 .icon-install:before {
-  content: ""; }
+  content: "/E0D1"; }
 
 .icon-link-remove:before {
-  content: ""; }
+  content: "/E0D2"; }
 
 .icon-link:before {
-  content: ""; }
+  content: "/E0D3"; }
 
 .icon-live-update-feed-off:before {
-  content: ""; }
+  content: "/E0D4"; }
 
 .icon-live-update-feed:before {
-  content: ""; }
+  content: "/E0D5"; }
 
 .icon-locale-language:before {
-  content: ""; }
+  content: "/E0D6"; }
 
 .icon-locale-timezone:before {
-  content: ""; }
+  content: "/E0D7"; }
 
 .icon-log-remove:before {
-  content: ""; }
+  content: "/E0D8"; }
 
 .icon-log:before {
-  content: ""; }
+  content: "/E0D9"; }
 
 .icon-mail-message-fill:before {
-  content: ""; }
+  content: "/E0DA"; }
 
 .icon-mail-message:before {
-  content: ""; }
+  content: "/E0DB"; }
 
 .icon-map-destination-fill:before {
-  content: ""; }
+  content: "/E0DC"; }
 
 .icon-map-destination:before {
-  content: ""; }
+  content: "/E0DD"; }
 
 .icon-map-pin-fill:before {
-  content: ""; }
+  content: "/E0DE"; }
 
 .icon-map-pin:before {
-  content: ""; }
+  content: "/E0DF"; }
 
 .icon-math-minus-box-light:before {
-  content: ""; }
+  content: "/E0E0"; }
 
 .icon-math-minus-box:before {
-  content: ""; }
+  content: "/E0E1"; }
 
 .icon-math-minus-circle-outline:before {
-  content: ""; }
+  content: "/E0E2"; }
 
 .icon-math-minus-circle:before {
-  content: ""; }
+  content: "/E0E3"; }
 
 .icon-math-minus-light:before {
-  content: ""; }
+  content: "/E0E4"; }
 
 .icon-math-minus:before {
-  content: ""; }
+  content: "/E0E5"; }
 
 .icon-math-multiply-box-light:before {
-  content: ""; }
+  content: "/E0E6"; }
 
 .icon-math-multiply-box-outline:before {
-  content: ""; }
+  content: "/E0E7"; }
 
 .icon-math-multiply-box:before {
-  content: ""; }
+  content: "/E0E8"; }
 
 .icon-math-multiply-light:before {
-  content: ""; }
+  content: "/E0E9"; }
 
 .icon-math-multiply:before {
-  content: ""; }
+  content: "/E0EA"; }
 
 .icon-math-plus-box-light:before {
-  content: ""; }
+  content: "/E0EB"; }
 
 .icon-math-plus-box:before {
-  content: ""; }
+  content: "/E0EC"; }
 
 .icon-math-plus-circle-outline:before {
-  content: ""; }
+  content: "/E0ED"; }
 
 .icon-math-plus-circle:before {
-  content: ""; }
+  content: "/E0EE"; }
 
 .icon-math-plus-heavy:before {
-  content: ""; }
+  content: "/E0EF"; }
 
 .icon-math-plus-light:before {
-  content: ""; }
+  content: "/E0F0"; }
 
 .icon-math-plus:before {
-  content: ""; }
+  content: "/E0F1"; }
 
 .icon-media-play-fill:before {
-  content: ""; }
+  content: "/E0F2"; }
 
 .icon-media-play:before {
-  content: ""; }
+  content: "/E0F3"; }
 
 .icon-menu:before {
-  content: ""; }
+  content: "/E0F4"; }
 
 .icon-merge-duplicate:before {
-  content: ""; }
+  content: "/E0F5"; }
 
 .icon-navigate-back-circle:before {
-  content: ""; }
+  content: "/E0F6"; }
 
 .icon-navigate-back-disc:before {
-  content: ""; }
+  content: "/E0F7"; }
 
 .icon-navigate-close:before {
-  content: ""; }
+  content: "/E0F8"; }
 
 .icon-navigate-external:before {
-  content: ""; }
+  content: "/E0F9"; }
 
 .icon-navigate-forward-circle:before {
-  content: ""; }
+  content: "/E0FA"; }
 
 .icon-navigate-forward-disc:before {
-  content: ""; }
+  content: "/E0FB"; }
 
 .icon-navigate-history:before {
-  content: ""; }
+  content: "/E0FC"; }
 
 .icon-navigate-refresh:before {
-  content: ""; }
+  content: "/E0FD"; }
 
 .icon-navigate-reload:before {
-  content: ""; }
+  content: "/E0FE"; }
 
 .icon-network-tower:before {
-  content: ""; }
+  content: "/E0FF"; }
 
 .icon-new-team-project:before {
-  content: ""; }
+  content: "/E100"; }
 
 .icon-next-frame-fill:before {
-  content: ""; }
+  content: "/E101"; }
 
 .icon-next-frame:before {
-  content: ""; }
+  content: "/E102"; }
 
 .icon-node:before {
-  content: ""; }
+  content: "/E103"; }
 
 .icon-notification-off:before {
-  content: ""; }
+  content: "/E104"; }
 
 .icon-notification:before {
-  content: ""; }
+  content: "/E105"; }
 
 .icon-package-feed-local:before {
-  content: ""; }
+  content: "/E106"; }
 
 .icon-package-feed-mix:before {
-  content: ""; }
+  content: "/E107"; }
 
 .icon-package-feed-remote:before {
-  content: ""; }
+  content: "/E108"; }
 
 .icon-package-fill:before {
-  content: ""; }
+  content: "/E109"; }
 
 .icon-package:before {
-  content: ""; }
+  content: "/E10A"; }
 
 .icon-packages:before {
-  content: ""; }
+  content: "/E10B"; }
 
 .icon-parameter:before {
-  content: ""; }
+  content: "/E10C"; }
 
 .icon-pause-fill:before {
-  content: ""; }
+  content: "/E10D"; }
 
 .icon-pause:before {
-  content: ""; }
+  content: "/E10E"; }
 
 .icon-peopleAdd:before {
-  content: ""; }
+  content: "/E10F"; }
 
 .icon-personalize:before {
-  content: ""; }
+  content: "/E110"; }
 
 .icon-pin-fill:before {
-  content: ""; }
+  content: "/E111"; }
 
 .icon-pin-pinned-fill:before {
-  content: ""; }
+  content: "/E112"; }
 
 .icon-pin-pinned:before {
-  content: ""; }
+  content: "/E113"; }
 
 .icon-pin-unpin-fill:before {
-  content: ""; }
+  content: "/E114"; }
 
 .icon-pin-unpin:before {
-  content: ""; }
+  content: "/E115"; }
 
 .icon-pin:before {
-  content: ""; }
+  content: "/E116"; }
 
 .icon-placeholder:before {
-  content: ""; }
+  content: "/E117"; }
 
 .icon-plan:before {
-  content: ""; }
+  content: "/E118"; }
 
 .icon-play-fill:before {
-  content: ""; }
+  content: "/E119"; }
 
 .icon-play-resume-fill:before {
-  content: ""; }
+  content: "/E11A"; }
 
 .icon-play-resume:before {
-  content: ""; }
+  content: "/E11B"; }
 
 .icon-play:before {
-  content: ""; }
+  content: "/E11C"; }
 
 .icon-plug-connected:before {
-  content: ""; }
+  content: "/E11D"; }
 
 .icon-plug-disconnected-fill:before {
-  content: ""; }
+  content: "/E11E"; }
 
 .icon-plug-outline:before {
-  content: ""; }
+  content: "/E11F"; }
 
 .icon-plug:before {
-  content: ""; }
+  content: "/E120"; }
 
 .icon-policy:before {
-  content: ""; }
+  content: "/E121"; }
 
 .icon-previous-frame-fill:before {
-  content: ""; }
+  content: "/E122"; }
 
 .icon-previous-frame:before {
-  content: ""; }
+  content: "/E123"; }
 
 .icon-print:before {
-  content: ""; }
+  content: "/E124"; }
 
 .icon-process-meta-task:before {
-  content: ""; }
+  content: "/E125"; }
 
 .icon-process:before {
-  content: ""; }
+  content: "/E126"; }
 
 .icon-project-collection:before {
-  content: ""; }
+  content: "/E127"; }
 
 .icon-query-list:before {
-  content: ""; }
+  content: "/E128"; }
 
 .icon-radio-button-empty:before {
-  content: ""; }
+  content: "/E129"; }
 
 .icon-radio-button:before {
-  content: ""; }
+  content: "/E12A"; }
 
 .icon-record-fill:before {
-  content: ""; }
+  content: "/E12B"; }
 
 .icon-record:before {
-  content: ""; }
+  content: "/E12C"; }
 
 .icon-recycle-bin-restore:before {
-  content: ""; }
+  content: "/E12D"; }
 
 .icon-recycle-bin:before {
-  content: ""; }
+  content: "/E12E"; }
 
 .icon-recycle:before {
-  content: ""; }
+  content: "/E12F"; }
 
 .icon-redeploy:before {
-  content: ""; }
+  content: "/E130"; }
 
 .icon-reminderGroup:before {
-  content: ""; }
+  content: "/E131"; }
 
 .icon-repo-fill:before {
-  content: ""; }
+  content: "/E132"; }
 
 .icon-repo-git:before {
-  content: ""; }
+  content: "/E133"; }
 
 .icon-repo-submodule:before {
-  content: ""; }
+  content: "/E134"; }
 
 .icon-repo-tfvc:before {
-  content: ""; }
+  content: "/E135"; }
 
 .icon-repo:before {
-  content: ""; }
+  content: "/E136"; }
 
 .icon-resize-grip:before {
-  content: ""; }
+  content: "/E137"; }
 
 .icon-robot:before {
-  content: ""; }
+  content: "/E138"; }
 
 .icon-row-child:before {
-  content: ""; }
+  content: "/E139"; }
 
 .icon-save-all:before {
-  content: ""; }
+  content: "/E13A"; }
 
 .icon-save-as:before {
-  content: ""; }
+  content: "/E13B"; }
 
 .icon-save-close:before {
-  content: ""; }
+  content: "/E13C"; }
 
 .icon-save:before {
-  content: ""; }
+  content: "/E13D"; }
 
 .icon-scope-template:before {
-  content: ""; }
+  content: "/E13E"; }
 
 .icon-script:before {
-  content: ""; }
+  content: "/E13F"; }
 
 .icon-search-filter-fill:before {
-  content: ""; }
+  content: "/E140"; }
 
 .icon-search-filter:before {
-  content: ""; }
+  content: "/E141"; }
 
 .icon-search-in-branch:before {
-  content: ""; }
+  content: "/E142"; }
 
 .icon-search:before {
-  content: ""; }
+  content: "/E143"; }
 
 .icon-security-access:before {
-  content: ""; }
+  content: "/E144"; }
 
 .icon-security-lock-fill:before {
-  content: ""; }
+  content: "/E145"; }
 
 .icon-security-lock:before {
-  content: ""; }
+  content: "/E146"; }
 
 .icon-security-unlock-fill:before {
-  content: ""; }
+  content: "/E147"; }
 
 .icon-security-unlock:before {
-  content: ""; }
+  content: "/E148"; }
 
 .icon-security:before {
-  content: ""; }
+  content: "/E149"; }
 
 .icon-send:before {
-  content: ""; }
+  content: "/E14A"; }
 
 .icon-separator:before {
-  content: ""; }
+  content: "/E14B"; }
 
 .icon-server-remote:before {
-  content: ""; }
+  content: "/E14C"; }
 
 .icon-server:before {
-  content: ""; }
+  content: "/E14D"; }
 
 .icon-set-actions:before {
-  content: ""; }
+  content: "/E14E"; }
 
 .icon-settings-gear-outline:before {
-  content: ""; }
+  content: "/E14F"; }
 
 .icon-settings-gear:before {
-  content: ""; }
+  content: "/E150"; }
 
 .icon-settings-wrench:before {
-  content: ""; }
+  content: "/E151"; }
 
 .icon-share:before {
-  content: ""; }
+  content: "/E152"; }
 
 .icon-shield-outline:before {
-  content: ""; }
+  content: "/E153"; }
 
 .icon-shield:before {
-  content: ""; }
+  content: "/E154"; }
 
 .icon-shop-server:before {
-  content: ""; }
+  content: "/E155"; }
 
 .icon-shop:before {
-  content: ""; }
+  content: "/E156"; }
 
 .icon-shopping-cart-fill:before {
-  content: ""; }
+  content: "/E157"; }
 
 .icon-shopping-cart:before {
-  content: ""; }
+  content: "/E158"; }
 
 .icon-sort-asc:before {
-  content: ""; }
+  content: "/E159"; }
 
 .icon-sort-ascending:before {
-  content: ""; }
+  content: "/E15A"; }
 
 .icon-sort-desc:before {
-  content: ""; }
+  content: "/E15B"; }
 
 .icon-sort-descending:before {
-  content: ""; }
+  content: "/E15C"; }
 
 .icon-sort:before {
-  content: ""; }
+  content: "/E15D"; }
 
 .icon-spinner:before {
-  content: ""; }
+  content: "/E15E"; }
 
 .icon-split:before {
-  content: ""; }
+  content: "/E15F"; }
 
 .icon-square:before {
-  content: ""; }
+  content: "/E160"; }
 
 .icon-star-half:before {
-  content: ""; }
+  content: "/E161"; }
 
 .icon-status-error-outline:before {
-  content: ""; }
+  content: "/E162"; }
 
 .icon-status-error:before {
-  content: ""; }
+  content: "/E163"; }
 
 .icon-status-failure-outline:before {
-  content: ""; }
+  content: "/E164"; }
 
 .icon-status-failure:before {
-  content: ""; }
+  content: "/E165"; }
 
 .icon-status-help-outline:before {
-  content: ""; }
+  content: "/E166"; }
 
 .icon-status-help:before {
-  content: ""; }
+  content: "/E167"; }
 
 .icon-status-info-outline:before {
-  content: ""; }
+  content: "/E168"; }
 
 .icon-status-info:before {
-  content: ""; }
+  content: "/E169"; }
 
 .icon-status-no-fill:before {
-  content: ""; }
+  content: "/E16A"; }
 
 .icon-status-no:before {
-  content: ""; }
+  content: "/E16B"; }
 
 .icon-status-pause-outline:before {
-  content: ""; }
+  content: "/E16C"; }
 
 .icon-status-pause:before {
-  content: ""; }
+  content: "/E16D"; }
 
 .icon-status-run-box:before {
-  content: ""; }
+  content: "/E16E"; }
 
 .icon-status-run-outline:before {
-  content: ""; }
+  content: "/E16F"; }
 
 .icon-status-run:before {
-  content: ""; }
+  content: "/E170"; }
 
 .icon-status-stop-outline:before {
-  content: ""; }
+  content: "/E171"; }
 
 .icon-status-stop:before {
-  content: ""; }
+  content: "/E172"; }
 
 .icon-status-success-box:before {
-  content: ""; }
+  content: "/E173"; }
 
 .icon-status-success-outline:before {
-  content: ""; }
+  content: "/E174"; }
 
 .icon-status-success:before {
-  content: ""; }
+  content: "/E175"; }
 
 .icon-status-waiting-fill:before {
-  content: ""; }
+  content: "/E176"; }
 
 .icon-status-waiting:before {
-  content: ""; }
+  content: "/E177"; }
 
 .icon-status-warning-outline:before {
-  content: ""; }
+  content: "/E178"; }
 
 .icon-status-warning:before {
-  content: ""; }
+  content: "/E179"; }
 
 .icon-step-insert:before {
-  content: ""; }
+  content: "/E17A"; }
 
 .icon-step-shared-add:before {
-  content: ""; }
+  content: "/E17B"; }
 
 .icon-step-shared-insert:before {
-  content: ""; }
+  content: "/E17C"; }
 
 .icon-step-shared:before {
-  content: ""; }
+  content: "/E17D"; }
 
 .icon-step:before {
-  content: ""; }
+  content: "/E17E"; }
 
 .icon-stop-fill:before {
-  content: ""; }
+  content: "/E17F"; }
 
 .icon-stop:before {
-  content: ""; }
+  content: "/E180"; }
 
 .icon-storyboard:before {
-  content: ""; }
+  content: "/E181"; }
 
 .icon-switch:before {
-  content: ""; }
+  content: "/E182"; }
 
 .icon-symbol-ask:before {
-  content: ""; }
+  content: "/E183"; }
 
 .icon-symbol-book:before {
-  content: ""; }
+  content: "/E184"; }
 
 .icon-symbol-bug:before {
-  content: ""; }
+  content: "/E185"; }
 
 .icon-symbol-crown:before {
-  content: ""; }
+  content: "/E186"; }
 
 .icon-symbol-custom:before {
-  content: ""; }
+  content: "/E187"; }
 
 .icon-symbol-flame:before {
-  content: ""; }
+  content: "/E188"; }
 
 .icon-symbol-impediment:before {
-  content: ""; }
+  content: "/E189"; }
 
 .icon-symbol-list:before {
-  content: ""; }
+  content: "/E18A"; }
 
 .icon-symbol-review:before {
-  content: ""; }
+  content: "/E18B"; }
 
 .icon-symbol-stickynote:before {
-  content: ""; }
+  content: "/E18C"; }
 
 .icon-symbol-task:before {
-  content: ""; }
+  content: "/E18D"; }
 
 .icon-symbol-trophy:before {
-  content: ""; }
+  content: "/E18E"; }
 
 .icon-sync-user:before {
-  content: ""; }
+  content: "/E18F"; }
 
 .icon-synchronize:before {
-  content: ""; }
+  content: "/E190"; }
 
 .icon-table:before {
-  content: ""; }
+  content: "/E191"; }
 
 .icon-tag-fill:before {
-  content: ""; }
+  content: "/E192"; }
 
 .icon-tag:before {
-  content: ""; }
+  content: "/E193"; }
 
 .icon-task-group:before {
-  content: ""; }
+  content: "/E194"; }
 
 .icon-team-favorite:before {
-  content: ""; }
+  content: "/E195"; }
 
 .icon-teamwork:before {
-  content: ""; }
+  content: "/E196"; }
 
 .icon-test-auto-fill:before {
-  content: ""; }
+  content: "/E197"; }
 
 .icon-test-auto:before {
-  content: ""; }
+  content: "/E198"; }
 
 .icon-test-explore-fill:before {
-  content: ""; }
+  content: "/E199"; }
 
 .icon-test-fill:before {
-  content: ""; }
+  content: "/E19A"; }
 
 .icon-test-impact-fill:before {
-  content: ""; }
+  content: "/E19B"; }
 
 .icon-test-parameter:before {
-  content: ""; }
+  content: "/E19C"; }
 
 .icon-test-plan:before {
-  content: ""; }
+  content: "/E19D"; }
 
 .icon-test-step:before {
-  content: ""; }
+  content: "/E19E"; }
 
 .icon-test-suite:before {
-  content: ""; }
+  content: "/E19F"; }
 
 .icon-test-user-fill:before {
-  content: ""; }
+  content: "/E1A0"; }
 
 .icon-test:before {
-  content: ""; }
+  content: "/E1A1"; }
 
 .icon-tfvc-branch-locked:before {
-  content: ""; }
+  content: "/E1A2"; }
 
 .icon-tfvc-branch:before {
-  content: ""; }
+  content: "/E1A3"; }
 
 .icon-tfvc-change-list:before {
-  content: ""; }
+  content: "/E1A4"; }
 
 .icon-tfvc-commit:before {
-  content: ""; }
+  content: "/E1A5"; }
 
 .icon-tfvc-compare:before {
-  content: ""; }
+  content: "/E1A6"; }
 
 .icon-tfvc-folder:before {
-  content: ""; }
+  content: "/E1A7"; }
 
 .icon-tfvc-fork:before {
-  content: ""; }
+  content: "/E1A8"; }
 
 .icon-tfvc-merge:before {
-  content: ""; }
+  content: "/E1A9"; }
 
 .icon-tfvc-pull-request:before {
-  content: ""; }
+  content: "/E1AA"; }
 
 .icon-tfvc-raw-source:before {
-  content: ""; }
+  content: "/E1AB"; }
 
 .icon-tfvc-repo:before {
-  content: ""; }
+  content: "/E1AC"; }
 
 .icon-tfvc-shelveset:before {
-  content: ""; }
+  content: "/E1AD"; }
 
 .icon-timeline-delivery:before {
-  content: ""; }
+  content: "/E1AE"; }
 
 .icon-timeline-matrix:before {
-  content: ""; }
+  content: "/E1AF"; }
 
 .icon-timeline-progress:before {
-  content: ""; }
+  content: "/E1B0"; }
 
 .icon-toggle-collapse-all:before {
-  content: ""; }
+  content: "/E1B1"; }
 
 .icon-toggle-collapse:before {
-  content: ""; }
+  content: "/E1B2"; }
 
 .icon-toggle-expand-all:before {
-  content: ""; }
+  content: "/E1B3"; }
 
 .icon-toggle-expand:before {
-  content: ""; }
+  content: "/E1B4"; }
 
 .icon-toggle-tree-collapsed:before {
-  content: ""; }
+  content: "/E1B5"; }
 
 .icon-toggle-tree-expanded-outline:before {
-  content: ""; }
+  content: "/E1B6"; }
 
 .icon-toggle-tree-expanded:before {
-  content: ""; }
+  content: "/E1B7"; }
 
 .icon-transfer-download:before {
-  content: ""; }
+  content: "/E1B8"; }
 
 .icon-transfer-upload:before {
-  content: ""; }
+  content: "/E1B9"; }
 
 .icon-trash:before {
-  content: ""; }
+  content: "/E1BA"; }
 
 .icon-triangle-down:before {
-  content: ""; }
+  content: "/E1BB"; }
 
 .icon-triangle-left:before {
-  content: ""; }
+  content: "/E1BC"; }
 
 .icon-triangle-right:before {
-  content: ""; }
+  content: "/E1BD"; }
 
 .icon-triangle-up:before {
-  content: ""; }
+  content: "/E1BE"; }
 
 .icon-triangle:before {
-  content: ""; }
+  content: "/E1BF"; }
 
 .icon-trigger-auto:before {
-  content: ""; }
+  content: "/E1C0"; }
 
 .icon-trigger-user:before {
-  content: ""; }
+  content: "/E1C1"; }
 
 .icon-trigger:before {
-  content: ""; }
+  content: "/E1C2"; }
 
 .icon-unpin-fill:before {
-  content: ""; }
+  content: "/E1C3"; }
 
 .icon-unpin:before {
-  content: ""; }
+  content: "/E1C4"; }
 
 .icon-user-pause:before {
-  content: ""; }
+  content: "/E1C5"; }
 
 .icon-user-pending:before {
-  content: ""; }
+  content: "/E1C6"; }
 
 .icon-user:before {
-  content: ""; }
+  content: "/E1C7"; }
 
 .icon-users:before {
-  content: ""; }
+  content: "/E1C8"; }
 
 .icon-variable-group:before {
-  content: ""; }
+  content: "/E1C9"; }
 
 .icon-variable:before {
-  content: ""; }
+  content: "/E1CA"; }
 
 .icon-video:before {
-  content: ""; }
+  content: "/E1CB"; }
 
 .icon-view-full-screen-exit:before {
-  content: ""; }
+  content: "/E1CC"; }
 
 .icon-view-full-screen:before {
-  content: ""; }
+  content: "/E1CD"; }
 
 .icon-view-grid:before {
-  content: ""; }
+  content: "/E1CE"; }
 
 .icon-view-list-tree:before {
-  content: ""; }
+  content: "/E1CF"; }
 
 .icon-view-list:before {
-  content: ""; }
+  content: "/E1D0"; }
 
 .icon-visualstudio:before {
-  content: ""; }
+  content: "/E1D1"; }
 
 .icon-vsAppCenter:before {
-  content: ""; }
+  content: "/E1D2"; }
 
 .icon-vsCode:before {
-  content: ""; }
+  content: "/E1D3"; }
 
 .icon-vsIDE:before {
-  content: ""; }
+  content: "/E1D4"; }
 
 .icon-vsts-alt-1:before {
-  content: ""; }
+  content: "/E1D5"; }
 
 .icon-vsts-alt-2:before {
-  content: ""; }
+  content: "/E1D6"; }
 
 .icon-vsts:before {
-  content: ""; }
+  content: "/E1D7"; }
 
 .icon-watch-eye-fill:before {
-  content: ""; }
+  content: "/E1D8"; }
 
 .icon-watch-eye-off:before {
-  content: ""; }
+  content: "/E1D9"; }
 
 .icon-watch-eye:before {
-  content: ""; }
+  content: "/E1DA"; }
 
 .icon-windows:before {
-  content: ""; }
+  content: "/E1DB"; }
 
 .icon-work-item-bar-outline:before {
-  content: ""; }
+  content: "/E1DC"; }
 
 .icon-work-item-bar:before {
-  content: ""; }
+  content: "/E1DD"; }
 
 .icon-work-item:before {
-  content: ""; }
+  content: "/E1DE"; }

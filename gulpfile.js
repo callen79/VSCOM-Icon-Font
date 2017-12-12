@@ -32,9 +32,13 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('./distribute/css/'));
 });
 
-//Run Sequence of Font & Sass tasks
-gulp.task('build', function (cb) {
-    runSequence(['iconfont', 'styles'], cb);
+// This will run in this order:
+// * iconfont
+// * styles
+// * Finally call the callback function
+gulp.task('build', function (callback) {
+    runSequence('iconfont','styles',
+        callback);
 });
 
 //Watch task

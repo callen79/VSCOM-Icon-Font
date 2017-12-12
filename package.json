@@ -1,30 +1,21 @@
 {
-  "name": "vscom-icon-font",
-  "version": "1.0.0",
-  "description": "VSCOM Web Icon Font Builder",
-  "main": "gulpfile.js",
+  "name": "VSCOM-icon-builder",
+  "version": "1.0.3",
+  "description": "SVG to Web Icon font builder for Visualstudio.com",
+  "main": "index.js",
   "scripts": {
-    "test": "build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/callen79/VSCOM-Icon-Font.git"
-  },
-  "keywords": [
-    "VSCOM",
-    "font"
-  ],
+  "keywords": [],
   "author": "Chris Allen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/callen79/VSCOM-Icon-Font/issues"
+  "license": "mit",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "run-sequence": "^2.2.0"
   },
-  "homepage": "https://github.com/callen79/VSCOM-Icon-Font#readme",
   "devDependencies": {
     "gulp-iconfont": "^9.0.2",
     "gulp-iconfont-css": "^2.1.0"
-  },
-  "dependencies": {
-    "gulp": "^3.9.1"
   }
 }
