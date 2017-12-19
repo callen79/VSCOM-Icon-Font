@@ -1,20 +1,20 @@
 <svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>build</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -57500 -17857.1)">
-<rect x="805" y="250" width="14" height="14" fill="#E5E5E5"/>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -52357.1 -17857.1)">
+<rect x="733" y="250" width="14" height="14" fill="#E5E5E5"/>
 <g id="build">
 <mask id="mask0_outline" mask-type="alpha">
 <g id="Mask">
-<use xlink:href="#path0_fill" transform="translate(806 250)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(734 250)" fill="#FFFFFF"/>
 </g>
 </mask>
 <g id="Mask" mask="url(#mask0_outline)">
-<use xlink:href="#path0_fill" transform="translate(806 250)"/>
+<use xlink:href="#path0_fill" transform="translate(734 250)"/>
 </g>
 <g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
 <g id="Rectangle 3">
-<use xlink:href="#path1_fill" transform="translate(805 250)" fill="#333333"/>
+<use xlink:href="#path1_fill" transform="translate(733 250)"/>
 </g>
 </g>
 </g>

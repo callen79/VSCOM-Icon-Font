@@ -1,20 +1,20 @@
 <svg width="1000" height="1000" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>sort-desc</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -86642.9 -12714.3)">
-<rect x="1213" y="178" width="14" height="14" fill="#E5E5E5"/>
+<g id="Canvas" transform="matrix(71.4286 0 0 71.4286 -84928.6 -12714.3)">
+<rect x="1189" y="178" width="14" height="14" fill="#E5E5E5"/>
 <g id="sort-desc">
 <mask id="mask0_outline" mask-type="alpha">
 <g id="Mask">
-<use xlink:href="#path0_fill" transform="translate(1213 178)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(1189 178)" fill="#FFFFFF"/>
 </g>
 </mask>
 <g id="Mask" mask="url(#mask0_outline)">
-<use xlink:href="#path0_fill" transform="translate(1213 178)"/>
+<use xlink:href="#path0_fill" transform="translate(1189 178)"/>
 </g>
 <g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
 <g id="Rectangle 3">
-<use xlink:href="#path1_fill" transform="translate(1213 178)" fill="#333333"/>
+<use xlink:href="#path1_fill" transform="translate(1189 178)"/>
 </g>
 </g>
 </g>

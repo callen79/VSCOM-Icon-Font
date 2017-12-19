@@ -1,13 +1,13 @@
 <svg width="1273" height="1000" viewBox="0 0 1273 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>azure</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="matrix(90.9091 0 0 90.9091 -84181.8 -22727.3)">
+<g id="Canvas" transform="matrix(90.9091 0 0 90.9091 -75363.6 -22727.3)">
 <g id="azure">
 <g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(929.194 250.77)" fill="#333333"/>
+<use xlink:href="#path0_fill" transform="translate(832.194 250.77)"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path1_fill" transform="translate(926 250)" fill="#333333"/>
+<use xlink:href="#path1_fill" transform="translate(829 250)"/>
 </g>
 </g>
 </g>

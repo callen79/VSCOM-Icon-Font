@@ -5,7 +5,7 @@
 <rect x="1333" y="34" width="14" height="14" fill="#E5E5E5"/>
 <g id="camera">
 <g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(1333 34.0078)" fill="#333333"/>
+<use xlink:href="#path0_fill" transform="translate(1333 34.0078)"/>
 </g>
 </g>
 </g>
