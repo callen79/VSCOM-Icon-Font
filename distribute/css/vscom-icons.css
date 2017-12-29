@@ -1,0 +1,1568 @@
+@font-face {
+  font-family: "vscom-icons";
+  src: url("../fonts/vscom-icons.eot");
+  src: url("../fonts/vscom-icons.eot?#iefix") format("eot"), url("../fonts/vscom-icons.woff2") format("woff2"), url("../fonts/vscom-icons.woff") format("woff"), url("../fonts/vscom-icons.ttf") format("truetype"), url("../fonts/vscom-icons.svg#vscom-icons") format("svg"); }
+
+.icon {
+  font-family: "vscom-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none; }
+
+.icon-add-team:before {
+  content: "/E001"; }
+
+.icon-alert:before {
+  content: "/E002"; }
+
+.icon-application-window:before {
+  content: "/E003"; }
+
+.icon-approve-disapprove:before {
+  content: "/E004"; }
+
+.icon-approve:before {
+  content: "/E005"; }
+
+.icon-arrow-down-left:before {
+  content: "/E006"; }
+
+.icon-arrow-down-right:before {
+  content: "/E007"; }
+
+.icon-arrow-down:before {
+  content: "/E008"; }
+
+.icon-arrow-export:before {
+  content: "/E009"; }
+
+.icon-arrow-import:before {
+  content: "/E00A"; }
+
+.icon-arrow-left:before {
+  content: "/E00B"; }
+
+.icon-arrow-open:before {
+  content: "/E00C"; }
+
+.icon-arrow-right:before {
+  content: "/E00D"; }
+
+.icon-arrow-up-left:before {
+  content: "/E00E"; }
+
+.icon-arrow-up-right:before {
+  content: "/E00F"; }
+
+.icon-arrow-up:before {
+  content: "/E010"; }
+
+.icon-assessment-group-template:before {
+  content: "/E011"; }
+
+.icon-assessment-group:before {
+  content: "/E012"; }
+
+.icon-attach:before {
+  content: "/E013"; }
+
+.icon-auto-fill-template:before {
+  content: "/E014"; }
+
+.icon-azure-api-management:before {
+  content: "/E015"; }
+
+.icon-azure-service-endpoint:before {
+  content: "/E016"; }
+
+.icon-azure:before {
+  content: "/E017"; }
+
+.icon-backlog-view-list:before {
+  content: "/E018"; }
+
+.icon-backlog:before {
+  content: "/E019"; }
+
+.icon-blender:before {
+  content: "/E01A"; }
+
+.icon-blur:before {
+  content: "/E01B"; }
+
+.icon-brand-AAD:before {
+  content: "/E01C"; }
+
+.icon-brand-android:before {
+  content: "/E01D"; }
+
+.icon-brand-facebook:before {
+  content: "/E01E"; }
+
+.icon-brand-git:before {
+  content: "/E01F"; }
+
+.icon-brand-github:before {
+  content: "/E020"; }
+
+.icon-brand-maven:before {
+  content: "/E021"; }
+
+.icon-brand-mtm:before {
+  content: "/E022"; }
+
+.icon-brand-npm:before {
+  content: "/E023"; }
+
+.icon-brand-nuget:before {
+  content: "/E024"; }
+
+.icon-brand-svn:before {
+  content: "/E025"; }
+
+.icon-brand-tfvc:before {
+  content: "/E026"; }
+
+.icon-brand-twitter:before {
+  content: "/E027"; }
+
+.icon-brand-xamarin:before {
+  content: "/E028"; }
+
+.icon-briefcase:before {
+  content: "/E029"; }
+
+.icon-build-issue:before {
+  content: "/E02A"; }
+
+.icon-build-queue-new:before {
+  content: "/E02B"; }
+
+.icon-build:before {
+  content: "/E02C"; }
+
+.icon-c-plus:before {
+  content: "/E02D"; }
+
+.icon-calendar-check:before {
+  content: "/E02E"; }
+
+.icon-calendar-month:before {
+  content: "/E02F"; }
+
+.icon-calendar:before {
+  content: "/E030"; }
+
+.icon-camera:before {
+  content: "/E031"; }
+
+.icon-car:before {
+  content: "/E032"; }
+
+.icon-cellphone:before {
+  content: "/E033"; }
+
+.icon-chart-area:before {
+  content: "/E034"; }
+
+.icon-chart-bar:before {
+  content: "/E035"; }
+
+.icon-chart-column:before {
+  content: "/E036"; }
+
+.icon-chart-pie:before {
+  content: "/E037"; }
+
+.icon-chart-pivot:before {
+  content: "/E038"; }
+
+.icon-chart-stacked-area:before {
+  content: "/E039"; }
+
+.icon-chart-stacked-bar:before {
+  content: "/E03A"; }
+
+.icon-chart-stacked-line:before {
+  content: "/E03B"; }
+
+.icon-check-light:before {
+  content: "/E03C"; }
+
+.icon-check:before {
+  content: "/E03D"; }
+
+.icon-checkbox-empty:before {
+  content: "/E03E"; }
+
+.icon-checkbox:before {
+  content: "/E03F"; }
+
+.icon-chevron-down-all:before {
+  content: "/E040"; }
+
+.icon-chevron-down-end:before {
+  content: "/E041"; }
+
+.icon-chevron-down-light:before {
+  content: "/E042"; }
+
+.icon-chevron-down:before {
+  content: "/E043"; }
+
+.icon-chevron-left-all:before {
+  content: "/E044"; }
+
+.icon-chevron-left-end:before {
+  content: "/E045"; }
+
+.icon-chevron-left-light:before {
+  content: "/E046"; }
+
+.icon-chevron-left:before {
+  content: "/E047"; }
+
+.icon-chevron-right-all:before {
+  content: "/E048"; }
+
+.icon-chevron-right-light:before {
+  content: "/E049"; }
+
+.icon-chevron-right:before {
+  content: "/E04A"; }
+
+.icon-chevron-up-all:before {
+  content: "/E04B"; }
+
+.icon-chevron-up-end:before {
+  content: "/E04C"; }
+
+.icon-chevron-up-light:before {
+  content: "/E04D"; }
+
+.icon-chevron-up:before {
+  content: "/E04E"; }
+
+.icon-city:before {
+  content: "/E04F"; }
+
+.icon-clear-filter:before {
+  content: "/E050"; }
+
+.icon-clone-to-desktop:before {
+  content: "/E051"; }
+
+.icon-clone:before {
+  content: "/E052"; }
+
+.icon-cloud-1:before {
+  content: "/E053"; }
+
+.icon-cloud-fill:before {
+  content: "/E054"; }
+
+.icon-cloud:before {
+  content: "/E055"; }
+
+.icon-code:before {
+  content: "/E056"; }
+
+.icon-column-option:before {
+  content: "/E057"; }
+
+.icon-comment-add:before {
+  content: "/E058"; }
+
+.icon-comment-discussion:before {
+  content: "/E059"; }
+
+.icon-comment-lines:before {
+  content: "/E05A"; }
+
+.icon-comment-next:before {
+  content: "/E05B"; }
+
+.icon-comment-outline:before {
+  content: "/E05C"; }
+
+.icon-comment-previous:before {
+  content: "/E05D"; }
+
+.icon-comment-urgent:before {
+  content: "/E05E"; }
+
+.icon-comment:before {
+  content: "/E05F"; }
+
+.icon-compare:before {
+  content: "/E060"; }
+
+.icon-connect-to-feed:before {
+  content: "/E061"; }
+
+.icon-connected-fill:before {
+  content: "/E062"; }
+
+.icon-contact-card:before {
+  content: "/E063"; }
+
+.icon-control-panel:before {
+  content: "/E064"; }
+
+.icon-copy-to-clipboard:before {
+  content: "/E065"; }
+
+.icon-corner-resize:before {
+  content: "/E066"; }
+
+.icon-dashboard-fill:before {
+  content: "/E067"; }
+
+.icon-dashboard:before {
+  content: "/E068"; }
+
+.icon-database-alt:before {
+  content: "/E069"; }
+
+.icon-database:before {
+  content: "/E06A"; }
+
+.icon-default-executable:before {
+  content: "/E06B"; }
+
+.icon-deploy:before {
+  content: "/E06C"; }
+
+.icon-design:before {
+  content: "/E06D"; }
+
+.icon-details-pane:before {
+  content: "/E06E"; }
+
+.icon-developer-tools:before {
+  content: "/E06F"; }
+
+.icon-devices:before {
+  content: "/E070"; }
+
+.icon-diamond:before {
+  content: "/E071"; }
+
+.icon-diff-image-overlay:before {
+  content: "/E072"; }
+
+.icon-diff-image-pixel:before {
+  content: "/E073"; }
+
+.icon-diff-image:before {
+  content: "/E074"; }
+
+.icon-diff-inline:before {
+  content: "/E075"; }
+
+.icon-diff-side-by-side:before {
+  content: "/E076"; }
+
+.icon-disconnected:before {
+  content: "/E077"; }
+
+.icon-documentation:before {
+  content: "/E078"; }
+
+.icon-dot-net:before {
+  content: "/E079"; }
+
+.icon-dot:before {
+  content: "/E07A"; }
+
+.icon-draft:before {
+  content: "/E07B"; }
+
+.icon-edit-copy:before {
+  content: "/E07C"; }
+
+.icon-edit-cut:before {
+  content: "/E07D"; }
+
+.icon-edit-delete:before {
+  content: "/E07E"; }
+
+.icon-edit-outline:before {
+  content: "/E07F"; }
+
+.icon-edit-paste:before {
+  content: "/E080"; }
+
+.icon-edit-redo:before {
+  content: "/E081"; }
+
+.icon-edit-remove:before {
+  content: "/E082"; }
+
+.icon-edit-rename:before {
+  content: "/E083"; }
+
+.icon-edit-undo:before {
+  content: "/E084"; }
+
+.icon-edit:before {
+  content: "/E085"; }
+
+.icon-editor-list-bullet:before {
+  content: "/E086"; }
+
+.icon-education:before {
+  content: "/E087"; }
+
+.icon-ellipsis-vertical:before {
+  content: "/E088"; }
+
+.icon-ellipsis:before {
+  content: "/E089"; }
+
+.icon-engineering-group:before {
+  content: "/E08A"; }
+
+.icon-environment:before {
+  content: "/E08B"; }
+
+.icon-fast-backward-fill:before {
+  content: "/E08C"; }
+
+.icon-fast-backward:before {
+  content: "/E08D"; }
+
+.icon-fast-forward-fill:before {
+  content: "/E08E"; }
+
+.icon-fast-forward:before {
+  content: "/E08F"; }
+
+.icon-favorite-outline:before {
+  content: "/E090"; }
+
+.icon-favorite:before {
+  content: "/E091"; }
+
+.icon-feed:before {
+  content: "/E092"; }
+
+.icon-feedback-negative-outline:before {
+  content: "/E093"; }
+
+.icon-feedback-negative:before {
+  content: "/E094"; }
+
+.icon-feedback-positive-outline:before {
+  content: "/E095"; }
+
+.icon-feedback-positive:before {
+  content: "/E096"; }
+
+.icon-file-bug:before {
+  content: "/E097"; }
+
+.icon-file-code:before {
+  content: "/E098"; }
+
+.icon-file-comment:before {
+  content: "/E099"; }
+
+.icon-file-content:before {
+  content: "/E09A"; }
+
+.icon-file-image:before {
+  content: "/E09B"; }
+
+.icon-file-preview:before {
+  content: "/E09C"; }
+
+.icon-file-stack:before {
+  content: "/E09D"; }
+
+.icon-file-symlink:before {
+  content: "/E09E"; }
+
+.icon-file-type-aspx:before {
+  content: "/E09F"; }
+
+.icon-file-type-cmd:before {
+  content: "/E0A0"; }
+
+.icon-file-type-coffeescript:before {
+  content: "/E0A1"; }
+
+.icon-file-type-cpp:before {
+  content: "/E0A2"; }
+
+.icon-file-type-cs:before {
+  content: "/E0A3"; }
+
+.icon-file-type-csproj:before {
+  content: "/E0A4"; }
+
+.icon-file-type-css:before {
+  content: "/E0A5"; }
+
+.icon-file-type-fs:before {
+  content: "/E0A6"; }
+
+.icon-file-type-fsproj:before {
+  content: "/E0A7"; }
+
+.icon-file-type-html:before {
+  content: "/E0A8"; }
+
+.icon-file-type-java-1:before {
+  content: "/E0A9"; }
+
+.icon-file-type-java:before {
+  content: "/E0AA"; }
+
+.icon-file-type-js:before {
+  content: "/E0AB"; }
+
+.icon-file-type-json:before {
+  content: "/E0AC"; }
+
+.icon-file-type-jsproj:before {
+  content: "/E0AD"; }
+
+.icon-file-type-less:before {
+  content: "/E0AE"; }
+
+.icon-file-type-md:before {
+  content: "/E0AF"; }
+
+.icon-file-type-pdb:before {
+  content: "/E0B0"; }
+
+.icon-file-type-powershell:before {
+  content: "/E0B1"; }
+
+.icon-file-type-pyproj:before {
+  content: "/E0B2"; }
+
+.icon-file-type-python:before {
+  content: "/E0B3"; }
+
+.icon-file-type-sass:before {
+  content: "/E0B4"; }
+
+.icon-file-type-settings:before {
+  content: "/E0B5"; }
+
+.icon-file-type-sln:before {
+  content: "/E0B6"; }
+
+.icon-file-type-sql:before {
+  content: "/E0B7"; }
+
+.icon-file-type-template:before {
+  content: "/E0B8"; }
+
+.icon-file-type-typescript:before {
+  content: "/E0B9"; }
+
+.icon-file-type-vb:before {
+  content: "/E0BA"; }
+
+.icon-file-type-vbproj:before {
+  content: "/E0BB"; }
+
+.icon-file-type-vcxproj:before {
+  content: "/E0BC"; }
+
+.icon-file-type-xml:before {
+  content: "/E0BD"; }
+
+.icon-file-type-zip:before {
+  content: "/E0BE"; }
+
+.icon-file:before {
+  content: "/E0BF"; }
+
+.icon-financial:before {
+  content: "/E0C0"; }
+
+.icon-fold-less:before {
+  content: "/E0C1"; }
+
+.icon-fold-more:before {
+  content: "/E0C2"; }
+
+.icon-folder-plan:before {
+  content: "/E0C3"; }
+
+.icon-folder-query:before {
+  content: "/E0C4"; }
+
+.icon-folder:before {
+  content: "/E0C5"; }
+
+.icon-format-bold:before {
+  content: "/E0C6"; }
+
+.icon-format-clear:before {
+  content: "/E0C7"; }
+
+.icon-format-font-color:before {
+  content: "/E0C8"; }
+
+.icon-format-font-size:before {
+  content: "/E0C9"; }
+
+.icon-format-font:before {
+  content: "/E0CA"; }
+
+.icon-format-indent-decrease:before {
+  content: "/E0CB"; }
+
+.icon-format-indent-increase:before {
+  content: "/E0CC"; }
+
+.icon-format-italic:before {
+  content: "/E0CD"; }
+
+.icon-format-list-ordered:before {
+  content: "/E0CE"; }
+
+.icon-format-list-unordered:before {
+  content: "/E0CF"; }
+
+.icon-format-underline:before {
+  content: "/E0D0"; }
+
+.icon-full-history:before {
+  content: "/E0D1"; }
+
+.icon-game:before {
+  content: "/E0D2"; }
+
+.icon-giftbox-open:before {
+  content: "/E0D3"; }
+
+.icon-git-graph:before {
+  content: "/E0D4"; }
+
+.icon-globe:before {
+  content: "/E0D5"; }
+
+.icon-group-rows:before {
+  content: "/E0D6"; }
+
+.icon-group:before {
+  content: "/E0D7"; }
+
+.icon-headsets:before {
+  content: "/E0D8"; }
+
+.icon-health-alt:before {
+  content: "/E0D9"; }
+
+.icon-health:before {
+  content: "/E0DA"; }
+
+.icon-heart-fill:before {
+  content: "/E0DB"; }
+
+.icon-heart:before {
+  content: "/E0DC"; }
+
+.icon-home-fill:before {
+  content: "/E0DD"; }
+
+.icon-home:before {
+  content: "/E0DE"; }
+
+.icon-image-action-log:before {
+  content: "/E0DF"; }
+
+.icon-image:before {
+  content: "/E0E0"; }
+
+.icon-install-to-drive:before {
+  content: "/E0E1"; }
+
+.icon-install:before {
+  content: "/E0E2"; }
+
+.icon-javascript:before {
+  content: "/E0E3"; }
+
+.icon-laptop-selected:before {
+  content: "/E0E4"; }
+
+.icon-lightbulb:before {
+  content: "/E0E5"; }
+
+.icon-link-remove:before {
+  content: "/E0E6"; }
+
+.icon-link:before {
+  content: "/E0E7"; }
+
+.icon-live-update-feed-off:before {
+  content: "/E0E8"; }
+
+.icon-live-update-feed:before {
+  content: "/E0E9"; }
+
+.icon-locale-language:before {
+  content: "/E0EA"; }
+
+.icon-locale-timezone:before {
+  content: "/E0EB"; }
+
+.icon-lock:before {
+  content: "/E0EC"; }
+
+.icon-log-remove:before {
+  content: "/E0ED"; }
+
+.icon-log:before {
+  content: "/E0EE"; }
+
+.icon-mail-message-fill:before {
+  content: "/E0EF"; }
+
+.icon-mail-message:before {
+  content: "/E0F0"; }
+
+.icon-manufacture:before {
+  content: "/E0F1"; }
+
+.icon-map-destination-fill:before {
+  content: "/E0F2"; }
+
+.icon-map-destination:before {
+  content: "/E0F3"; }
+
+.icon-map-pin-fill:before {
+  content: "/E0F4"; }
+
+.icon-map-pin:before {
+  content: "/E0F5"; }
+
+.icon-math-minus-box-light:before {
+  content: "/E0F6"; }
+
+.icon-math-minus-box:before {
+  content: "/E0F7"; }
+
+.icon-math-minus-circle-outline:before {
+  content: "/E0F8"; }
+
+.icon-math-minus-circle:before {
+  content: "/E0F9"; }
+
+.icon-math-minus-light:before {
+  content: "/E0FA"; }
+
+.icon-math-minus:before {
+  content: "/E0FB"; }
+
+.icon-math-multiply-box-light:before {
+  content: "/E0FC"; }
+
+.icon-math-multiply-box-outline:before {
+  content: "/E0FD"; }
+
+.icon-math-multiply-box:before {
+  content: "/E0FE"; }
+
+.icon-math-multiply-light:before {
+  content: "/E0FF"; }
+
+.icon-math-multiply:before {
+  content: "/E100"; }
+
+.icon-math-plus-box-light:before {
+  content: "/E101"; }
+
+.icon-math-plus-box:before {
+  content: "/E102"; }
+
+.icon-math-plus-circle-outline:before {
+  content: "/E103"; }
+
+.icon-math-plus-circle:before {
+  content: "/E104"; }
+
+.icon-math-plus-heavy:before {
+  content: "/E105"; }
+
+.icon-math-plus-light:before {
+  content: "/E106"; }
+
+.icon-math-plus:before {
+  content: "/E107"; }
+
+.icon-media-play-fill:before {
+  content: "/E108"; }
+
+.icon-media-play:before {
+  content: "/E109"; }
+
+.icon-menu:before {
+  content: "/E10A"; }
+
+.icon-merge-duplicate:before {
+  content: "/E10B"; }
+
+.icon-msn-video:before {
+  content: "/E10C"; }
+
+.icon-navigate-back-circle:before {
+  content: "/E10D"; }
+
+.icon-navigate-back-disc:before {
+  content: "/E10E"; }
+
+.icon-navigate-close:before {
+  content: "/E10F"; }
+
+.icon-navigate-external:before {
+  content: "/E110"; }
+
+.icon-navigate-forward-circle:before {
+  content: "/E111"; }
+
+.icon-navigate-forward-disc:before {
+  content: "/E112"; }
+
+.icon-navigate-history:before {
+  content: "/E113"; }
+
+.icon-navigate-refresh:before {
+  content: "/E114"; }
+
+.icon-network-tower:before {
+  content: "/E115"; }
+
+.icon-new-team-project:before {
+  content: "/E116"; }
+
+.icon-news:before {
+  content: "/E117"; }
+
+.icon-next-frame-fill:before {
+  content: "/E118"; }
+
+.icon-next-frame:before {
+  content: "/E119"; }
+
+.icon-node:before {
+  content: "/E11A"; }
+
+.icon-notification-off:before {
+  content: "/E11B"; }
+
+.icon-notification:before {
+  content: "/E11C"; }
+
+.icon-office-logo:before {
+  content: "/E11D"; }
+
+.icon-org-branch:before {
+  content: "/E11E"; }
+
+.icon-package-2:before {
+  content: "/E11F"; }
+
+.icon-package-feed-local:before {
+  content: "/E120"; }
+
+.icon-package-feed-mix:before {
+  content: "/E121"; }
+
+.icon-package-feed-remote:before {
+  content: "/E122"; }
+
+.icon-package-fill:before {
+  content: "/E123"; }
+
+.icon-package:before {
+  content: "/E124"; }
+
+.icon-packages:before {
+  content: "/E125"; }
+
+.icon-parameter:before {
+  content: "/E126"; }
+
+.icon-pause-fill:before {
+  content: "/E127"; }
+
+.icon-pause:before {
+  content: "/E128"; }
+
+.icon-people-add:before {
+  content: "/E129"; }
+
+.icon-personalize:before {
+  content: "/E12A"; }
+
+.icon-pin-fill:before {
+  content: "/E12B"; }
+
+.icon-pin-pinned-fill:before {
+  content: "/E12C"; }
+
+.icon-pin-pinned:before {
+  content: "/E12D"; }
+
+.icon-pin-unpin-fill:before {
+  content: "/E12E"; }
+
+.icon-pin-unpin:before {
+  content: "/E12F"; }
+
+.icon-pin:before {
+  content: "/E130"; }
+
+.icon-placeholder:before {
+  content: "/E131"; }
+
+.icon-plan:before {
+  content: "/E132"; }
+
+.icon-play-fill:before {
+  content: "/E133"; }
+
+.icon-play-resume-fill:before {
+  content: "/E134"; }
+
+.icon-play-resume:before {
+  content: "/E135"; }
+
+.icon-play:before {
+  content: "/E136"; }
+
+.icon-plug-connected:before {
+  content: "/E137"; }
+
+.icon-plug-disconnected-fill:before {
+  content: "/E138"; }
+
+.icon-plug-outline:before {
+  content: "/E139"; }
+
+.icon-plug:before {
+  content: "/E13A"; }
+
+.icon-policy:before {
+  content: "/E13B"; }
+
+.icon-previous-frame-fill:before {
+  content: "/E13C"; }
+
+.icon-previous-frame:before {
+  content: "/E13D"; }
+
+.icon-print:before {
+  content: "/E13E"; }
+
+.icon-process-meta-task:before {
+  content: "/E13F"; }
+
+.icon-process:before {
+  content: "/E140"; }
+
+.icon-project-collection:before {
+  content: "/E141"; }
+
+.icon-query-list:before {
+  content: "/E142"; }
+
+.icon-quicknote:before {
+  content: "/E143"; }
+
+.icon-r-development:before {
+  content: "/E144"; }
+
+.icon-radio-button-empty:before {
+  content: "/E145"; }
+
+.icon-radio-button:before {
+  content: "/E146"; }
+
+.icon-record-fill:before {
+  content: "/E147"; }
+
+.icon-record:before {
+  content: "/E148"; }
+
+.icon-recycle-bin-restore:before {
+  content: "/E149"; }
+
+.icon-recycle-bin:before {
+  content: "/E14A"; }
+
+.icon-recycle:before {
+  content: "/E14B"; }
+
+.icon-redeploy:before {
+  content: "/E14C"; }
+
+.icon-reminder-group:before {
+  content: "/E14D"; }
+
+.icon-repo-fill:before {
+  content: "/E14E"; }
+
+.icon-repo-git:before {
+  content: "/E14F"; }
+
+.icon-repo-submodule:before {
+  content: "/E150"; }
+
+.icon-repo-tfvc:before {
+  content: "/E151"; }
+
+.icon-repo:before {
+  content: "/E152"; }
+
+.icon-report-document:before {
+  content: "/E153"; }
+
+.icon-resize-grip:before {
+  content: "/E154"; }
+
+.icon-ribbon-2:before {
+  content: "/E155"; }
+
+.icon-robot:before {
+  content: "/E156"; }
+
+.icon-rocket:before {
+  content: "/E157"; }
+
+.icon-row-child:before {
+  content: "/E158"; }
+
+.icon-save-all:before {
+  content: "/E159"; }
+
+.icon-save-as:before {
+  content: "/E15A"; }
+
+.icon-save-close:before {
+  content: "/E15B"; }
+
+.icon-save:before {
+  content: "/E15C"; }
+
+.icon-scope-template:before {
+  content: "/E15D"; }
+
+.icon-script:before {
+  content: "/E15E"; }
+
+.icon-search-filter-fill:before {
+  content: "/E15F"; }
+
+.icon-search-filter:before {
+  content: "/E160"; }
+
+.icon-search-in-branch:before {
+  content: "/E161"; }
+
+.icon-search:before {
+  content: "/E162"; }
+
+.icon-security-access:before {
+  content: "/E163"; }
+
+.icon-security-lock-fill:before {
+  content: "/E164"; }
+
+.icon-security-lock:before {
+  content: "/E165"; }
+
+.icon-security-unlock-fill:before {
+  content: "/E166"; }
+
+.icon-security-unlock:before {
+  content: "/E167"; }
+
+.icon-security:before {
+  content: "/E168"; }
+
+.icon-send:before {
+  content: "/E169"; }
+
+.icon-separator:before {
+  content: "/E16A"; }
+
+.icon-server-environment:before {
+  content: "/E16B"; }
+
+.icon-server-remote:before {
+  content: "/E16C"; }
+
+.icon-server:before {
+  content: "/E16D"; }
+
+.icon-set-actions:before {
+  content: "/E16E"; }
+
+.icon-settings-gear-outline:before {
+  content: "/E16F"; }
+
+.icon-settings-gear:before {
+  content: "/E170"; }
+
+.icon-settings-wrench:before {
+  content: "/E171"; }
+
+.icon-share:before {
+  content: "/E172"; }
+
+.icon-shield-outline:before {
+  content: "/E173"; }
+
+.icon-shield:before {
+  content: "/E174"; }
+
+.icon-shop-server:before {
+  content: "/E175"; }
+
+.icon-shop:before {
+  content: "/E176"; }
+
+.icon-shopping-cart-fill:before {
+  content: "/E177"; }
+
+.icon-shopping-cart:before {
+  content: "/E178"; }
+
+.icon-smartphone-selected:before {
+  content: "/E179"; }
+
+.icon-sort-asc:before {
+  content: "/E17A"; }
+
+.icon-sort-desc:before {
+  content: "/E17B"; }
+
+.icon-sort:before {
+  content: "/E17C"; }
+
+.icon-spinner:before {
+  content: "/E17D"; }
+
+.icon-split:before {
+  content: "/E17E"; }
+
+.icon-sprint:before {
+  content: "/E17F"; }
+
+.icon-square:before {
+  content: "/E180"; }
+
+.icon-star-half:before {
+  content: "/E181"; }
+
+.icon-status-error-outline:before {
+  content: "/E182"; }
+
+.icon-status-error:before {
+  content: "/E183"; }
+
+.icon-status-failure-outline:before {
+  content: "/E184"; }
+
+.icon-status-failure:before {
+  content: "/E185"; }
+
+.icon-status-help-outline:before {
+  content: "/E186"; }
+
+.icon-status-help:before {
+  content: "/E187"; }
+
+.icon-status-info-outline:before {
+  content: "/E188"; }
+
+.icon-status-info:before {
+  content: "/E189"; }
+
+.icon-status-no-fill:before {
+  content: "/E18A"; }
+
+.icon-status-no:before {
+  content: "/E18B"; }
+
+.icon-status-pause-outline:before {
+  content: "/E18C"; }
+
+.icon-status-pause:before {
+  content: "/E18D"; }
+
+.icon-status-run-box:before {
+  content: "/E18E"; }
+
+.icon-status-run-outline:before {
+  content: "/E18F"; }
+
+.icon-status-run:before {
+  content: "/E190"; }
+
+.icon-status-stop-outline:before {
+  content: "/E191"; }
+
+.icon-status-stop:before {
+  content: "/E192"; }
+
+.icon-status-success-box:before {
+  content: "/E193"; }
+
+.icon-status-success-outline:before {
+  content: "/E194"; }
+
+.icon-status-success:before {
+  content: "/E195"; }
+
+.icon-status-waiting-fill:before {
+  content: "/E196"; }
+
+.icon-status-waiting:before {
+  content: "/E197"; }
+
+.icon-status-warning-outline:before {
+  content: "/E198"; }
+
+.icon-status-warning:before {
+  content: "/E199"; }
+
+.icon-step-insert:before {
+  content: "/E19A"; }
+
+.icon-step-shared-add:before {
+  content: "/E19B"; }
+
+.icon-step-shared-insert:before {
+  content: "/E19C"; }
+
+.icon-step-shared:before {
+  content: "/E19D"; }
+
+.icon-step:before {
+  content: "/E19E"; }
+
+.icon-stop-fill:before {
+  content: "/E19F"; }
+
+.icon-stop:before {
+  content: "/E1A0"; }
+
+.icon-stopwatch:before {
+  content: "/E1A1"; }
+
+.icon-storyboard:before {
+  content: "/E1A2"; }
+
+.icon-subscribe:before {
+  content: "/E1A3"; }
+
+.icon-switch:before {
+  content: "/E1A4"; }
+
+.icon-symbol-ask:before {
+  content: "/E1A5"; }
+
+.icon-symbol-book:before {
+  content: "/E1A6"; }
+
+.icon-symbol-bug:before {
+  content: "/E1A7"; }
+
+.icon-symbol-crown:before {
+  content: "/E1A8"; }
+
+.icon-symbol-custom:before {
+  content: "/E1A9"; }
+
+.icon-symbol-flame:before {
+  content: "/E1AA"; }
+
+.icon-symbol-impediment:before {
+  content: "/E1AB"; }
+
+.icon-symbol-list:before {
+  content: "/E1AC"; }
+
+.icon-symbol-review:before {
+  content: "/E1AD"; }
+
+.icon-symbol-stickynote:before {
+  content: "/E1AE"; }
+
+.icon-symbol-task:before {
+  content: "/E1AF"; }
+
+.icon-symbol-trophy:before {
+  content: "/E1B0"; }
+
+.icon-sync-user:before {
+  content: "/E1B1"; }
+
+.icon-sync:before {
+  content: "/E1B2"; }
+
+.icon-table:before {
+  content: "/E1B3"; }
+
+.icon-tablet-selected:before {
+  content: "/E1B4"; }
+
+.icon-tag-fill:before {
+  content: "/E1B5"; }
+
+.icon-tag:before {
+  content: "/E1B6"; }
+
+.icon-task-group:before {
+  content: "/E1B7"; }
+
+.icon-team-favorite:before {
+  content: "/E1B8"; }
+
+.icon-teamwork:before {
+  content: "/E1B9"; }
+
+.icon-test-auto-fill:before {
+  content: "/E1BA"; }
+
+.icon-test-auto:before {
+  content: "/E1BB"; }
+
+.icon-test-explore-fill:before {
+  content: "/E1BC"; }
+
+.icon-test-fill:before {
+  content: "/E1BD"; }
+
+.icon-test-impact-fill:before {
+  content: "/E1BE"; }
+
+.icon-test-parameter:before {
+  content: "/E1BF"; }
+
+.icon-test-plan:before {
+  content: "/E1C0"; }
+
+.icon-test-step:before {
+  content: "/E1C1"; }
+
+.icon-test-suite:before {
+  content: "/E1C2"; }
+
+.icon-test-user-fill:before {
+  content: "/E1C3"; }
+
+.icon-test:before {
+  content: "/E1C4"; }
+
+.icon-tfvc-branch-locked:before {
+  content: "/E1C5"; }
+
+.icon-tfvc-branch:before {
+  content: "/E1C6"; }
+
+.icon-tfvc-change-list:before {
+  content: "/E1C7"; }
+
+.icon-tfvc-commit:before {
+  content: "/E1C8"; }
+
+.icon-tfvc-compare:before {
+  content: "/E1C9"; }
+
+.icon-tfvc-folder:before {
+  content: "/E1CA"; }
+
+.icon-tfvc-fork:before {
+  content: "/E1CB"; }
+
+.icon-tfvc-merge:before {
+  content: "/E1CC"; }
+
+.icon-tfvc-pull-request:before {
+  content: "/E1CD"; }
+
+.icon-tfvc-raw-source:before {
+  content: "/E1CE"; }
+
+.icon-tfvc-shelveset:before {
+  content: "/E1CF"; }
+
+.icon-timeline-delivery:before {
+  content: "/E1D0"; }
+
+.icon-timeline-matrix:before {
+  content: "/E1D1"; }
+
+.icon-timeline-progress:before {
+  content: "/E1D2"; }
+
+.icon-toggle-collapse-all:before {
+  content: "/E1D3"; }
+
+.icon-toggle-collapse:before {
+  content: "/E1D4"; }
+
+.icon-toggle-expand-all:before {
+  content: "/E1D5"; }
+
+.icon-toggle-expand:before {
+  content: "/E1D6"; }
+
+.icon-toggle-tree-collapsed:before {
+  content: "/E1D7"; }
+
+.icon-toggle-tree-expanded-outline:before {
+  content: "/E1D8"; }
+
+.icon-toggle-tree-expanded:before {
+  content: "/E1D9"; }
+
+.icon-transfer-download:before {
+  content: "/E1DA"; }
+
+.icon-transfer-upload:before {
+  content: "/E1DB"; }
+
+.icon-transition:before {
+  content: "/E1DC"; }
+
+.icon-trash:before {
+  content: "/E1DD"; }
+
+.icon-triangle-down:before {
+  content: "/E1DE"; }
+
+.icon-triangle-left:before {
+  content: "/E1DF"; }
+
+.icon-triangle-right:before {
+  content: "/E1E0"; }
+
+.icon-triangle-up:before {
+  content: "/E1E1"; }
+
+.icon-triangle:before {
+  content: "/E1E2"; }
+
+.icon-trigger-auto:before {
+  content: "/E1E3"; }
+
+.icon-trigger-user:before {
+  content: "/E1E4"; }
+
+.icon-trigger:before {
+  content: "/E1E5"; }
+
+.icon-tv-monitor-selected:before {
+  content: "/E1E6"; }
+
+.icon-unpin-fill:before {
+  content: "/E1E7"; }
+
+.icon-unpin:before {
+  content: "/E1E8"; }
+
+.icon-user-pause:before {
+  content: "/E1E9"; }
+
+.icon-user-pending:before {
+  content: "/E1EA"; }
+
+.icon-user:before {
+  content: "/E1EB"; }
+
+.icon-users:before {
+  content: "/E1EC"; }
+
+.icon-variable-group:before {
+  content: "/E1ED"; }
+
+.icon-variable:before {
+  content: "/E1EE"; }
+
+.icon-video:before {
+  content: "/E1EF"; }
+
+.icon-view-full-screen-exit:before {
+  content: "/E1F0"; }
+
+.icon-view-full-screen:before {
+  content: "/E1F1"; }
+
+.icon-view-grid:before {
+  content: "/E1F2"; }
+
+.icon-view-list-tree:before {
+  content: "/E1F3"; }
+
+.icon-view-list:before {
+  content: "/E1F4"; }
+
+.icon-visual-studio:before {
+  content: "/E1F5"; }
+
+.icon-vs-app-center:before {
+  content: "/E1F6"; }
+
+.icon-vs-code:before {
+  content: "/E1F7"; }
+
+.icon-vs-ide:before {
+  content: "/E1F8"; }
+
+.icon-vsts-alt-1:before {
+  content: "/E1F9"; }
+
+.icon-vsts-alt-2:before {
+  content: "/E1FA"; }
+
+.icon-vsts:before {
+  content: "/E1FB"; }
+
+.icon-watch-eye-fill:before {
+  content: "/E1FC"; }
+
+.icon-watch-eye-off:before {
+  content: "/E1FD"; }
+
+.icon-watch-eye:before {
+  content: "/E1FE"; }
+
+.icon-web-components:before {
+  content: "/E1FF"; }
+
+.icon-windows:before {
+  content: "/E200"; }
+
+.icon-work-item-bar-outline:before {
+  content: "/E201"; }
+
+.icon-work-item-bar:before {
+  content: "/E202"; }
+
+.icon-work-item-bug:before {
+  content: "/E203"; }
+
+.icon-work-item-move:before {
+  content: "/E204"; }
+
+.icon-work-item:before {
+  content: "/E205"; }
+
+.icon-world:before {
+  content: "/E206"; }
