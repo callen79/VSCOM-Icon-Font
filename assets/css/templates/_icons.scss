@@ -1,5 +1,5 @@
-/* Variable for cache-busting */
-$css-version: random(999999999999999);
+// Variable for cache-busting 
+// $css-version: random(999999999999999);
 
 @font-face {
 	font-family: "<%= fontName %>";
@@ -23,7 +23,7 @@ $css-version: random(999999999999999);
 	text-transform: none;
 }
 
-%<%= cssClass%> {
+.icon {
 	@include <%= cssClass%>-styles;
 }
 
@@ -40,7 +40,7 @@ $css-version: random(999999999999999);
 @mixin <%= cssClass%>($filename, $insert: before, $extend: true) {
 	&:#{$insert} {
 		@if $extend {
-			@extend %<%= cssClass%>;
+			//@extend %<%= cssClass%>;
 		} @else {
 			@include <%= cssClass%>-styles;
 		}

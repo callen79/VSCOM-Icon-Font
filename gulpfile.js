@@ -6,7 +6,7 @@ var iconfont = require('gulp-iconfont');
 var iconfontCss = require('gulp-iconfont-css');
 var runSequence = require('run-sequence');
 
-//Create Fonts & Font SASS
+//Create Fonts & SASS template
 var fontName = 'vscom-icons';
 
 gulp.task('iconfont', function () {
@@ -14,7 +14,7 @@ gulp.task('iconfont', function () {
         .pipe(iconfontCss({
             fontName: fontName,
             path: 'assets/css/templates/_icons.scss',
-            targetPath: '../../assets/sass/vscom-icon.scss',
+            targetPath: '../../assets/sass/vscom-icons.scss',
             fontPath: '../fonts/'
         }))
         .pipe(iconfont({
@@ -25,10 +25,10 @@ gulp.task('iconfont', function () {
         .pipe(gulp.dest('distribute/fonts/'));
 });
 
-//Compile Font SASS into CSS
+//Compile SASS template into CSS
 gulp.task('styles', function() {
     return gulp.src('distribute/sass/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({ style: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('./distribute/css/'));
 });
 
@@ -36,12 +36,10 @@ gulp.task('styles', function() {
 // * iconfont
 // * styles
 // * Finally call the callback function
-gulp.task('build', function (callback) {
-    runSequence('iconfont','styles',
-        callback);
-});
 
-//Watch task
-gulp.task('default',function() {
-    gulp.watch('assets/sass/**/*.scss',['styles']);
+gulp.task('build', function (done) {
+    runSequence('iconfont', 'styles', function () {
+        console.log('Run something else');
+        done();
+    });
 });
