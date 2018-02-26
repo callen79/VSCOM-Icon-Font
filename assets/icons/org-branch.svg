@@ -1,0 +1,12 @@
+<svg width="1001" height="1001" viewBox="0 0 1001 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>org-branch</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(83.4167 0 0 83.4167 -63146.4 -22939.6)">
+<g id="org-branch">
+<use xlink:href="#path0_fill" transform="translate(757 275)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.7168 9L 11.25 9.5332L 9.375 11.4023L 7.5 9.5332L 8.0332 9L 9 9.9668L 9 6.75L 2.25 6.75L 2.25 9.9668L 3.2168 9L 3.75 9.5332L 1.875 11.4023L 0 9.5332L 0.533203 9L 1.5 9.9668L 1.5 6L 5.25 6L 5.25 3L 3 3L 3 0L 8.25 0L 8.25 3L 6 3L 6 6L 9.75 6L 9.75 9.9668L 10.7168 9ZM 3.75 2.25L 7.5 2.25L 7.5 0.75L 3.75 0.75L 3.75 2.25Z"/>
+</defs>
+</svg>

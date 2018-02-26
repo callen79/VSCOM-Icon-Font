@@ -1,0 +1,13 @@
+<svg width="1001" height="1001" viewBox="0 0 1001 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>vs-ide</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.5 0 0 71.5 -86729.5 -2431)">
+<rect x="1213" y="34" width="14" height="14" fill="#E5E5E5"/>
+<g id="vs-ide">
+<use xlink:href="#path0_fill" transform="translate(1213 34)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.5001 0L 10.5001 12.0242L 9.12765e-12 10.4647L 10.5001 14L 14 12.544L 14 1.456L 10.5001 0ZM 3.60807 6.7354L 6.82376 9.91655L 8.74891 9.09755L 8.74891 2.86055L 6.82376 2.04155L 3.60807 5.22305L 1.67173 3.76355L 0.874016 4.0306L 0.874016 7.92785L 1.67173 8.1949L 3.60807 6.7354L 3.60807 6.7354ZM 6.82376 4.31165L 6.82376 7.64715L 4.61125 5.9794L 6.82376 4.31165L 6.82376 4.31165ZM 1.67173 4.81985L 2.84361 5.97905L 1.67173 7.1386L 1.67173 4.81985L 1.67173 4.81985Z"/>
+</defs>
+</svg>

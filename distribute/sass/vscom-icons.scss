@@ -126,1463 +126,1475 @@
 	@if $filename == brand-github {
 		$char: "" + "/" + E020 + "";
 	}
-	@if $filename == brand-maven {
+	@if $filename == brand-java-cup {
 		$char: "" + "/" + E021 + "";
 	}
-	@if $filename == brand-mtm {
+	@if $filename == brand-java {
 		$char: "" + "/" + E022 + "";
 	}
-	@if $filename == brand-npm {
+	@if $filename == brand-maven {
 		$char: "" + "/" + E023 + "";
 	}
-	@if $filename == brand-nuget {
+	@if $filename == brand-mtm {
 		$char: "" + "/" + E024 + "";
 	}
-	@if $filename == brand-svn {
+	@if $filename == brand-npm {
 		$char: "" + "/" + E025 + "";
 	}
-	@if $filename == brand-tfvc {
+	@if $filename == brand-nuget {
 		$char: "" + "/" + E026 + "";
 	}
-	@if $filename == brand-twitter {
+	@if $filename == brand-react {
 		$char: "" + "/" + E027 + "";
 	}
-	@if $filename == brand-xamarin {
+	@if $filename == brand-svn {
 		$char: "" + "/" + E028 + "";
 	}
-	@if $filename == briefcase {
+	@if $filename == brand-swift {
 		$char: "" + "/" + E029 + "";
 	}
-	@if $filename == build-issue {
+	@if $filename == brand-tfvc {
 		$char: "" + "/" + E02A + "";
 	}
-	@if $filename == build-queue-new {
+	@if $filename == brand-twitter {
 		$char: "" + "/" + E02B + "";
 	}
-	@if $filename == build {
+	@if $filename == brand-xamarin {
 		$char: "" + "/" + E02C + "";
 	}
-	@if $filename == c-plus {
+	@if $filename == briefcase {
 		$char: "" + "/" + E02D + "";
 	}
-	@if $filename == calendar-check {
+	@if $filename == build-issue {
 		$char: "" + "/" + E02E + "";
 	}
-	@if $filename == calendar-month {
+	@if $filename == build-queue-new {
 		$char: "" + "/" + E02F + "";
 	}
-	@if $filename == calendar {
+	@if $filename == build {
 		$char: "" + "/" + E030 + "";
 	}
-	@if $filename == camera {
+	@if $filename == c-plus {
 		$char: "" + "/" + E031 + "";
 	}
-	@if $filename == car {
+	@if $filename == calendar-check {
 		$char: "" + "/" + E032 + "";
 	}
-	@if $filename == cellphone {
+	@if $filename == calendar-month {
 		$char: "" + "/" + E033 + "";
 	}
-	@if $filename == chart-area {
+	@if $filename == calendar {
 		$char: "" + "/" + E034 + "";
 	}
-	@if $filename == chart-bar {
+	@if $filename == camera {
 		$char: "" + "/" + E035 + "";
 	}
-	@if $filename == chart-column {
+	@if $filename == car {
 		$char: "" + "/" + E036 + "";
 	}
-	@if $filename == chart-pie {
+	@if $filename == cellphone {
 		$char: "" + "/" + E037 + "";
 	}
-	@if $filename == chart-pivot {
+	@if $filename == chart-area {
 		$char: "" + "/" + E038 + "";
 	}
-	@if $filename == chart-stacked-area {
+	@if $filename == chart-bar {
 		$char: "" + "/" + E039 + "";
 	}
-	@if $filename == chart-stacked-bar {
+	@if $filename == chart-column {
 		$char: "" + "/" + E03A + "";
 	}
-	@if $filename == chart-stacked-line {
+	@if $filename == chart-pie {
 		$char: "" + "/" + E03B + "";
 	}
-	@if $filename == check-light {
+	@if $filename == chart-pivot {
 		$char: "" + "/" + E03C + "";
 	}
-	@if $filename == check {
+	@if $filename == chart-stacked-area {
 		$char: "" + "/" + E03D + "";
 	}
-	@if $filename == checkbox-empty {
+	@if $filename == chart-stacked-bar {
 		$char: "" + "/" + E03E + "";
 	}
-	@if $filename == checkbox {
+	@if $filename == chart-stacked-line {
 		$char: "" + "/" + E03F + "";
 	}
-	@if $filename == chevron-down-all {
+	@if $filename == check-light {
 		$char: "" + "/" + E040 + "";
 	}
-	@if $filename == chevron-down-end {
+	@if $filename == check {
 		$char: "" + "/" + E041 + "";
 	}
-	@if $filename == chevron-down-light {
+	@if $filename == checkbox-empty {
 		$char: "" + "/" + E042 + "";
 	}
-	@if $filename == chevron-down {
+	@if $filename == checkbox {
 		$char: "" + "/" + E043 + "";
 	}
-	@if $filename == chevron-left-all {
+	@if $filename == chevron-down-all {
 		$char: "" + "/" + E044 + "";
 	}
-	@if $filename == chevron-left-end {
+	@if $filename == chevron-down-end {
 		$char: "" + "/" + E045 + "";
 	}
-	@if $filename == chevron-left-light {
+	@if $filename == chevron-down-light {
 		$char: "" + "/" + E046 + "";
 	}
-	@if $filename == chevron-left {
+	@if $filename == chevron-down {
 		$char: "" + "/" + E047 + "";
 	}
-	@if $filename == chevron-right-all {
+	@if $filename == chevron-left-all {
 		$char: "" + "/" + E048 + "";
 	}
-	@if $filename == chevron-right-light {
+	@if $filename == chevron-left-end {
 		$char: "" + "/" + E049 + "";
 	}
-	@if $filename == chevron-right {
+	@if $filename == chevron-left-light {
 		$char: "" + "/" + E04A + "";
 	}
-	@if $filename == chevron-up-all {
+	@if $filename == chevron-left {
 		$char: "" + "/" + E04B + "";
 	}
-	@if $filename == chevron-up-end {
+	@if $filename == chevron-right-all {
 		$char: "" + "/" + E04C + "";
 	}
-	@if $filename == chevron-up-light {
+	@if $filename == chevron-right-light {
 		$char: "" + "/" + E04D + "";
 	}
-	@if $filename == chevron-up {
+	@if $filename == chevron-right {
 		$char: "" + "/" + E04E + "";
 	}
-	@if $filename == city {
+	@if $filename == chevron-up-all {
 		$char: "" + "/" + E04F + "";
 	}
-	@if $filename == clear-filter {
+	@if $filename == chevron-up-end {
 		$char: "" + "/" + E050 + "";
 	}
-	@if $filename == clone-to-desktop {
+	@if $filename == chevron-up-light {
 		$char: "" + "/" + E051 + "";
 	}
-	@if $filename == clone {
+	@if $filename == chevron-up {
 		$char: "" + "/" + E052 + "";
 	}
-	@if $filename == cloud-1 {
+	@if $filename == city {
 		$char: "" + "/" + E053 + "";
 	}
-	@if $filename == cloud-fill {
+	@if $filename == clear-filter {
 		$char: "" + "/" + E054 + "";
 	}
-	@if $filename == cloud {
+	@if $filename == clone-to-desktop {
 		$char: "" + "/" + E055 + "";
 	}
-	@if $filename == code {
+	@if $filename == clone {
 		$char: "" + "/" + E056 + "";
 	}
-	@if $filename == column-option {
+	@if $filename == cloud-1 {
 		$char: "" + "/" + E057 + "";
 	}
-	@if $filename == comment-add {
+	@if $filename == cloud-fill {
 		$char: "" + "/" + E058 + "";
 	}
-	@if $filename == comment-discussion {
+	@if $filename == cloud {
 		$char: "" + "/" + E059 + "";
 	}
-	@if $filename == comment-lines {
+	@if $filename == code {
 		$char: "" + "/" + E05A + "";
 	}
-	@if $filename == comment-next {
+	@if $filename == column-option {
 		$char: "" + "/" + E05B + "";
 	}
-	@if $filename == comment-outline {
+	@if $filename == comment-add {
 		$char: "" + "/" + E05C + "";
 	}
-	@if $filename == comment-previous {
+	@if $filename == comment-discussion {
 		$char: "" + "/" + E05D + "";
 	}
-	@if $filename == comment-urgent {
+	@if $filename == comment-lines {
 		$char: "" + "/" + E05E + "";
 	}
-	@if $filename == comment {
+	@if $filename == comment-next {
 		$char: "" + "/" + E05F + "";
 	}
-	@if $filename == compare {
+	@if $filename == comment-outline {
 		$char: "" + "/" + E060 + "";
 	}
-	@if $filename == connect-to-feed {
+	@if $filename == comment-previous {
 		$char: "" + "/" + E061 + "";
 	}
-	@if $filename == connected-fill {
+	@if $filename == comment-urgent {
 		$char: "" + "/" + E062 + "";
 	}
-	@if $filename == contact-card {
+	@if $filename == comment {
 		$char: "" + "/" + E063 + "";
 	}
-	@if $filename == control-panel {
+	@if $filename == compare {
 		$char: "" + "/" + E064 + "";
 	}
-	@if $filename == copy-to-clipboard {
+	@if $filename == connect-to-feed {
 		$char: "" + "/" + E065 + "";
 	}
-	@if $filename == corner-resize {
+	@if $filename == connected-fill {
 		$char: "" + "/" + E066 + "";
 	}
-	@if $filename == dashboard-fill {
+	@if $filename == contact-card {
 		$char: "" + "/" + E067 + "";
 	}
-	@if $filename == dashboard {
+	@if $filename == control-panel {
 		$char: "" + "/" + E068 + "";
 	}
-	@if $filename == database-alt {
+	@if $filename == copy-to-clipboard {
 		$char: "" + "/" + E069 + "";
 	}
-	@if $filename == database {
+	@if $filename == corner-resize {
 		$char: "" + "/" + E06A + "";
 	}
-	@if $filename == default-executable {
+	@if $filename == dashboard-fill {
 		$char: "" + "/" + E06B + "";
 	}
-	@if $filename == deploy {
+	@if $filename == dashboard {
 		$char: "" + "/" + E06C + "";
 	}
-	@if $filename == design {
+	@if $filename == database-alt {
 		$char: "" + "/" + E06D + "";
 	}
-	@if $filename == details-pane {
+	@if $filename == database {
 		$char: "" + "/" + E06E + "";
 	}
-	@if $filename == developer-tools {
+	@if $filename == default-executable {
 		$char: "" + "/" + E06F + "";
 	}
-	@if $filename == devices {
+	@if $filename == deploy {
 		$char: "" + "/" + E070 + "";
 	}
-	@if $filename == diamond {
+	@if $filename == design {
 		$char: "" + "/" + E071 + "";
 	}
-	@if $filename == diff-image-overlay {
+	@if $filename == details-pane {
 		$char: "" + "/" + E072 + "";
 	}
-	@if $filename == diff-image-pixel {
+	@if $filename == developer-tools {
 		$char: "" + "/" + E073 + "";
 	}
-	@if $filename == diff-image {
+	@if $filename == devices {
 		$char: "" + "/" + E074 + "";
 	}
-	@if $filename == diff-inline {
+	@if $filename == diamond {
 		$char: "" + "/" + E075 + "";
 	}
-	@if $filename == diff-side-by-side {
+	@if $filename == diff-image-overlay {
 		$char: "" + "/" + E076 + "";
 	}
-	@if $filename == disconnected {
+	@if $filename == diff-image-pixel {
 		$char: "" + "/" + E077 + "";
 	}
-	@if $filename == documentation {
+	@if $filename == diff-image {
 		$char: "" + "/" + E078 + "";
 	}
-	@if $filename == dot-net {
+	@if $filename == diff-inline {
 		$char: "" + "/" + E079 + "";
 	}
-	@if $filename == dot {
+	@if $filename == diff-side-by-side {
 		$char: "" + "/" + E07A + "";
 	}
-	@if $filename == draft {
+	@if $filename == disconnected {
 		$char: "" + "/" + E07B + "";
 	}
-	@if $filename == edit-copy {
+	@if $filename == documentation {
 		$char: "" + "/" + E07C + "";
 	}
-	@if $filename == edit-cut {
+	@if $filename == dot-net {
 		$char: "" + "/" + E07D + "";
 	}
-	@if $filename == edit-delete {
+	@if $filename == dot {
 		$char: "" + "/" + E07E + "";
 	}
-	@if $filename == edit-outline {
+	@if $filename == draft {
 		$char: "" + "/" + E07F + "";
 	}
-	@if $filename == edit-paste {
+	@if $filename == edit-copy {
 		$char: "" + "/" + E080 + "";
 	}
-	@if $filename == edit-redo {
+	@if $filename == edit-cut {
 		$char: "" + "/" + E081 + "";
 	}
-	@if $filename == edit-remove {
+	@if $filename == edit-delete {
 		$char: "" + "/" + E082 + "";
 	}
-	@if $filename == edit-rename {
+	@if $filename == edit-outline {
 		$char: "" + "/" + E083 + "";
 	}
-	@if $filename == edit-undo {
+	@if $filename == edit-paste {
 		$char: "" + "/" + E084 + "";
 	}
-	@if $filename == edit {
+	@if $filename == edit-redo {
 		$char: "" + "/" + E085 + "";
 	}
-	@if $filename == editor-list-bullet {
+	@if $filename == edit-remove {
 		$char: "" + "/" + E086 + "";
 	}
-	@if $filename == education {
+	@if $filename == edit-rename {
 		$char: "" + "/" + E087 + "";
 	}
-	@if $filename == ellipsis-vertical {
+	@if $filename == edit-undo {
 		$char: "" + "/" + E088 + "";
 	}
-	@if $filename == ellipsis {
+	@if $filename == edit {
 		$char: "" + "/" + E089 + "";
 	}
-	@if $filename == engineering-group {
+	@if $filename == editor-list-bullet {
 		$char: "" + "/" + E08A + "";
 	}
-	@if $filename == environment {
+	@if $filename == education {
 		$char: "" + "/" + E08B + "";
 	}
-	@if $filename == fast-backward-fill {
+	@if $filename == ellipsis-vertical {
 		$char: "" + "/" + E08C + "";
 	}
-	@if $filename == fast-backward {
+	@if $filename == ellipsis {
 		$char: "" + "/" + E08D + "";
 	}
-	@if $filename == fast-forward-fill {
+	@if $filename == engineering-group {
 		$char: "" + "/" + E08E + "";
 	}
-	@if $filename == fast-forward {
+	@if $filename == environment {
 		$char: "" + "/" + E08F + "";
 	}
-	@if $filename == favorite-outline {
+	@if $filename == fast-backward-fill {
 		$char: "" + "/" + E090 + "";
 	}
-	@if $filename == favorite {
+	@if $filename == fast-backward {
 		$char: "" + "/" + E091 + "";
 	}
-	@if $filename == feed {
+	@if $filename == fast-forward-fill {
 		$char: "" + "/" + E092 + "";
 	}
-	@if $filename == feedback-negative-outline {
+	@if $filename == fast-forward {
 		$char: "" + "/" + E093 + "";
 	}
-	@if $filename == feedback-negative {
+	@if $filename == favorite-outline {
 		$char: "" + "/" + E094 + "";
 	}
-	@if $filename == feedback-positive-outline {
+	@if $filename == favorite {
 		$char: "" + "/" + E095 + "";
 	}
-	@if $filename == feedback-positive {
+	@if $filename == feed {
 		$char: "" + "/" + E096 + "";
 	}
-	@if $filename == file-bug {
+	@if $filename == feedback-negative-outline {
 		$char: "" + "/" + E097 + "";
 	}
-	@if $filename == file-code {
+	@if $filename == feedback-negative {
 		$char: "" + "/" + E098 + "";
 	}
-	@if $filename == file-comment {
+	@if $filename == feedback-positive-outline {
 		$char: "" + "/" + E099 + "";
 	}
-	@if $filename == file-content {
+	@if $filename == feedback-positive {
 		$char: "" + "/" + E09A + "";
 	}
-	@if $filename == file-image {
+	@if $filename == file-bug {
 		$char: "" + "/" + E09B + "";
 	}
-	@if $filename == file-preview {
+	@if $filename == file-code {
 		$char: "" + "/" + E09C + "";
 	}
-	@if $filename == file-stack {
+	@if $filename == file-comment {
 		$char: "" + "/" + E09D + "";
 	}
-	@if $filename == file-symlink {
+	@if $filename == file-content {
 		$char: "" + "/" + E09E + "";
 	}
-	@if $filename == file-type-aspx {
+	@if $filename == file-image {
 		$char: "" + "/" + E09F + "";
 	}
-	@if $filename == file-type-cmd {
+	@if $filename == file-preview {
 		$char: "" + "/" + E0A0 + "";
 	}
-	@if $filename == file-type-coffeescript {
+	@if $filename == file-stack {
 		$char: "" + "/" + E0A1 + "";
 	}
-	@if $filename == file-type-cpp {
+	@if $filename == file-symlink {
 		$char: "" + "/" + E0A2 + "";
 	}
-	@if $filename == file-type-cs {
+	@if $filename == file-type-aspx {
 		$char: "" + "/" + E0A3 + "";
 	}
-	@if $filename == file-type-csproj {
+	@if $filename == file-type-cmd {
 		$char: "" + "/" + E0A4 + "";
 	}
-	@if $filename == file-type-css {
+	@if $filename == file-type-coffeescript {
 		$char: "" + "/" + E0A5 + "";
 	}
-	@if $filename == file-type-fs {
+	@if $filename == file-type-cpp {
 		$char: "" + "/" + E0A6 + "";
 	}
-	@if $filename == file-type-fsproj {
+	@if $filename == file-type-cs {
 		$char: "" + "/" + E0A7 + "";
 	}
-	@if $filename == file-type-html {
+	@if $filename == file-type-csproj {
 		$char: "" + "/" + E0A8 + "";
 	}
-	@if $filename == file-type-java-1 {
+	@if $filename == file-type-css {
 		$char: "" + "/" + E0A9 + "";
 	}
-	@if $filename == file-type-java {
+	@if $filename == file-type-fs {
 		$char: "" + "/" + E0AA + "";
 	}
-	@if $filename == file-type-js {
+	@if $filename == file-type-fsproj {
 		$char: "" + "/" + E0AB + "";
 	}
-	@if $filename == file-type-json {
+	@if $filename == file-type-html {
 		$char: "" + "/" + E0AC + "";
 	}
-	@if $filename == file-type-jsproj {
+	@if $filename == file-type-java-1 {
 		$char: "" + "/" + E0AD + "";
 	}
-	@if $filename == file-type-less {
+	@if $filename == file-type-java {
 		$char: "" + "/" + E0AE + "";
 	}
-	@if $filename == file-type-md {
+	@if $filename == file-type-js {
 		$char: "" + "/" + E0AF + "";
 	}
-	@if $filename == file-type-pdb {
+	@if $filename == file-type-json {
 		$char: "" + "/" + E0B0 + "";
 	}
-	@if $filename == file-type-powershell {
+	@if $filename == file-type-jsproj {
 		$char: "" + "/" + E0B1 + "";
 	}
-	@if $filename == file-type-pyproj {
+	@if $filename == file-type-less {
 		$char: "" + "/" + E0B2 + "";
 	}
-	@if $filename == file-type-python {
+	@if $filename == file-type-md {
 		$char: "" + "/" + E0B3 + "";
 	}
-	@if $filename == file-type-sass {
+	@if $filename == file-type-pdb {
 		$char: "" + "/" + E0B4 + "";
 	}
-	@if $filename == file-type-settings {
+	@if $filename == file-type-powershell {
 		$char: "" + "/" + E0B5 + "";
 	}
-	@if $filename == file-type-sln {
+	@if $filename == file-type-pyproj {
 		$char: "" + "/" + E0B6 + "";
 	}
-	@if $filename == file-type-sql {
+	@if $filename == file-type-python {
 		$char: "" + "/" + E0B7 + "";
 	}
-	@if $filename == file-type-template {
+	@if $filename == file-type-sass {
 		$char: "" + "/" + E0B8 + "";
 	}
-	@if $filename == file-type-typescript {
+	@if $filename == file-type-settings {
 		$char: "" + "/" + E0B9 + "";
 	}
-	@if $filename == file-type-vb {
+	@if $filename == file-type-sln {
 		$char: "" + "/" + E0BA + "";
 	}
-	@if $filename == file-type-vbproj {
+	@if $filename == file-type-sql {
 		$char: "" + "/" + E0BB + "";
 	}
-	@if $filename == file-type-vcxproj {
+	@if $filename == file-type-template {
 		$char: "" + "/" + E0BC + "";
 	}
-	@if $filename == file-type-xml {
+	@if $filename == file-type-typescript {
 		$char: "" + "/" + E0BD + "";
 	}
-	@if $filename == file-type-zip {
+	@if $filename == file-type-vb {
 		$char: "" + "/" + E0BE + "";
 	}
-	@if $filename == file {
+	@if $filename == file-type-vbproj {
 		$char: "" + "/" + E0BF + "";
 	}
-	@if $filename == financial {
+	@if $filename == file-type-vcxproj {
 		$char: "" + "/" + E0C0 + "";
 	}
-	@if $filename == fold-less {
+	@if $filename == file-type-xml {
 		$char: "" + "/" + E0C1 + "";
 	}
-	@if $filename == fold-more {
+	@if $filename == file-type-zip {
 		$char: "" + "/" + E0C2 + "";
 	}
-	@if $filename == folder-plan {
+	@if $filename == file {
 		$char: "" + "/" + E0C3 + "";
 	}
-	@if $filename == folder-query {
+	@if $filename == financial {
 		$char: "" + "/" + E0C4 + "";
 	}
-	@if $filename == folder {
+	@if $filename == fold-less {
 		$char: "" + "/" + E0C5 + "";
 	}
-	@if $filename == format-bold {
+	@if $filename == fold-more {
 		$char: "" + "/" + E0C6 + "";
 	}
-	@if $filename == format-clear {
+	@if $filename == folder-plan {
 		$char: "" + "/" + E0C7 + "";
 	}
-	@if $filename == format-font-color {
+	@if $filename == folder-query {
 		$char: "" + "/" + E0C8 + "";
 	}
-	@if $filename == format-font-size {
+	@if $filename == folder {
 		$char: "" + "/" + E0C9 + "";
 	}
-	@if $filename == format-font {
+	@if $filename == format-bold {
 		$char: "" + "/" + E0CA + "";
 	}
-	@if $filename == format-indent-decrease {
+	@if $filename == format-clear {
 		$char: "" + "/" + E0CB + "";
 	}
-	@if $filename == format-indent-increase {
+	@if $filename == format-font-color {
 		$char: "" + "/" + E0CC + "";
 	}
-	@if $filename == format-italic {
+	@if $filename == format-font-size {
 		$char: "" + "/" + E0CD + "";
 	}
-	@if $filename == format-list-ordered {
+	@if $filename == format-font {
 		$char: "" + "/" + E0CE + "";
 	}
-	@if $filename == format-list-unordered {
+	@if $filename == format-indent-decrease {
 		$char: "" + "/" + E0CF + "";
 	}
-	@if $filename == format-underline {
+	@if $filename == format-indent-increase {
 		$char: "" + "/" + E0D0 + "";
 	}
-	@if $filename == full-history {
+	@if $filename == format-italic {
 		$char: "" + "/" + E0D1 + "";
 	}
-	@if $filename == game {
+	@if $filename == format-list-ordered {
 		$char: "" + "/" + E0D2 + "";
 	}
-	@if $filename == giftbox-open {
+	@if $filename == format-list-unordered {
 		$char: "" + "/" + E0D3 + "";
 	}
-	@if $filename == git-graph {
+	@if $filename == format-underline {
 		$char: "" + "/" + E0D4 + "";
 	}
-	@if $filename == globe {
+	@if $filename == full-history {
 		$char: "" + "/" + E0D5 + "";
 	}
-	@if $filename == group-rows {
+	@if $filename == game {
 		$char: "" + "/" + E0D6 + "";
 	}
-	@if $filename == group {
+	@if $filename == giftbox-open {
 		$char: "" + "/" + E0D7 + "";
 	}
-	@if $filename == headsets {
+	@if $filename == git-graph {
 		$char: "" + "/" + E0D8 + "";
 	}
-	@if $filename == health-alt {
+	@if $filename == globe {
 		$char: "" + "/" + E0D9 + "";
 	}
-	@if $filename == health {
+	@if $filename == group-rows {
 		$char: "" + "/" + E0DA + "";
 	}
-	@if $filename == heart-fill {
+	@if $filename == group {
 		$char: "" + "/" + E0DB + "";
 	}
-	@if $filename == heart {
+	@if $filename == headsets {
 		$char: "" + "/" + E0DC + "";
 	}
-	@if $filename == home-fill {
+	@if $filename == health-alt {
 		$char: "" + "/" + E0DD + "";
 	}
-	@if $filename == home {
+	@if $filename == health {
 		$char: "" + "/" + E0DE + "";
 	}
-	@if $filename == image-action-log {
+	@if $filename == heart-fill {
 		$char: "" + "/" + E0DF + "";
 	}
-	@if $filename == image {
+	@if $filename == heart {
 		$char: "" + "/" + E0E0 + "";
 	}
-	@if $filename == install-to-drive {
+	@if $filename == home-fill {
 		$char: "" + "/" + E0E1 + "";
 	}
-	@if $filename == install {
+	@if $filename == home {
 		$char: "" + "/" + E0E2 + "";
 	}
-	@if $filename == javascript {
+	@if $filename == image-action-log {
 		$char: "" + "/" + E0E3 + "";
 	}
-	@if $filename == laptop-selected {
+	@if $filename == image {
 		$char: "" + "/" + E0E4 + "";
 	}
-	@if $filename == lightbulb {
+	@if $filename == install-to-drive {
 		$char: "" + "/" + E0E5 + "";
 	}
-	@if $filename == link-remove {
+	@if $filename == install {
 		$char: "" + "/" + E0E6 + "";
 	}
-	@if $filename == link {
+	@if $filename == javascript {
 		$char: "" + "/" + E0E7 + "";
 	}
-	@if $filename == live-update-feed-off {
+	@if $filename == laptop-selected {
 		$char: "" + "/" + E0E8 + "";
 	}
-	@if $filename == live-update-feed {
+	@if $filename == lightbulb {
 		$char: "" + "/" + E0E9 + "";
 	}
-	@if $filename == locale-language {
+	@if $filename == link-remove {
 		$char: "" + "/" + E0EA + "";
 	}
-	@if $filename == locale-timezone {
+	@if $filename == link {
 		$char: "" + "/" + E0EB + "";
 	}
-	@if $filename == lock {
+	@if $filename == live-update-feed-off {
 		$char: "" + "/" + E0EC + "";
 	}
-	@if $filename == log-remove {
+	@if $filename == live-update-feed {
 		$char: "" + "/" + E0ED + "";
 	}
-	@if $filename == log {
+	@if $filename == locale-language {
 		$char: "" + "/" + E0EE + "";
 	}
-	@if $filename == mail-message-fill {
+	@if $filename == locale-timezone {
 		$char: "" + "/" + E0EF + "";
 	}
-	@if $filename == mail-message {
+	@if $filename == lock {
 		$char: "" + "/" + E0F0 + "";
 	}
-	@if $filename == manufacture {
+	@if $filename == log-remove {
 		$char: "" + "/" + E0F1 + "";
 	}
-	@if $filename == map-destination-fill {
+	@if $filename == log {
 		$char: "" + "/" + E0F2 + "";
 	}
-	@if $filename == map-destination {
+	@if $filename == mail-message-fill {
 		$char: "" + "/" + E0F3 + "";
 	}
-	@if $filename == map-pin-fill {
+	@if $filename == mail-message {
 		$char: "" + "/" + E0F4 + "";
 	}
-	@if $filename == map-pin {
+	@if $filename == manufacture {
 		$char: "" + "/" + E0F5 + "";
 	}
-	@if $filename == math-minus-box-light {
+	@if $filename == map-destination-fill {
 		$char: "" + "/" + E0F6 + "";
 	}
-	@if $filename == math-minus-box {
+	@if $filename == map-destination {
 		$char: "" + "/" + E0F7 + "";
 	}
-	@if $filename == math-minus-circle-outline {
+	@if $filename == map-pin-fill {
 		$char: "" + "/" + E0F8 + "";
 	}
-	@if $filename == math-minus-circle {
+	@if $filename == map-pin {
 		$char: "" + "/" + E0F9 + "";
 	}
-	@if $filename == math-minus-light {
+	@if $filename == math-minus-box-light {
 		$char: "" + "/" + E0FA + "";
 	}
-	@if $filename == math-minus {
+	@if $filename == math-minus-box {
 		$char: "" + "/" + E0FB + "";
 	}
-	@if $filename == math-multiply-box-light {
+	@if $filename == math-minus-circle-outline {
 		$char: "" + "/" + E0FC + "";
 	}
-	@if $filename == math-multiply-box-outline {
+	@if $filename == math-minus-circle {
 		$char: "" + "/" + E0FD + "";
 	}
-	@if $filename == math-multiply-box {
+	@if $filename == math-minus-light {
 		$char: "" + "/" + E0FE + "";
 	}
-	@if $filename == math-multiply-light {
+	@if $filename == math-minus {
 		$char: "" + "/" + E0FF + "";
 	}
-	@if $filename == math-multiply {
+	@if $filename == math-multiply-box-light {
 		$char: "" + "/" + E100 + "";
 	}
-	@if $filename == math-plus-box-light {
+	@if $filename == math-multiply-box-outline {
 		$char: "" + "/" + E101 + "";
 	}
-	@if $filename == math-plus-box {
+	@if $filename == math-multiply-box {
 		$char: "" + "/" + E102 + "";
 	}
-	@if $filename == math-plus-circle-outline {
+	@if $filename == math-multiply-light {
 		$char: "" + "/" + E103 + "";
 	}
-	@if $filename == math-plus-circle {
+	@if $filename == math-multiply {
 		$char: "" + "/" + E104 + "";
 	}
-	@if $filename == math-plus-heavy {
+	@if $filename == math-plus-box-light {
 		$char: "" + "/" + E105 + "";
 	}
-	@if $filename == math-plus-light {
+	@if $filename == math-plus-box {
 		$char: "" + "/" + E106 + "";
 	}
-	@if $filename == math-plus {
+	@if $filename == math-plus-circle-outline {
 		$char: "" + "/" + E107 + "";
 	}
-	@if $filename == media-play-fill {
+	@if $filename == math-plus-circle {
 		$char: "" + "/" + E108 + "";
 	}
-	@if $filename == media-play {
+	@if $filename == math-plus-heavy {
 		$char: "" + "/" + E109 + "";
 	}
-	@if $filename == menu {
+	@if $filename == math-plus-light {
 		$char: "" + "/" + E10A + "";
 	}
-	@if $filename == merge-duplicate {
+	@if $filename == math-plus {
 		$char: "" + "/" + E10B + "";
 	}
-	@if $filename == msn-video {
+	@if $filename == media-play-fill {
 		$char: "" + "/" + E10C + "";
 	}
-	@if $filename == navigate-back-circle {
+	@if $filename == media-play {
 		$char: "" + "/" + E10D + "";
 	}
-	@if $filename == navigate-back-disc {
+	@if $filename == menu {
 		$char: "" + "/" + E10E + "";
 	}
-	@if $filename == navigate-close {
+	@if $filename == merge-duplicate {
 		$char: "" + "/" + E10F + "";
 	}
-	@if $filename == navigate-external {
+	@if $filename == msn-video {
 		$char: "" + "/" + E110 + "";
 	}
-	@if $filename == navigate-forward-circle {
+	@if $filename == navigate-back-circle {
 		$char: "" + "/" + E111 + "";
 	}
-	@if $filename == navigate-forward-disc {
+	@if $filename == navigate-back-disc {
 		$char: "" + "/" + E112 + "";
 	}
-	@if $filename == navigate-history {
+	@if $filename == navigate-close {
 		$char: "" + "/" + E113 + "";
 	}
-	@if $filename == navigate-refresh {
+	@if $filename == navigate-external {
 		$char: "" + "/" + E114 + "";
 	}
-	@if $filename == network-tower {
+	@if $filename == navigate-forward-circle {
 		$char: "" + "/" + E115 + "";
 	}
-	@if $filename == new-team-project {
+	@if $filename == navigate-forward-disc {
 		$char: "" + "/" + E116 + "";
 	}
-	@if $filename == news {
+	@if $filename == navigate-history {
 		$char: "" + "/" + E117 + "";
 	}
-	@if $filename == next-frame-fill {
+	@if $filename == navigate-refresh {
 		$char: "" + "/" + E118 + "";
 	}
-	@if $filename == next-frame {
+	@if $filename == network-tower {
 		$char: "" + "/" + E119 + "";
 	}
-	@if $filename == node {
+	@if $filename == new-team-project {
 		$char: "" + "/" + E11A + "";
 	}
-	@if $filename == notification-off {
+	@if $filename == news {
 		$char: "" + "/" + E11B + "";
 	}
-	@if $filename == notification {
+	@if $filename == next-frame-fill {
 		$char: "" + "/" + E11C + "";
 	}
-	@if $filename == office-logo {
+	@if $filename == next-frame {
 		$char: "" + "/" + E11D + "";
 	}
-	@if $filename == org-branch {
+	@if $filename == node {
 		$char: "" + "/" + E11E + "";
 	}
-	@if $filename == package-2 {
+	@if $filename == notification-off {
 		$char: "" + "/" + E11F + "";
 	}
-	@if $filename == package-feed-local {
+	@if $filename == notification {
 		$char: "" + "/" + E120 + "";
 	}
-	@if $filename == package-feed-mix {
+	@if $filename == office-logo {
 		$char: "" + "/" + E121 + "";
 	}
-	@if $filename == package-feed-remote {
+	@if $filename == org-branch {
 		$char: "" + "/" + E122 + "";
 	}
-	@if $filename == package-fill {
+	@if $filename == package-2 {
 		$char: "" + "/" + E123 + "";
 	}
-	@if $filename == package {
+	@if $filename == package-feed-local {
 		$char: "" + "/" + E124 + "";
 	}
-	@if $filename == packages {
+	@if $filename == package-feed-mix {
 		$char: "" + "/" + E125 + "";
 	}
-	@if $filename == parameter {
+	@if $filename == package-feed-remote {
 		$char: "" + "/" + E126 + "";
 	}
-	@if $filename == pause-fill {
+	@if $filename == package-fill {
 		$char: "" + "/" + E127 + "";
 	}
-	@if $filename == pause {
+	@if $filename == package {
 		$char: "" + "/" + E128 + "";
 	}
-	@if $filename == people-add {
+	@if $filename == packages {
 		$char: "" + "/" + E129 + "";
 	}
-	@if $filename == personalize {
+	@if $filename == parameter {
 		$char: "" + "/" + E12A + "";
 	}
-	@if $filename == pin-fill {
+	@if $filename == pause-fill {
 		$char: "" + "/" + E12B + "";
 	}
-	@if $filename == pin-pinned-fill {
+	@if $filename == pause {
 		$char: "" + "/" + E12C + "";
 	}
-	@if $filename == pin-pinned {
+	@if $filename == people-add {
 		$char: "" + "/" + E12D + "";
 	}
-	@if $filename == pin-unpin-fill {
+	@if $filename == personalize {
 		$char: "" + "/" + E12E + "";
 	}
-	@if $filename == pin-unpin {
+	@if $filename == pin-fill {
 		$char: "" + "/" + E12F + "";
 	}
-	@if $filename == pin {
+	@if $filename == pin-pinned-fill {
 		$char: "" + "/" + E130 + "";
 	}
-	@if $filename == placeholder {
+	@if $filename == pin-pinned {
 		$char: "" + "/" + E131 + "";
 	}
-	@if $filename == plan {
+	@if $filename == pin-unpin-fill {
 		$char: "" + "/" + E132 + "";
 	}
-	@if $filename == play-fill {
+	@if $filename == pin-unpin {
 		$char: "" + "/" + E133 + "";
 	}
-	@if $filename == play-resume-fill {
+	@if $filename == pin {
 		$char: "" + "/" + E134 + "";
 	}
-	@if $filename == play-resume {
+	@if $filename == placeholder {
 		$char: "" + "/" + E135 + "";
 	}
-	@if $filename == play {
+	@if $filename == plan {
 		$char: "" + "/" + E136 + "";
 	}
-	@if $filename == plug-connected {
+	@if $filename == play-fill {
 		$char: "" + "/" + E137 + "";
 	}
-	@if $filename == plug-disconnected-fill {
+	@if $filename == play-resume-fill {
 		$char: "" + "/" + E138 + "";
 	}
-	@if $filename == plug-outline {
+	@if $filename == play-resume {
 		$char: "" + "/" + E139 + "";
 	}
-	@if $filename == plug {
+	@if $filename == play {
 		$char: "" + "/" + E13A + "";
 	}
-	@if $filename == policy {
+	@if $filename == plug-connected {
 		$char: "" + "/" + E13B + "";
 	}
-	@if $filename == previous-frame-fill {
+	@if $filename == plug-disconnected-fill {
 		$char: "" + "/" + E13C + "";
 	}
-	@if $filename == previous-frame {
+	@if $filename == plug-outline {
 		$char: "" + "/" + E13D + "";
 	}
-	@if $filename == print {
+	@if $filename == plug {
 		$char: "" + "/" + E13E + "";
 	}
-	@if $filename == process-meta-task {
+	@if $filename == policy {
 		$char: "" + "/" + E13F + "";
 	}
-	@if $filename == process {
+	@if $filename == previous-frame-fill {
 		$char: "" + "/" + E140 + "";
 	}
-	@if $filename == project-collection {
+	@if $filename == previous-frame {
 		$char: "" + "/" + E141 + "";
 	}
-	@if $filename == query-list {
+	@if $filename == print {
 		$char: "" + "/" + E142 + "";
 	}
-	@if $filename == quicknote {
+	@if $filename == process-meta-task {
 		$char: "" + "/" + E143 + "";
 	}
-	@if $filename == r-development {
+	@if $filename == process {
 		$char: "" + "/" + E144 + "";
 	}
-	@if $filename == radio-button-empty {
+	@if $filename == project-collection {
 		$char: "" + "/" + E145 + "";
 	}
-	@if $filename == radio-button {
+	@if $filename == query-list {
 		$char: "" + "/" + E146 + "";
 	}
-	@if $filename == record-fill {
+	@if $filename == quicknote {
 		$char: "" + "/" + E147 + "";
 	}
-	@if $filename == record {
+	@if $filename == r-development {
 		$char: "" + "/" + E148 + "";
 	}
-	@if $filename == recycle-bin-restore {
+	@if $filename == radio-button-empty {
 		$char: "" + "/" + E149 + "";
 	}
-	@if $filename == recycle-bin {
+	@if $filename == radio-button {
 		$char: "" + "/" + E14A + "";
 	}
-	@if $filename == recycle {
+	@if $filename == record-fill {
 		$char: "" + "/" + E14B + "";
 	}
-	@if $filename == redeploy {
+	@if $filename == record {
 		$char: "" + "/" + E14C + "";
 	}
-	@if $filename == reminder-group {
+	@if $filename == recycle-bin-restore {
 		$char: "" + "/" + E14D + "";
 	}
-	@if $filename == repo-fill {
+	@if $filename == recycle-bin {
 		$char: "" + "/" + E14E + "";
 	}
-	@if $filename == repo-git {
+	@if $filename == recycle {
 		$char: "" + "/" + E14F + "";
 	}
-	@if $filename == repo-submodule {
+	@if $filename == redeploy {
 		$char: "" + "/" + E150 + "";
 	}
-	@if $filename == repo-tfvc {
+	@if $filename == reminder-group {
 		$char: "" + "/" + E151 + "";
 	}
-	@if $filename == repo {
+	@if $filename == repo-fill {
 		$char: "" + "/" + E152 + "";
 	}
-	@if $filename == report-document {
+	@if $filename == repo-git {
 		$char: "" + "/" + E153 + "";
 	}
-	@if $filename == resize-grip {
+	@if $filename == repo-submodule {
 		$char: "" + "/" + E154 + "";
 	}
-	@if $filename == ribbon-2 {
+	@if $filename == repo-tfvc {
 		$char: "" + "/" + E155 + "";
 	}
-	@if $filename == robot {
+	@if $filename == repo {
 		$char: "" + "/" + E156 + "";
 	}
-	@if $filename == rocket {
+	@if $filename == report-document {
 		$char: "" + "/" + E157 + "";
 	}
-	@if $filename == row-child {
+	@if $filename == resize-grip {
 		$char: "" + "/" + E158 + "";
 	}
-	@if $filename == save-all {
+	@if $filename == ribbon-2 {
 		$char: "" + "/" + E159 + "";
 	}
-	@if $filename == save-as {
+	@if $filename == robot {
 		$char: "" + "/" + E15A + "";
 	}
-	@if $filename == save-close {
+	@if $filename == rocket {
 		$char: "" + "/" + E15B + "";
 	}
-	@if $filename == save {
+	@if $filename == row-child {
 		$char: "" + "/" + E15C + "";
 	}
-	@if $filename == scope-template {
+	@if $filename == save-all {
 		$char: "" + "/" + E15D + "";
 	}
-	@if $filename == script {
+	@if $filename == save-as {
 		$char: "" + "/" + E15E + "";
 	}
-	@if $filename == search-filter-fill {
+	@if $filename == save-close {
 		$char: "" + "/" + E15F + "";
 	}
-	@if $filename == search-filter {
+	@if $filename == save {
 		$char: "" + "/" + E160 + "";
 	}
-	@if $filename == search-in-branch {
+	@if $filename == scope-template {
 		$char: "" + "/" + E161 + "";
 	}
-	@if $filename == search {
+	@if $filename == script {
 		$char: "" + "/" + E162 + "";
 	}
-	@if $filename == security-access {
+	@if $filename == search-filter-fill {
 		$char: "" + "/" + E163 + "";
 	}
-	@if $filename == security-lock-fill {
+	@if $filename == search-filter {
 		$char: "" + "/" + E164 + "";
 	}
-	@if $filename == security-lock {
+	@if $filename == search-in-branch {
 		$char: "" + "/" + E165 + "";
 	}
-	@if $filename == security-unlock-fill {
+	@if $filename == search {
 		$char: "" + "/" + E166 + "";
 	}
-	@if $filename == security-unlock {
+	@if $filename == security-access {
 		$char: "" + "/" + E167 + "";
 	}
-	@if $filename == security {
+	@if $filename == security-lock-fill {
 		$char: "" + "/" + E168 + "";
 	}
-	@if $filename == send {
+	@if $filename == security-lock {
 		$char: "" + "/" + E169 + "";
 	}
-	@if $filename == separator {
+	@if $filename == security-unlock-fill {
 		$char: "" + "/" + E16A + "";
 	}
-	@if $filename == server-environment {
+	@if $filename == security-unlock {
 		$char: "" + "/" + E16B + "";
 	}
-	@if $filename == server-remote {
+	@if $filename == security {
 		$char: "" + "/" + E16C + "";
 	}
-	@if $filename == server {
+	@if $filename == send {
 		$char: "" + "/" + E16D + "";
 	}
-	@if $filename == set-actions {
+	@if $filename == separator {
 		$char: "" + "/" + E16E + "";
 	}
-	@if $filename == settings-gear-outline {
+	@if $filename == server-environment {
 		$char: "" + "/" + E16F + "";
 	}
-	@if $filename == settings-gear {
+	@if $filename == server-remote {
 		$char: "" + "/" + E170 + "";
 	}
-	@if $filename == settings-wrench {
+	@if $filename == server {
 		$char: "" + "/" + E171 + "";
 	}
-	@if $filename == share {
+	@if $filename == set-actions {
 		$char: "" + "/" + E172 + "";
 	}
-	@if $filename == shield-outline {
+	@if $filename == settings-gear-outline {
 		$char: "" + "/" + E173 + "";
 	}
-	@if $filename == shield {
+	@if $filename == settings-gear {
 		$char: "" + "/" + E174 + "";
 	}
-	@if $filename == shop-server {
+	@if $filename == settings-wrench {
 		$char: "" + "/" + E175 + "";
 	}
-	@if $filename == shop {
+	@if $filename == share {
 		$char: "" + "/" + E176 + "";
 	}
-	@if $filename == shopping-cart-fill {
+	@if $filename == shield-outline {
 		$char: "" + "/" + E177 + "";
 	}
-	@if $filename == shopping-cart {
+	@if $filename == shield {
 		$char: "" + "/" + E178 + "";
 	}
-	@if $filename == smartphone-selected {
+	@if $filename == shop-server {
 		$char: "" + "/" + E179 + "";
 	}
-	@if $filename == sort-asc {
+	@if $filename == shop {
 		$char: "" + "/" + E17A + "";
 	}
-	@if $filename == sort-desc {
+	@if $filename == shopping-cart-fill {
 		$char: "" + "/" + E17B + "";
 	}
-	@if $filename == sort {
+	@if $filename == shopping-cart {
 		$char: "" + "/" + E17C + "";
 	}
-	@if $filename == spinner {
+	@if $filename == smartphone-selected {
 		$char: "" + "/" + E17D + "";
 	}
-	@if $filename == split {
+	@if $filename == sort-asc {
 		$char: "" + "/" + E17E + "";
 	}
-	@if $filename == sprint {
+	@if $filename == sort-desc {
 		$char: "" + "/" + E17F + "";
 	}
-	@if $filename == square {
+	@if $filename == sort {
 		$char: "" + "/" + E180 + "";
 	}
-	@if $filename == star-half {
+	@if $filename == spinner {
 		$char: "" + "/" + E181 + "";
 	}
-	@if $filename == status-error-outline {
+	@if $filename == split {
 		$char: "" + "/" + E182 + "";
 	}
-	@if $filename == status-error {
+	@if $filename == sprint {
 		$char: "" + "/" + E183 + "";
 	}
-	@if $filename == status-failure-outline {
+	@if $filename == square {
 		$char: "" + "/" + E184 + "";
 	}
-	@if $filename == status-failure {
+	@if $filename == star-half {
 		$char: "" + "/" + E185 + "";
 	}
-	@if $filename == status-help-outline {
+	@if $filename == status-error-outline {
 		$char: "" + "/" + E186 + "";
 	}
-	@if $filename == status-help {
+	@if $filename == status-error {
 		$char: "" + "/" + E187 + "";
 	}
-	@if $filename == status-info-outline {
+	@if $filename == status-failure-outline {
 		$char: "" + "/" + E188 + "";
 	}
-	@if $filename == status-info {
+	@if $filename == status-failure {
 		$char: "" + "/" + E189 + "";
 	}
-	@if $filename == status-no-fill {
+	@if $filename == status-help-outline {
 		$char: "" + "/" + E18A + "";
 	}
-	@if $filename == status-no {
+	@if $filename == status-help {
 		$char: "" + "/" + E18B + "";
 	}
-	@if $filename == status-pause-outline {
+	@if $filename == status-info-outline {
 		$char: "" + "/" + E18C + "";
 	}
-	@if $filename == status-pause {
+	@if $filename == status-info {
 		$char: "" + "/" + E18D + "";
 	}
-	@if $filename == status-run-box {
+	@if $filename == status-no-fill {
 		$char: "" + "/" + E18E + "";
 	}
-	@if $filename == status-run-outline {
+	@if $filename == status-no {
 		$char: "" + "/" + E18F + "";
 	}
-	@if $filename == status-run {
+	@if $filename == status-pause-outline {
 		$char: "" + "/" + E190 + "";
 	}
-	@if $filename == status-stop-outline {
+	@if $filename == status-pause {
 		$char: "" + "/" + E191 + "";
 	}
-	@if $filename == status-stop {
+	@if $filename == status-run-box {
 		$char: "" + "/" + E192 + "";
 	}
-	@if $filename == status-success-box {
+	@if $filename == status-run-outline {
 		$char: "" + "/" + E193 + "";
 	}
-	@if $filename == status-success-outline {
+	@if $filename == status-run {
 		$char: "" + "/" + E194 + "";
 	}
-	@if $filename == status-success {
+	@if $filename == status-stop-outline {
 		$char: "" + "/" + E195 + "";
 	}
-	@if $filename == status-waiting-fill {
+	@if $filename == status-stop {
 		$char: "" + "/" + E196 + "";
 	}
-	@if $filename == status-waiting {
+	@if $filename == status-success-box {
 		$char: "" + "/" + E197 + "";
 	}
-	@if $filename == status-warning-outline {
+	@if $filename == status-success-outline {
 		$char: "" + "/" + E198 + "";
 	}
-	@if $filename == status-warning {
+	@if $filename == status-success {
 		$char: "" + "/" + E199 + "";
 	}
-	@if $filename == step-insert {
+	@if $filename == status-waiting-fill {
 		$char: "" + "/" + E19A + "";
 	}
-	@if $filename == step-shared-add {
+	@if $filename == status-waiting {
 		$char: "" + "/" + E19B + "";
 	}
-	@if $filename == step-shared-insert {
+	@if $filename == status-warning-outline {
 		$char: "" + "/" + E19C + "";
 	}
-	@if $filename == step-shared {
+	@if $filename == status-warning {
 		$char: "" + "/" + E19D + "";
 	}
-	@if $filename == step {
+	@if $filename == step-insert {
 		$char: "" + "/" + E19E + "";
 	}
-	@if $filename == stop-fill {
+	@if $filename == step-shared-add {
 		$char: "" + "/" + E19F + "";
 	}
-	@if $filename == stop {
+	@if $filename == step-shared-insert {
 		$char: "" + "/" + E1A0 + "";
 	}
-	@if $filename == stopwatch {
+	@if $filename == step-shared {
 		$char: "" + "/" + E1A1 + "";
 	}
-	@if $filename == storyboard {
+	@if $filename == step {
 		$char: "" + "/" + E1A2 + "";
 	}
-	@if $filename == subscribe {
+	@if $filename == stop-fill {
 		$char: "" + "/" + E1A3 + "";
 	}
-	@if $filename == switch {
+	@if $filename == stop {
 		$char: "" + "/" + E1A4 + "";
 	}
-	@if $filename == symbol-ask {
+	@if $filename == stopwatch {
 		$char: "" + "/" + E1A5 + "";
 	}
-	@if $filename == symbol-book {
+	@if $filename == storyboard {
 		$char: "" + "/" + E1A6 + "";
 	}
-	@if $filename == symbol-bug {
+	@if $filename == subscribe {
 		$char: "" + "/" + E1A7 + "";
 	}
-	@if $filename == symbol-crown {
+	@if $filename == switch {
 		$char: "" + "/" + E1A8 + "";
 	}
-	@if $filename == symbol-custom {
+	@if $filename == symbol-ask {
 		$char: "" + "/" + E1A9 + "";
 	}
-	@if $filename == symbol-flame {
+	@if $filename == symbol-book {
 		$char: "" + "/" + E1AA + "";
 	}
-	@if $filename == symbol-impediment {
+	@if $filename == symbol-bug {
 		$char: "" + "/" + E1AB + "";
 	}
-	@if $filename == symbol-list {
+	@if $filename == symbol-crown {
 		$char: "" + "/" + E1AC + "";
 	}
-	@if $filename == symbol-review {
+	@if $filename == symbol-custom {
 		$char: "" + "/" + E1AD + "";
 	}
-	@if $filename == symbol-stickynote {
+	@if $filename == symbol-flame {
 		$char: "" + "/" + E1AE + "";
 	}
-	@if $filename == symbol-task {
+	@if $filename == symbol-impediment {
 		$char: "" + "/" + E1AF + "";
 	}
-	@if $filename == symbol-trophy {
+	@if $filename == symbol-list {
 		$char: "" + "/" + E1B0 + "";
 	}
-	@if $filename == sync-user {
+	@if $filename == symbol-review {
 		$char: "" + "/" + E1B1 + "";
 	}
-	@if $filename == sync {
+	@if $filename == symbol-stickynote {
 		$char: "" + "/" + E1B2 + "";
 	}
-	@if $filename == table {
+	@if $filename == symbol-task {
 		$char: "" + "/" + E1B3 + "";
 	}
-	@if $filename == tablet-selected {
+	@if $filename == symbol-trophy {
 		$char: "" + "/" + E1B4 + "";
 	}
-	@if $filename == tag-fill {
+	@if $filename == sync-user {
 		$char: "" + "/" + E1B5 + "";
 	}
-	@if $filename == tag {
+	@if $filename == sync {
 		$char: "" + "/" + E1B6 + "";
 	}
-	@if $filename == task-group {
+	@if $filename == table {
 		$char: "" + "/" + E1B7 + "";
 	}
-	@if $filename == team-favorite {
+	@if $filename == tablet-selected {
 		$char: "" + "/" + E1B8 + "";
 	}
-	@if $filename == teamwork {
+	@if $filename == tag-fill {
 		$char: "" + "/" + E1B9 + "";
 	}
-	@if $filename == test-auto-fill {
+	@if $filename == tag {
 		$char: "" + "/" + E1BA + "";
 	}
-	@if $filename == test-auto {
+	@if $filename == task-group {
 		$char: "" + "/" + E1BB + "";
 	}
-	@if $filename == test-explore-fill {
+	@if $filename == team-favorite {
 		$char: "" + "/" + E1BC + "";
 	}
-	@if $filename == test-fill {
+	@if $filename == teamwork {
 		$char: "" + "/" + E1BD + "";
 	}
-	@if $filename == test-impact-fill {
+	@if $filename == test-auto-fill {
 		$char: "" + "/" + E1BE + "";
 	}
-	@if $filename == test-parameter {
+	@if $filename == test-auto {
 		$char: "" + "/" + E1BF + "";
 	}
-	@if $filename == test-plan {
+	@if $filename == test-explore-fill {
 		$char: "" + "/" + E1C0 + "";
 	}
-	@if $filename == test-step {
+	@if $filename == test-fill {
 		$char: "" + "/" + E1C1 + "";
 	}
-	@if $filename == test-suite {
+	@if $filename == test-impact-fill {
 		$char: "" + "/" + E1C2 + "";
 	}
-	@if $filename == test-user-fill {
+	@if $filename == test-parameter {
 		$char: "" + "/" + E1C3 + "";
 	}
-	@if $filename == test {
+	@if $filename == test-plan {
 		$char: "" + "/" + E1C4 + "";
 	}
-	@if $filename == tfvc-branch-locked {
+	@if $filename == test-step {
 		$char: "" + "/" + E1C5 + "";
 	}
-	@if $filename == tfvc-branch {
+	@if $filename == test-suite {
 		$char: "" + "/" + E1C6 + "";
 	}
-	@if $filename == tfvc-change-list {
+	@if $filename == test-user-fill {
 		$char: "" + "/" + E1C7 + "";
 	}
-	@if $filename == tfvc-commit {
+	@if $filename == test {
 		$char: "" + "/" + E1C8 + "";
 	}
-	@if $filename == tfvc-compare {
+	@if $filename == tfvc-branch-locked {
 		$char: "" + "/" + E1C9 + "";
 	}
-	@if $filename == tfvc-folder {
+	@if $filename == tfvc-branch {
 		$char: "" + "/" + E1CA + "";
 	}
-	@if $filename == tfvc-fork {
+	@if $filename == tfvc-change-list {
 		$char: "" + "/" + E1CB + "";
 	}
-	@if $filename == tfvc-merge {
+	@if $filename == tfvc-commit {
 		$char: "" + "/" + E1CC + "";
 	}
-	@if $filename == tfvc-pull-request {
+	@if $filename == tfvc-compare {
 		$char: "" + "/" + E1CD + "";
 	}
-	@if $filename == tfvc-raw-source {
+	@if $filename == tfvc-folder {
 		$char: "" + "/" + E1CE + "";
 	}
-	@if $filename == tfvc-shelveset {
+	@if $filename == tfvc-fork {
 		$char: "" + "/" + E1CF + "";
 	}
-	@if $filename == timeline-delivery {
+	@if $filename == tfvc-merge {
 		$char: "" + "/" + E1D0 + "";
 	}
-	@if $filename == timeline-matrix {
+	@if $filename == tfvc-pull-request {
 		$char: "" + "/" + E1D1 + "";
 	}
-	@if $filename == timeline-progress {
+	@if $filename == tfvc-raw-source {
 		$char: "" + "/" + E1D2 + "";
 	}
-	@if $filename == toggle-collapse-all {
+	@if $filename == tfvc-shelveset {
 		$char: "" + "/" + E1D3 + "";
 	}
-	@if $filename == toggle-collapse {
+	@if $filename == timeline-delivery {
 		$char: "" + "/" + E1D4 + "";
 	}
-	@if $filename == toggle-expand-all {
+	@if $filename == timeline-matrix {
 		$char: "" + "/" + E1D5 + "";
 	}
-	@if $filename == toggle-expand {
+	@if $filename == timeline-progress {
 		$char: "" + "/" + E1D6 + "";
 	}
-	@if $filename == toggle-tree-collapsed {
+	@if $filename == toggle-collapse-all {
 		$char: "" + "/" + E1D7 + "";
 	}
-	@if $filename == toggle-tree-expanded-outline {
+	@if $filename == toggle-collapse {
 		$char: "" + "/" + E1D8 + "";
 	}
-	@if $filename == toggle-tree-expanded {
+	@if $filename == toggle-expand-all {
 		$char: "" + "/" + E1D9 + "";
 	}
-	@if $filename == transfer-download {
+	@if $filename == toggle-expand {
 		$char: "" + "/" + E1DA + "";
 	}
-	@if $filename == transfer-upload {
+	@if $filename == toggle-tree-collapsed {
 		$char: "" + "/" + E1DB + "";
 	}
-	@if $filename == transition {
+	@if $filename == toggle-tree-expanded-outline {
 		$char: "" + "/" + E1DC + "";
 	}
-	@if $filename == trash {
+	@if $filename == toggle-tree-expanded {
 		$char: "" + "/" + E1DD + "";
 	}
-	@if $filename == triangle-down {
+	@if $filename == transfer-download {
 		$char: "" + "/" + E1DE + "";
 	}
-	@if $filename == triangle-left {
+	@if $filename == transfer-upload {
 		$char: "" + "/" + E1DF + "";
 	}
-	@if $filename == triangle-right {
+	@if $filename == transition {
 		$char: "" + "/" + E1E0 + "";
 	}
-	@if $filename == triangle-up {
+	@if $filename == trash {
 		$char: "" + "/" + E1E1 + "";
 	}
-	@if $filename == triangle {
+	@if $filename == triangle-down {
 		$char: "" + "/" + E1E2 + "";
 	}
-	@if $filename == trigger-auto {
+	@if $filename == triangle-left {
 		$char: "" + "/" + E1E3 + "";
 	}
-	@if $filename == trigger-user {
+	@if $filename == triangle-right {
 		$char: "" + "/" + E1E4 + "";
 	}
-	@if $filename == trigger {
+	@if $filename == triangle-up {
 		$char: "" + "/" + E1E5 + "";
 	}
-	@if $filename == tv-monitor-selected {
+	@if $filename == triangle {
 		$char: "" + "/" + E1E6 + "";
 	}
-	@if $filename == unpin-fill {
+	@if $filename == trigger-auto {
 		$char: "" + "/" + E1E7 + "";
 	}
-	@if $filename == unpin {
+	@if $filename == trigger-user {
 		$char: "" + "/" + E1E8 + "";
 	}
-	@if $filename == user-pause {
+	@if $filename == trigger {
 		$char: "" + "/" + E1E9 + "";
 	}
-	@if $filename == user-pending {
+	@if $filename == tv-monitor-selected {
 		$char: "" + "/" + E1EA + "";
 	}
-	@if $filename == user {
+	@if $filename == unpin-fill {
 		$char: "" + "/" + E1EB + "";
 	}
-	@if $filename == users {
+	@if $filename == unpin {
 		$char: "" + "/" + E1EC + "";
 	}
-	@if $filename == variable-group {
+	@if $filename == user-pause {
 		$char: "" + "/" + E1ED + "";
 	}
-	@if $filename == variable {
+	@if $filename == user-pending {
 		$char: "" + "/" + E1EE + "";
 	}
-	@if $filename == video {
+	@if $filename == user {
 		$char: "" + "/" + E1EF + "";
 	}
-	@if $filename == view-full-screen-exit {
+	@if $filename == users {
 		$char: "" + "/" + E1F0 + "";
 	}
-	@if $filename == view-full-screen {
+	@if $filename == variable-group {
 		$char: "" + "/" + E1F1 + "";
 	}
-	@if $filename == view-grid {
+	@if $filename == variable {
 		$char: "" + "/" + E1F2 + "";
 	}
-	@if $filename == view-list-tree {
+	@if $filename == video {
 		$char: "" + "/" + E1F3 + "";
 	}
-	@if $filename == view-list {
+	@if $filename == view-full-screen-exit {
 		$char: "" + "/" + E1F4 + "";
 	}
-	@if $filename == visual-studio {
+	@if $filename == view-full-screen {
 		$char: "" + "/" + E1F5 + "";
 	}
-	@if $filename == vs-app-center {
+	@if $filename == view-grid {
 		$char: "" + "/" + E1F6 + "";
 	}
-	@if $filename == vs-code {
+	@if $filename == view-list-tree {
 		$char: "" + "/" + E1F7 + "";
 	}
-	@if $filename == vs-ide {
+	@if $filename == view-list {
 		$char: "" + "/" + E1F8 + "";
 	}
-	@if $filename == vsts-alt-1 {
+	@if $filename == visual-studio {
 		$char: "" + "/" + E1F9 + "";
 	}
-	@if $filename == vsts-alt-2 {
+	@if $filename == vs-code {
 		$char: "" + "/" + E1FA + "";
 	}
-	@if $filename == vsts {
+	@if $filename == vs-ide {
 		$char: "" + "/" + E1FB + "";
 	}
-	@if $filename == watch-eye-fill {
+	@if $filename == vsAppCenter {
 		$char: "" + "/" + E1FC + "";
 	}
-	@if $filename == watch-eye-off {
+	@if $filename == vsts-alt-1 {
 		$char: "" + "/" + E1FD + "";
 	}
-	@if $filename == watch-eye {
+	@if $filename == vsts-alt-2 {
 		$char: "" + "/" + E1FE + "";
 	}
-	@if $filename == web-components {
+	@if $filename == vsts {
 		$char: "" + "/" + E1FF + "";
 	}
-	@if $filename == windows {
+	@if $filename == watch-eye-fill {
 		$char: "" + "/" + E200 + "";
 	}
-	@if $filename == work-item-bar-outline {
+	@if $filename == watch-eye-off {
 		$char: "" + "/" + E201 + "";
 	}
-	@if $filename == work-item-bar {
+	@if $filename == watch-eye {
 		$char: "" + "/" + E202 + "";
 	}
-	@if $filename == work-item-bug {
+	@if $filename == web-components {
 		$char: "" + "/" + E203 + "";
 	}
-	@if $filename == work-item-move {
+	@if $filename == windows {
 		$char: "" + "/" + E204 + "";
 	}
-	@if $filename == work-item {
+	@if $filename == work-item-bar-outline {
 		$char: "" + "/" + E205 + "";
 	}
-	@if $filename == world {
+	@if $filename == work-item-bar {
 		$char: "" + "/" + E206 + "";
+	}
+	@if $filename == work-item-bug {
+		$char: "" + "/" + E207 + "";
+	}
+	@if $filename == work-item-move {
+		$char: "" + "/" + E208 + "";
+	}
+	@if $filename == work-item {
+		$char: "" + "/" + E209 + "";
+	}
+	@if $filename == world {
+		$char: "" + "/" + E20A + "";
 	}
 
 	@return $char;
@@ -1695,6 +1707,12 @@
 .icon-brand-github {
 	@include icon(brand-github);
 }
+.icon-brand-java-cup {
+	@include icon(brand-java-cup);
+}
+.icon-brand-java {
+	@include icon(brand-java);
+}
 .icon-brand-maven {
 	@include icon(brand-maven);
 }
@@ -1707,8 +1725,14 @@
 .icon-brand-nuget {
 	@include icon(brand-nuget);
 }
+.icon-brand-react {
+	@include icon(brand-react);
+}
 .icon-brand-svn {
 	@include icon(brand-svn);
+}
+.icon-brand-swift {
+	@include icon(brand-swift);
 }
 .icon-brand-tfvc {
 	@include icon(brand-tfvc);
@@ -3102,14 +3126,14 @@
 .icon-visual-studio {
 	@include icon(visual-studio);
 }
-.icon-vs-app-center {
-	@include icon(vs-app-center);
-}
 .icon-vs-code {
 	@include icon(vs-code);
 }
 .icon-vs-ide {
 	@include icon(vs-ide);
+}
+.icon-vsAppCenter {
+	@include icon(vsAppCenter);
 }
 .icon-vsts-alt-1 {
 	@include icon(vsts-alt-1);

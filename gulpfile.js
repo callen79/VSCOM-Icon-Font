@@ -15,7 +15,9 @@ gulp.task('iconfont', function () {
             fontName: fontName,
             path: 'assets/css/templates/_icons.scss',
             targetPath: '../../assets/sass/vscom-icons.scss',
-            fontPath: '../fonts/'
+            fontPath: '../fonts/',
+            fontHeight: 1001,
+            normalize: true
         }))
         .pipe(iconfont({
             fontName: fontName,

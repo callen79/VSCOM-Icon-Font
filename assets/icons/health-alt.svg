@@ -1,0 +1,26 @@
+<svg width="1001" height="1001" viewBox="0 0 1001 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>health-alt</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(71.5 0 0 71.5 -12941.5 -9295)">
+<rect x="181" y="130" width="14" height="14" fill="#E5E5E5"/>
+<g id="health-alt">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(181 131)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(181 131)"/>
+</g>
+<g id="&#226;&#134;&#170;&#240;&#159;&#142;&#168;Color" mask="url(#mask0_outline)">
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(181 130)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12.9474 1.03451C 14.3041 2.39491 14.3432 4.55899 13.0999 5.98995L 10.7148 5.98995L 9.00613 4.27672L 7.00423 6.28399L 4.00137 3.27309L 1.08062 6.20166L 1.06498 6.1899C -0.35434 4.76286 -0.35434 2.45371 1.06107 1.03451C 2.43347 -0.341567 4.82637 -0.341567 6.19877 1.03451L 7.00423 1.90485L 7.79795 1.05019C 9.19381 -0.353332 11.575 -0.341567 12.9474 1.03451ZM 7.00422 12L 12.1224 6.99358L 10.3003 6.99358L 9.00613 5.69592L 7.00422 7.70319L 4.00137 4.69228L 1.79614 6.90342L 7.00422 12Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+</defs>
+</svg>

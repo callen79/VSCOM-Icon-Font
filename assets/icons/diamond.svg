@@ -1,0 +1,12 @@
+<svg width="1092" height="1001" viewBox="0 0 1092 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>diamond</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(91 0 0 91 -55874 -25116)">
+<g id="diamond">
+<use xlink:href="#path0_fill" transform="translate(614 275)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 8.26172 1.5L 11.3906 4.85742L 6 11.4668L 0.626953 4.85742L 3.74414 1.5L 8.26172 1.5ZM 7.3418 5.25L 4.6582 5.25L 6 9.01172L 7.3418 5.25ZM 3.86133 5.25L 1.91016 5.25L 5.39062 9.52734L 3.86133 5.25ZM 8.13867 5.25L 6.60938 9.5332L 10.1016 5.25L 8.13867 5.25ZM 7.93359 2.25L 7.0957 2.25L 7.76953 4.5L 10.0312 4.5L 7.93359 2.25ZM 6.31641 2.25L 5.53125 2.25L 4.86328 4.5L 6.98438 4.5L 6.31641 2.25ZM 4.07227 2.25L 1.98633 4.5L 4.08398 4.5L 4.75195 2.25L 4.07227 2.25Z"/>
+</defs>
+</svg>
