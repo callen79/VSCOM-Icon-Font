@@ -8,11 +8,12 @@
   "license": "mit",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
     "run-sequence": "^2.2.0"
   },
   "devDependencies": {
+    "font-blast": "^0.6.1",
     "gulp-iconfont": "^9.0.2",
-    "gulp-iconfont-css": "^2.1.0"
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-ttf-svg": "^1.0.1"
   }
 }
