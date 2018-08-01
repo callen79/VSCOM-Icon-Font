@@ -1,0 +1,5083 @@
+@font-face {
+	font-family: "vscom-icons";
+	src: url('../fonts/vscom-icons.woff2') format('woff2'),
+		url('../fonts/vscom-icons.woff') format('woff'),
+		url('../fonts/vscom-icons.ttf') format('truetype');
+}
+
+.vscom-icon:before {
+	font-family: "vscom-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.vscom-icon--aad-logo:before {
+	content: "\E001";
+}
+
+.vscom-icon--accept:before {
+	content: "\E002";
+}
+
+.vscom-icon--access-logo:before {
+	content: "\E003";
+}
+
+.vscom-icon--account-management:before {
+	content: "\E004";
+}
+
+.vscom-icon--accounts:before {
+	content: "\E005";
+}
+
+.vscom-icon--activate-orders:before {
+	content: "\E006";
+}
+
+.vscom-icon--active-feed:before {
+	content: "\E007";
+}
+
+.vscom-icon--add-bookmark:before {
+	content: "\E008";
+}
+
+.vscom-icon--add-event:before {
+	content: "\E009";
+}
+
+.vscom-icon--add-favorite-solid:before {
+	content: "\E00A";
+}
+
+.vscom-icon--add-favorite:before {
+	content: "\E00B";
+}
+
+.vscom-icon--add-friend:before {
+	content: "\E00C";
+}
+
+.vscom-icon--add-group:before {
+	content: "\E00D";
+}
+
+.vscom-icon--add-notes:before {
+	content: "\E00E";
+}
+
+.vscom-icon--add-online-meeting:before {
+	content: "\E00F";
+}
+
+.vscom-icon--add-phone:before {
+	content: "\E010";
+}
+
+.vscom-icon--add-to:before {
+	content: "\E011";
+}
+
+.vscom-icon--add:before {
+	content: "\E012";
+}
+
+.vscom-icon--admin-y-logo-inverse-32:before {
+	content: "\E013";
+}
+
+.vscom-icon--admin:before {
+	content: "\E014";
+}
+
+.vscom-icon--air-tickets:before {
+	content: "\E015";
+}
+
+.vscom-icon--airplane-filled:before {
+	content: "\E016";
+}
+
+.vscom-icon--airplane:before {
+	content: "\E017";
+}
+
+.vscom-icon--alarm-clock:before {
+	content: "\E018";
+}
+
+.vscom-icon--album-remove:before {
+	content: "\E019";
+}
+
+.vscom-icon--album:before {
+	content: "\E01A";
+}
+
+.vscom-icon--alert-solid:before {
+	content: "\E01B";
+}
+
+.vscom-icon--align-center:before {
+	content: "\E01C";
+}
+
+.vscom-icon--align-left:before {
+	content: "\E01D";
+}
+
+.vscom-icon--align-right:before {
+	content: "\E01E";
+}
+
+.vscom-icon--all-apps-mirrored:before {
+	content: "\E01F";
+}
+
+.vscom-icon--all-apps:before {
+	content: "\E020";
+}
+
+.vscom-icon--all-currency:before {
+	content: "\E021";
+}
+
+.vscom-icon--analytics-logo:before {
+	content: "\E022";
+}
+
+.vscom-icon--analytics-query:before {
+	content: "\E023";
+}
+
+.vscom-icon--analytics-report:before {
+	content: "\E024";
+}
+
+.vscom-icon--analytics-view:before {
+	content: "\E025";
+}
+
+.vscom-icon--anchor-lock:before {
+	content: "\E026";
+}
+
+.vscom-icon--android-logo:before {
+	content: "\E027";
+}
+
+.vscom-icon--annotation:before {
+	content: "\E028";
+}
+
+.vscom-icon--apache-ivy-logo:before {
+	content: "\E029";
+}
+
+.vscom-icon--apache-maven-logo:before {
+	content: "\E02A";
+}
+
+.vscom-icon--app-icon-default:before {
+	content: "\E02B";
+}
+
+.vscom-icon--archive:before {
+	content: "\E02C";
+}
+
+.vscom-icon--area-chart:before {
+	content: "\E02D";
+}
+
+.vscom-icon--arrivals:before {
+	content: "\E02E";
+}
+
+.vscom-icon--arrow-down-right-8:before {
+	content: "\E02F";
+}
+
+.vscom-icon--arrow-down-right-mirrored-8:before {
+	content: "\E030";
+}
+
+.vscom-icon--arrow-tall-down-left:before {
+	content: "\E031";
+}
+
+.vscom-icon--arrow-tall-down-right:before {
+	content: "\E032";
+}
+
+.vscom-icon--arrow-tall-up-left:before {
+	content: "\E033";
+}
+
+.vscom-icon--arrow-tall-up-right:before {
+	content: "\E034";
+}
+
+.vscom-icon--arrow-up-right-8:before {
+	content: "\E035";
+}
+
+.vscom-icon--arrow-up-right-mirrored-8:before {
+	content: "\E036";
+}
+
+.vscom-icon--arrow-up-right:before {
+	content: "\E037";
+}
+
+.vscom-icon--articles:before {
+	content: "\E038";
+}
+
+.vscom-icon--ascending:before {
+	content: "\E039";
+}
+
+.vscom-icon--aspect-ratio:before {
+	content: "\E03A";
+}
+
+.vscom-icon--assessment-group-template:before {
+	content: "\E03B";
+}
+
+.vscom-icon--assessment-group:before {
+	content: "\E03C";
+}
+
+.vscom-icon--asset-library:before {
+	content: "\E03D";
+}
+
+.vscom-icon--assign:before {
+	content: "\E03E";
+}
+
+.vscom-icon--asterisk-solid:before {
+	content: "\E03F";
+}
+
+.vscom-icon--asterisk:before {
+	content: "\E040";
+}
+
+.vscom-icon--atp-logo:before {
+	content: "\E041";
+}
+
+.vscom-icon--attach:before {
+	content: "\E042";
+}
+
+.vscom-icon--auto-enhance-off:before {
+	content: "\E043";
+}
+
+.vscom-icon--auto-enhance-on:before {
+	content: "\E044";
+}
+
+.vscom-icon--auto-fill-template:before {
+	content: "\E045";
+}
+
+.vscom-icon--auto-height:before {
+	content: "\E046";
+}
+
+.vscom-icon--away-status:before {
+	content: "\E047";
+}
+
+.vscom-icon--azure-api-management:before {
+	content: "\E048";
+}
+
+.vscom-icon--azure-key-vault:before {
+	content: "\E049";
+}
+
+.vscom-icon--azure-logo:before {
+	content: "\E04A";
+}
+
+.vscom-icon--azure-service-endpoint:before {
+	content: "\E04B";
+}
+
+.vscom-icon--back-to-window:before {
+	content: "\E04C";
+}
+
+.vscom-icon--back:before {
+	content: "\E04D";
+}
+
+.vscom-icon--background-color:before {
+	content: "\E04E";
+}
+
+.vscom-icon--backlog-board:before {
+	content: "\E04F";
+}
+
+.vscom-icon--backlog:before {
+	content: "\E050";
+}
+
+.vscom-icon--badge:before {
+	content: "\E051";
+}
+
+.vscom-icon--bar-chart-4:before {
+	content: "\E052";
+}
+
+.vscom-icon--bar-chart-horizonal:before {
+	content: "\E053";
+}
+
+.vscom-icon--bar-chart-vertical:before {
+	content: "\E054";
+}
+
+.vscom-icon--baseball:before {
+	content: "\E055";
+}
+
+.vscom-icon--basketball:before {
+	content: "\E056";
+}
+
+.vscom-icon--bi-dashboard:before {
+	content: "\E057";
+}
+
+.vscom-icon--bidi-litr:before {
+	content: "\E058";
+}
+
+.vscom-icon--bidi-rtl:before {
+	content: "\E059";
+}
+
+.vscom-icon--bing-logo:before {
+	content: "\E05A";
+}
+
+.vscom-icon--birthday-cake:before {
+	content: "\E05B";
+}
+
+.vscom-icon--bit-bucket-logo:before {
+	content: "\E05C";
+}
+
+.vscom-icon--block-contact:before {
+	content: "\E05D";
+}
+
+.vscom-icon--blocked-12:before {
+	content: "\E05E";
+}
+
+.vscom-icon--blocked-2:before {
+	content: "\E05F";
+}
+
+.vscom-icon--blocked-site:before {
+	content: "\E060";
+}
+
+.vscom-icon--blocked-solid:before {
+	content: "\E061";
+}
+
+.vscom-icon--blocked:before {
+	content: "\E062";
+}
+
+.vscom-icon--blowing-snow:before {
+	content: "\E063";
+}
+
+.vscom-icon--blur:before {
+	content: "\E064";
+}
+
+.vscom-icon--boards:before {
+	content: "\E065";
+}
+
+.vscom-icon--bold:before {
+	content: "\E066";
+}
+
+.vscom-icon--bookings-logo:before {
+	content: "\E067";
+}
+
+.vscom-icon--bookmarks-mirrored:before {
+	content: "\E068";
+}
+
+.vscom-icon--bookmarks:before {
+	content: "\E069";
+}
+
+.vscom-icon--box-addition-solid:before {
+	content: "\E06A";
+}
+
+.vscom-icon--box-checkmark-solid:before {
+	content: "\E06B";
+}
+
+.vscom-icon--box-logo:before {
+	content: "\E06C";
+}
+
+.vscom-icon--box-multiply-solid:before {
+	content: "\E06D";
+}
+
+.vscom-icon--box-play-solid:before {
+	content: "\E06E";
+}
+
+.vscom-icon--box-subtract-solid:before {
+	content: "\E06F";
+}
+
+.vscom-icon--branch-commit:before {
+	content: "\E070";
+}
+
+.vscom-icon--branch-compare:before {
+	content: "\E071";
+}
+
+.vscom-icon--branch-fork-2:before {
+	content: "\E072";
+}
+
+.vscom-icon--branch-fork:before {
+	content: "\E073";
+}
+
+.vscom-icon--branch-merge:before {
+	content: "\E074";
+}
+
+.vscom-icon--branch-pull-request:before {
+	content: "\E075";
+}
+
+.vscom-icon--branch-search:before {
+	content: "\E076";
+}
+
+.vscom-icon--branch-shelve-set:before {
+	content: "\E077";
+}
+
+.vscom-icon--branched-locked:before {
+	content: "\E078";
+}
+
+.vscom-icon--breadcrumb:before {
+	content: "\E079";
+}
+
+.vscom-icon--brightness:before {
+	content: "\E07A";
+}
+
+.vscom-icon--broom:before {
+	content: "\E07B";
+}
+
+.vscom-icon--browser-screen-shot:before {
+	content: "\E07C";
+}
+
+.vscom-icon--browser-tab-screenshot:before {
+	content: "\E07D";
+}
+
+.vscom-icon--browser-tab:before {
+	content: "\E07E";
+}
+
+.vscom-icon--bucket-color-solid:before {
+	content: "\E07F";
+}
+
+.vscom-icon--bucket-color:before {
+	content: "\E080";
+}
+
+.vscom-icon--buffer-time-after:before {
+	content: "\E081";
+}
+
+.vscom-icon--buffer-time-before:before {
+	content: "\E082";
+}
+
+.vscom-icon--buffer-time-both:before {
+	content: "\E083";
+}
+
+.vscom-icon--bug-solid:before {
+	content: "\E084";
+}
+
+.vscom-icon--bug:before {
+	content: "\E085";
+}
+
+.vscom-icon--build-issue:before {
+	content: "\E086";
+}
+
+.vscom-icon--build-queue-new:before {
+	content: "\E087";
+}
+
+.vscom-icon--build-queue:before {
+	content: "\E088";
+}
+
+.vscom-icon--build:before {
+	content: "\E089";
+}
+
+.vscom-icon--bulk-upload:before {
+	content: "\E08A";
+}
+
+.vscom-icon--bulleted-list-2:before {
+	content: "\E08B";
+}
+
+.vscom-icon--bulleted-list-mirrored:before {
+	content: "\E08C";
+}
+
+.vscom-icon--bulleted-list:before {
+	content: "\E08D";
+}
+
+.vscom-icon--bullseye:before {
+	content: "\E08E";
+}
+
+.vscom-icon--bus-filled:before {
+	content: "\E08F";
+}
+
+.vscom-icon--bus:before {
+	content: "\E090";
+}
+
+.vscom-icon--business-hours-sign:before {
+	content: "\E091";
+}
+
+.vscom-icon--c-plus-plus-language:before {
+	content: "\E092";
+}
+
+.vscom-icon--c-plus-plus:before {
+	content: "\E093";
+}
+
+.vscom-icon--c-sharp-language:before {
+	content: "\E094";
+}
+
+.vscom-icon--c-sharp:before {
+	content: "\E095";
+}
+
+.vscom-icon--cafe:before {
+	content: "\E096";
+}
+
+.vscom-icon--cake:before {
+	content: "\E097";
+}
+
+.vscom-icon--calculator-addition:before {
+	content: "\E098";
+}
+
+.vscom-icon--calculator-equal-to:before {
+	content: "\E099";
+}
+
+.vscom-icon--calculator-multiply:before {
+	content: "\E09A";
+}
+
+.vscom-icon--calculator-not-equal-to:before {
+	content: "\E09B";
+}
+
+.vscom-icon--calculator:before {
+	content: "\E09C";
+}
+
+.vscom-icon--calendar-agenda:before {
+	content: "\E09D";
+}
+
+.vscom-icon--calendar-day:before {
+	content: "\E09E";
+}
+
+.vscom-icon--calendar-mirrored:before {
+	content: "\E09F";
+}
+
+.vscom-icon--calendar-reply:before {
+	content: "\E0A0";
+}
+
+.vscom-icon--calendar-settings:before {
+	content: "\E0A1";
+}
+
+.vscom-icon--calendar-week:before {
+	content: "\E0A2";
+}
+
+.vscom-icon--calendar-work-week:before {
+	content: "\E0A3";
+}
+
+.vscom-icon--calendar:before {
+	content: "\E0A4";
+}
+
+.vscom-icon--calories-add:before {
+	content: "\E0A5";
+}
+
+.vscom-icon--camera:before {
+	content: "\E0A6";
+}
+
+.vscom-icon--cancel:before {
+	content: "\E0A7";
+}
+
+.vscom-icon--canned-chat:before {
+	content: "\E0A8";
+}
+
+.vscom-icon--car:before {
+	content: "\E0A9";
+}
+
+.vscom-icon--caret-bottom-left-center-8:before {
+	content: "\E0AA";
+}
+
+.vscom-icon--caret-bottom-left-solid-8:before {
+	content: "\E0AB";
+}
+
+.vscom-icon--caret-bottom-right-center-8:before {
+	content: "\E0AC";
+}
+
+.vscom-icon--caret-bottom-right-solid-8:before {
+	content: "\E0AD";
+}
+
+.vscom-icon--caret-down-8:before {
+	content: "\E0AE";
+}
+
+.vscom-icon--caret-down-filled:before {
+	content: "\E0AF";
+}
+
+.vscom-icon--caret-empty-left:before {
+	content: "\E0B0";
+}
+
+.vscom-icon--caret-filled-left:before {
+	content: "\E0B1";
+}
+
+.vscom-icon--caret-hollow:before {
+	content: "\E0B2";
+}
+
+.vscom-icon--caret-left-8:before {
+	content: "\E0B3";
+}
+
+.vscom-icon--caret-left-filled:before {
+	content: "\E0B4";
+}
+
+.vscom-icon--caret-right-8:before {
+	content: "\E0B5";
+}
+
+.vscom-icon--caret-right-filled:before {
+	content: "\E0B6";
+}
+
+.vscom-icon--caret-right:before {
+	content: "\E0B7";
+}
+
+.vscom-icon--caret-solid-16:before {
+	content: "\E0B8";
+}
+
+.vscom-icon--caret-solid-down:before {
+	content: "\E0B9";
+}
+
+.vscom-icon--caret-solid-left:before {
+	content: "\E0BA";
+}
+
+.vscom-icon--caret-solid-right:before {
+	content: "\E0BB";
+}
+
+.vscom-icon--caret-solid-up:before {
+	content: "\E0BC";
+}
+
+.vscom-icon--caret-solid:before {
+	content: "\E0BD";
+}
+
+.vscom-icon--caret-top-left-center-8:before {
+	content: "\E0BE";
+}
+
+.vscom-icon--caret-top-left-solid-8:before {
+	content: "\E0BF";
+}
+
+.vscom-icon--caret-top-right-center-8:before {
+	content: "\E0C0";
+}
+
+.vscom-icon--caret-top-right-solid-8:before {
+	content: "\E0C1";
+}
+
+.vscom-icon--caret-up-8:before {
+	content: "\E0C2";
+}
+
+.vscom-icon--caret-up-filled:before {
+	content: "\E0C3";
+}
+
+.vscom-icon--cat:before {
+	content: "\E0C4";
+}
+
+.vscom-icon--cell-phone:before {
+	content: "\E0C5";
+}
+
+.vscom-icon--certificate:before {
+	content: "\E0C6";
+}
+
+.vscom-icon--certified-database:before {
+	content: "\E0C7";
+}
+
+.vscom-icon--chart-series:before {
+	content: "\E0C8";
+}
+
+.vscom-icon--chart:before {
+	content: "\E0C9";
+}
+
+.vscom-icon--chat-invite-friend:before {
+	content: "\E0CA";
+}
+
+.vscom-icon--chat-solid:before {
+	content: "\E0CB";
+}
+
+.vscom-icon--chat:before {
+	content: "\E0CC";
+}
+
+.vscom-icon--check-list:before {
+	content: "\E0CD";
+}
+
+.vscom-icon--check-mark:before {
+	content: "\E0CE";
+}
+
+.vscom-icon--check:before {
+	content: "\E0CF";
+}
+
+.vscom-icon--checkbox-composite-reversed:before {
+	content: "\E0D0";
+}
+
+.vscom-icon--checkbox-composite:before {
+	content: "\E0D1";
+}
+
+.vscom-icon--checkbox-indeterminate:before {
+	content: "\E0D2";
+}
+
+.vscom-icon--checkbox:before {
+	content: "\E0D3";
+}
+
+.vscom-icon--checked-out-solid:before {
+	content: "\E0D4";
+}
+
+.vscom-icon--checked-out:before {
+	content: "\E0D5";
+}
+
+.vscom-icon--chevron-down-end-6:before {
+	content: "\E0D6";
+}
+
+.vscom-icon--chevron-down-med:before {
+	content: "\E0D7";
+}
+
+.vscom-icon--chevron-down-small:before {
+	content: "\E0D8";
+}
+
+.vscom-icon--chevron-down:before {
+	content: "\E0D9";
+}
+
+.vscom-icon--chevron-fold-10:before {
+	content: "\E0DA";
+}
+
+.vscom-icon--chevron-left-end-6:before {
+	content: "\E0DB";
+}
+
+.vscom-icon--chevron-left-med:before {
+	content: "\E0DC";
+}
+
+.vscom-icon--chevron-left-small:before {
+	content: "\E0DD";
+}
+
+.vscom-icon--chevron-left:before {
+	content: "\E0DE";
+}
+
+.vscom-icon--chevron-right-end-6:before {
+	content: "\E0DF";
+}
+
+.vscom-icon--chevron-right-med:before {
+	content: "\E0E0";
+}
+
+.vscom-icon--chevron-right-small:before {
+	content: "\E0E1";
+}
+
+.vscom-icon--chevron-right:before {
+	content: "\E0E2";
+}
+
+.vscom-icon--chevron-unfold-10:before {
+	content: "\E0E3";
+}
+
+.vscom-icon--chevron-up-end-6:before {
+	content: "\E0E4";
+}
+
+.vscom-icon--chevron-up-med:before {
+	content: "\E0E5";
+}
+
+.vscom-icon--chevron-up-small:before {
+	content: "\E0E6";
+}
+
+.vscom-icon--chevron-up:before {
+	content: "\E0E7";
+}
+
+.vscom-icon--chrome-back-mirrored:before {
+	content: "\E0E8";
+}
+
+.vscom-icon--chrome-back:before {
+	content: "\E0E9";
+}
+
+.vscom-icon--chrome-close:before {
+	content: "\E0EA";
+}
+
+.vscom-icon--chrome-minimize:before {
+	content: "\E0EB";
+}
+
+.vscom-icon--circle-addition-solid:before {
+	content: "\E0EC";
+}
+
+.vscom-icon--circle-addition:before {
+	content: "\E0ED";
+}
+
+.vscom-icon--circle-filled:before {
+	content: "\E0EE";
+}
+
+.vscom-icon--circle-half-full:before {
+	content: "\E0EF";
+}
+
+.vscom-icon--circle-pause-solid:before {
+	content: "\E0F0";
+}
+
+.vscom-icon--circle-pause:before {
+	content: "\E0F1";
+}
+
+.vscom-icon--circle-plus:before {
+	content: "\E0F2";
+}
+
+.vscom-icon--circle-solid:before {
+	content: "\E0F3";
+}
+
+.vscom-icon--circle-stop-solid:before {
+	content: "\E0F4";
+}
+
+.vscom-icon--circle-stop:before {
+	content: "\E0F5";
+}
+
+.vscom-icon--circle:before {
+	content: "\E0F6";
+}
+
+.vscom-icon--city:before {
+	content: "\E0F7";
+}
+
+.vscom-icon--classroom-logo:before {
+	content: "\E0F8";
+}
+
+.vscom-icon--clear-filter:before {
+	content: "\E0F9";
+}
+
+.vscom-icon--clear-formatting:before {
+	content: "\E0FA";
+}
+
+.vscom-icon--clear-night:before {
+	content: "\E0FB";
+}
+
+.vscom-icon--clear:before {
+	content: "\E0FC";
+}
+
+.vscom-icon--clipboard-solid:before {
+	content: "\E0FD";
+}
+
+.vscom-icon--clock:before {
+	content: "\E0FE";
+}
+
+.vscom-icon--clone-to-desktop:before {
+	content: "\E0FF";
+}
+
+.vscom-icon--close-pane-mirrored:before {
+	content: "\E100";
+}
+
+.vscom-icon--close-pane:before {
+	content: "\E101";
+}
+
+.vscom-icon--closed-caption:before {
+	content: "\E102";
+}
+
+.vscom-icon--cloud-add:before {
+	content: "\E103";
+}
+
+.vscom-icon--cloud-download:before {
+	content: "\E104";
+}
+
+.vscom-icon--cloud-upload:before {
+	content: "\E105";
+}
+
+.vscom-icon--cloud-weather:before {
+	content: "\E106";
+}
+
+.vscom-icon--cloud:before {
+	content: "\E107";
+}
+
+.vscom-icon--cloudy:before {
+	content: "\E108";
+}
+
+.vscom-icon--cocktails:before {
+	content: "\E109";
+}
+
+.vscom-icon--code-edit:before {
+	content: "\E10A";
+}
+
+.vscom-icon--code:before {
+	content: "\E10B";
+}
+
+.vscom-icon--coffee-script:before {
+	content: "\E10C";
+}
+
+.vscom-icon--coffee:before {
+	content: "\E10D";
+}
+
+.vscom-icon--collapse-content-single:before {
+	content: "\E10E";
+}
+
+.vscom-icon--collapse-content:before {
+	content: "\E10F";
+}
+
+.vscom-icon--collapse-menu:before {
+	content: "\E110";
+}
+
+.vscom-icon--color-solid:before {
+	content: "\E111";
+}
+
+.vscom-icon--color-unset:before {
+	content: "\E112";
+}
+
+.vscom-icon--color:before {
+	content: "\E113";
+}
+
+.vscom-icon--column-left-two-thirds-edit:before {
+	content: "\E114";
+}
+
+.vscom-icon--column-left-two-thirds:before {
+	content: "\E115";
+}
+
+.vscom-icon--column-options:before {
+	content: "\E116";
+}
+
+.vscom-icon--column-right-two-thirds-edit:before {
+	content: "\E117";
+}
+
+.vscom-icon--column-right-two-thirds:before {
+	content: "\E118";
+}
+
+.vscom-icon--combine:before {
+	content: "\E119";
+}
+
+.vscom-icon--command-prompt:before {
+	content: "\E11A";
+}
+
+.vscom-icon--comment-add:before {
+	content: "\E11B";
+}
+
+.vscom-icon--comment-next:before {
+	content: "\E11C";
+}
+
+.vscom-icon--comment-previous:before {
+	content: "\E11D";
+}
+
+.vscom-icon--comment-urgent:before {
+	content: "\E11E";
+}
+
+.vscom-icon--comment:before {
+	content: "\E11F";
+}
+
+.vscom-icon--communications:before {
+	content: "\E120";
+}
+
+.vscom-icon--company-directory:before {
+	content: "\E121";
+}
+
+.vscom-icon--compas-nw:before {
+	content: "\E122";
+}
+
+.vscom-icon--completed-filled:before {
+	content: "\E123";
+}
+
+.vscom-icon--completed:before {
+	content: "\E124";
+}
+
+.vscom-icon--configuration-solid:before {
+	content: "\E125";
+}
+
+.vscom-icon--connect-contacts:before {
+	content: "\E126";
+}
+
+.vscom-icon--construction-cone:before {
+	content: "\E127";
+}
+
+.vscom-icon--construction-zone-solid:before {
+	content: "\E128";
+}
+
+.vscom-icon--contact-card-settings:before {
+	content: "\E129";
+}
+
+.vscom-icon--contact-card:before {
+	content: "\E12A";
+}
+
+.vscom-icon--contact-info:before {
+	content: "\E12B";
+}
+
+.vscom-icon--contact-link:before {
+	content: "\E12C";
+}
+
+.vscom-icon--contact:before {
+	content: "\E12D";
+}
+
+.vscom-icon--context-menu:before {
+	content: "\E12E";
+}
+
+.vscom-icon--contrast:before {
+	content: "\E12F";
+}
+
+.vscom-icon--copy:before {
+	content: "\E130";
+}
+
+.vscom-icon--cotton:before {
+	content: "\E131";
+}
+
+.vscom-icon--credit-card:before {
+	content: "\E132";
+}
+
+.vscom-icon--cricket:before {
+	content: "\E133";
+}
+
+.vscom-icon--crm-report:before {
+	content: "\E134";
+}
+
+.vscom-icon--crop:before {
+	content: "\E135";
+}
+
+.vscom-icon--crown-solid:before {
+	content: "\E136";
+}
+
+.vscom-icon--crown:before {
+	content: "\E137";
+}
+
+.vscom-icon--css:before {
+	content: "\E138";
+}
+
+.vscom-icon--custom-list-mirrored:before {
+	content: "\E139";
+}
+
+.vscom-icon--custom-list:before {
+	content: "\E13A";
+}
+
+.vscom-icon--cut:before {
+	content: "\E13B";
+}
+
+.vscom-icon--cycling:before {
+	content: "\E13C";
+}
+
+.vscom-icon--dashboard-add:before {
+	content: "\E13D";
+}
+
+.vscom-icon--data-conection-library:before {
+	content: "\E13E";
+}
+
+.vscom-icon--database:before {
+	content: "\E13F";
+}
+
+.vscom-icon--date-time-2:before {
+	content: "\E140";
+}
+
+.vscom-icon--date-time-mirrored:before {
+	content: "\E141";
+}
+
+.vscom-icon--date-time:before {
+	content: "\E142";
+}
+
+.vscom-icon--deactivate-orders:before {
+	content: "\E143";
+}
+
+.vscom-icon--decimals:before {
+	content: "\E144";
+}
+
+.vscom-icon--decision-solid:before {
+	content: "\E145";
+}
+
+.vscom-icon--decline-call:before {
+	content: "\E146";
+}
+
+.vscom-icon--default-ratio:before {
+	content: "\E147";
+}
+
+.vscom-icon--defect-solid:before {
+	content: "\E148";
+}
+
+.vscom-icon--delete-columns:before {
+	content: "\E149";
+}
+
+.vscom-icon--delete-rows:before {
+	content: "\E14A";
+}
+
+.vscom-icon--delete-table:before {
+	content: "\E14B";
+}
+
+.vscom-icon--delete:before {
+	content: "\E14C";
+}
+
+.vscom-icon--delivery-truck:before {
+	content: "\E14D";
+}
+
+.vscom-icon--deploy:before {
+	content: "\E14E";
+}
+
+.vscom-icon--descending:before {
+	content: "\E14F";
+}
+
+.vscom-icon--design:before {
+	content: "\E150";
+}
+
+.vscom-icon--desktop-screenshot:before {
+	content: "\E151";
+}
+
+.vscom-icon--developer-tools:before {
+	content: "\E152";
+}
+
+.vscom-icon--devices-2:before {
+	content: "\E153";
+}
+
+.vscom-icon--devices:before {
+	content: "\E154";
+}
+
+.vscom-icon--diagnostic:before {
+	content: "\E155";
+}
+
+.vscom-icon--dial-pad:before {
+	content: "\E156";
+}
+
+.vscom-icon--diamond-solid:before {
+	content: "\E157";
+}
+
+.vscom-icon--diamond:before {
+	content: "\E158";
+}
+
+.vscom-icon--dictionary:before {
+	content: "\E159";
+}
+
+.vscom-icon--diff-inline:before {
+	content: "\E15A";
+}
+
+.vscom-icon--diff-side-by-side:before {
+	content: "\E15B";
+}
+
+.vscom-icon--disable-updates:before {
+	content: "\E15C";
+}
+
+.vscom-icon--dislike-solid:before {
+	content: "\E15D";
+}
+
+.vscom-icon--dislike:before {
+	content: "\E15E";
+}
+
+.vscom-icon--doc-library:before {
+	content: "\E15F";
+}
+
+.vscom-icon--dock-left-mirrored:before {
+	content: "\E160";
+}
+
+.vscom-icon--dock-left:before {
+	content: "\E161";
+}
+
+.vscom-icon--dock-right:before {
+	content: "\E162";
+}
+
+.vscom-icon--docker-logo:before {
+	content: "\E163";
+}
+
+.vscom-icon--docs-logo-inverse:before {
+	content: "\E164";
+}
+
+.vscom-icon--document-approval:before {
+	content: "\E165";
+}
+
+.vscom-icon--document-management:before {
+	content: "\E166";
+}
+
+.vscom-icon--document-reply:before {
+	content: "\E167";
+}
+
+.vscom-icon--document-search:before {
+	content: "\E168";
+}
+
+.vscom-icon--document-set:before {
+	content: "\E169";
+}
+
+.vscom-icon--documentation:before {
+	content: "\E16A";
+}
+
+.vscom-icon--dom:before {
+	content: "\E16B";
+}
+
+.vscom-icon--donut-chart:before {
+	content: "\E16C";
+}
+
+.vscom-icon--door:before {
+	content: "\E16D";
+}
+
+.vscom-icon--double-bookmark:before {
+	content: "\E16E";
+}
+
+.vscom-icon--double-chevron-down-12:before {
+	content: "\E16F";
+}
+
+.vscom-icon--double-chevron-down-8:before {
+	content: "\E170";
+}
+
+.vscom-icon--double-chevron-down:before {
+	content: "\E171";
+}
+
+.vscom-icon--double-chevron-left-12:before {
+	content: "\E172";
+}
+
+.vscom-icon--double-chevron-left-8:before {
+	content: "\E173";
+}
+
+.vscom-icon--double-chevron-left-med:before {
+	content: "\E174";
+}
+
+.vscom-icon--double-chevron-left:before {
+	content: "\E175";
+}
+
+.vscom-icon--double-chevron-right-12:before {
+	content: "\E176";
+}
+
+.vscom-icon--double-chevron-right-8:before {
+	content: "\E177";
+}
+
+.vscom-icon--double-chevron-right-medium:before {
+	content: "\E178";
+}
+
+.vscom-icon--double-chevron-right:before {
+	content: "\E179";
+}
+
+.vscom-icon--double-chevron-up-12:before {
+	content: "\E17A";
+}
+
+.vscom-icon--double-chevron-up-8:before {
+	content: "\E17B";
+}
+
+.vscom-icon--double-chevron-up:before {
+	content: "\E17C";
+}
+
+.vscom-icon--double-column-edit:before {
+	content: "\E17D";
+}
+
+.vscom-icon--double-column:before {
+	content: "\E17E";
+}
+
+.vscom-icon--down:before {
+	content: "\E17F";
+}
+
+.vscom-icon--download-document:before {
+	content: "\E180";
+}
+
+.vscom-icon--download:before {
+	content: "\E181";
+}
+
+.vscom-icon--drag-object:before {
+	content: "\E182";
+}
+
+.vscom-icon--drill-down-solid:before {
+	content: "\E183";
+}
+
+.vscom-icon--drill-down:before {
+	content: "\E184";
+}
+
+.vscom-icon--drill-expand:before {
+	content: "\E185";
+}
+
+.vscom-icon--drill-show:before {
+	content: "\E186";
+}
+
+.vscom-icon--drill-through:before {
+	content: "\E187";
+}
+
+.vscom-icon--drm:before {
+	content: "\E188";
+}
+
+.vscom-icon--drop-box-logo:before {
+	content: "\E189";
+}
+
+.vscom-icon--drop-solid:before {
+	content: "\E18A";
+}
+
+.vscom-icon--drop:before {
+	content: "\E18B";
+}
+
+.vscom-icon--dropdown:before {
+	content: "\E18C";
+}
+
+.vscom-icon--dust-storm:before {
+	content: "\E18D";
+}
+
+.vscom-icon--edge-logo:before {
+	content: "\E18E";
+}
+
+.vscom-icon--edit-contact:before {
+	content: "\E18F";
+}
+
+.vscom-icon--edit-mail:before {
+	content: "\E190";
+}
+
+.vscom-icon--edit-mirrored:before {
+	content: "\E191";
+}
+
+.vscom-icon--edit-note:before {
+	content: "\E192";
+}
+
+.vscom-icon--edit-photo:before {
+	content: "\E193";
+}
+
+.vscom-icon--edit-solid-12:before {
+	content: "\E194";
+}
+
+.vscom-icon--edit-style:before {
+	content: "\E195";
+}
+
+.vscom-icon--edit:before {
+	content: "\E196";
+}
+
+.vscom-icon--education:before {
+	content: "\E197";
+}
+
+.vscom-icon--egnyte-logo:before {
+	content: "\E198";
+}
+
+.vscom-icon--embed:before {
+	content: "\E199";
+}
+
+.vscom-icon--emi:before {
+	content: "\E19A";
+}
+
+.vscom-icon--emoji-disappointed:before {
+	content: "\E19B";
+}
+
+.vscom-icon--emoji-neutral:before {
+	content: "\E19C";
+}
+
+.vscom-icon--emoji-tab-symbols:before {
+	content: "\E19D";
+}
+
+.vscom-icon--emoji:before {
+	content: "\E19E";
+}
+
+.vscom-icon--emoji2:before {
+	content: "\E19F";
+}
+
+.vscom-icon--empty-recycle-bin:before {
+	content: "\E1A0";
+}
+
+.vscom-icon--engineering-group:before {
+	content: "\E1A1";
+}
+
+.vscom-icon--entry-decline:before {
+	content: "\E1A2";
+}
+
+.vscom-icon--entry-view:before {
+	content: "\E1A3";
+}
+
+.vscom-icon--equalizer:before {
+	content: "\E1A4";
+}
+
+.vscom-icon--erase-tool:before {
+	content: "\E1A5";
+}
+
+.vscom-icon--error-circle:before {
+	content: "\E1A6";
+}
+
+.vscom-icon--error:before {
+	content: "\E1A7";
+}
+
+.vscom-icon--event-accepted:before {
+	content: "\E1A8";
+}
+
+.vscom-icon--event-date:before {
+	content: "\E1A9";
+}
+
+.vscom-icon--event-declined:before {
+	content: "\E1AA";
+}
+
+.vscom-icon--event-info:before {
+	content: "\E1AB";
+}
+
+.vscom-icon--event-tentative:before {
+	content: "\E1AC";
+}
+
+.vscom-icon--event:before {
+	content: "\E1AD";
+}
+
+.vscom-icon--excel-document:before {
+	content: "\E1AE";
+}
+
+.vscom-icon--excel-logo-solid:before {
+	content: "\E1AF";
+}
+
+.vscom-icon--excel-logo:before {
+	content: "\E1B0";
+}
+
+.vscom-icon--exercise:before {
+	content: "\E1B1";
+}
+
+.vscom-icon--expand-menu:before {
+	content: "\E1B2";
+}
+
+.vscom-icon--explore-content-single:before {
+	content: "\E1B3";
+}
+
+.vscom-icon--explore-content:before {
+	content: "\E1B4";
+}
+
+.vscom-icon--explore-database:before {
+	content: "\E1B5";
+}
+
+.vscom-icon--export:before {
+	content: "\E1B6";
+}
+
+.vscom-icon--external-build:before {
+	content: "\E1B7";
+}
+
+.vscom-icon--external-git:before {
+	content: "\E1B8";
+}
+
+.vscom-icon--external-tfvc:before {
+	content: "\E1B9";
+}
+
+.vscom-icon--external-xaml:before {
+	content: "\E1BA";
+}
+
+.vscom-icon--eye-dropper:before {
+	content: "\E1BB";
+}
+
+.vscom-icon--f-sharp-language:before {
+	content: "\E1BC";
+}
+
+.vscom-icon--f-sharp:before {
+	content: "\E1BD";
+}
+
+.vscom-icon--f12-dev-tools:before {
+	content: "\E1BE";
+}
+
+.vscom-icon--fabric-asset-library:before {
+	content: "\E1BF";
+}
+
+.vscom-icon--fabric-data-connection-library:before {
+	content: "\E1C0";
+}
+
+.vscom-icon--fabric-doc-library:before {
+	content: "\E1C1";
+}
+
+.vscom-icon--fabric-folder-fill:before {
+	content: "\E1C2";
+}
+
+.vscom-icon--fabric-folder-search:before {
+	content: "\E1C3";
+}
+
+.vscom-icon--fabric-folder:before {
+	content: "\E1C4";
+}
+
+.vscom-icon--fabric-form-library-mirrored:before {
+	content: "\E1C5";
+}
+
+.vscom-icon--fabric-form-library:before {
+	content: "\E1C6";
+}
+
+.vscom-icon--fabric-move-to-folder:before {
+	content: "\E1C7";
+}
+
+.vscom-icon--fabric-new-folder:before {
+	content: "\E1C8";
+}
+
+.vscom-icon--fabric-open-folder-horizontal:before {
+	content: "\E1C9";
+}
+
+.vscom-icon--fabric-picture-library:before {
+	content: "\E1CA";
+}
+
+.vscom-icon--fabric-public-library:before {
+	content: "\E1CB";
+}
+
+.vscom-icon--fabric-report-library-mirrored:before {
+	content: "\E1CC";
+}
+
+.vscom-icon--fabric-report-library:before {
+	content: "\E1CD";
+}
+
+.vscom-icon--fabric-sync-library:before {
+	content: "\E1CE";
+}
+
+.vscom-icon--fabric-unsync-folder:before {
+	content: "\E1CF";
+}
+
+.vscom-icon--facebook-logo:before {
+	content: "\E1D0";
+}
+
+.vscom-icon--family:before {
+	content: "\E1D1";
+}
+
+.vscom-icon--fast-forward:before {
+	content: "\E1D2";
+}
+
+.vscom-icon--fast-mode:before {
+	content: "\E1D3";
+}
+
+.vscom-icon--favicon:before {
+	content: "\E1D4";
+}
+
+.vscom-icon--favorite-list:before {
+	content: "\E1D5";
+}
+
+.vscom-icon--favorite-star-fill:before {
+	content: "\E1D6";
+}
+
+.vscom-icon--favorite-star:before {
+	content: "\E1D7";
+}
+
+.vscom-icon--fax:before {
+	content: "\E1D8";
+}
+
+.vscom-icon--feedback-request-solid:before {
+	content: "\E1D9";
+}
+
+.vscom-icon--feedback-response-solid:before {
+	content: "\E1DA";
+}
+
+.vscom-icon--feedback:before {
+	content: "\E1DB";
+}
+
+.vscom-icon--ferry-filled:before {
+	content: "\E1DC";
+}
+
+.vscom-icon--field-changed:before {
+	content: "\E1DD";
+}
+
+.vscom-icon--field-empty:before {
+	content: "\E1DE";
+}
+
+.vscom-icon--field-read-only:before {
+	content: "\E1DF";
+}
+
+.vscom-icon--field-required:before {
+	content: "\E1E0";
+}
+
+.vscom-icon--field-solid:before {
+	content: "\E1E1";
+}
+
+.vscom-icon--fild-pdb:before {
+	content: "\E1E2";
+}
+
+.vscom-icon--file-aspx:before {
+	content: "\E1E3";
+}
+
+.vscom-icon--file-bug:before {
+	content: "\E1E4";
+}
+
+.vscom-icon--file-code:before {
+	content: "\E1E5";
+}
+
+.vscom-icon--file-comment:before {
+	content: "\E1E6";
+}
+
+.vscom-icon--file-css:before {
+	content: "\E1E7";
+}
+
+.vscom-icon--file-html:before {
+	content: "\E1E8";
+}
+
+.vscom-icon--file-image:before {
+	content: "\E1E9";
+}
+
+.vscom-icon--file-java:before {
+	content: "\E1EA";
+}
+
+.vscom-icon--file-less:before {
+	content: "\E1EB";
+}
+
+.vscom-icon--file-not-changed:before {
+	content: "\E1EC";
+}
+
+.vscom-icon--file-sass:before {
+	content: "\E1ED";
+}
+
+.vscom-icon--file-sql:before {
+	content: "\E1EE";
+}
+
+.vscom-icon--file-symlink:before {
+	content: "\E1EF";
+}
+
+.vscom-icon--file-template:before {
+	content: "\E1F0";
+}
+
+.vscom-icon--file-type-solution:before {
+	content: "\E1F1";
+}
+
+.vscom-icon--file-yml:before {
+	content: "\E1F2";
+}
+
+.vscom-icon--filter-solid:before {
+	content: "\E1F3";
+}
+
+.vscom-icon--filter:before {
+	content: "\E1F4";
+}
+
+.vscom-icon--filters-solid:before {
+	content: "\E1F5";
+}
+
+.vscom-icon--filters:before {
+	content: "\E1F6";
+}
+
+.vscom-icon--financial-solid:before {
+	content: "\E1F7";
+}
+
+.vscom-icon--financial:before {
+	content: "\E1F8";
+}
+
+.vscom-icon--fingerprint:before {
+	content: "\E1F9";
+}
+
+.vscom-icon--five-tile-grid:before {
+	content: "\E1FA";
+}
+
+.vscom-icon--flag:before {
+	content: "\E1FB";
+}
+
+.vscom-icon--flame-solid:before {
+	content: "\E1FC";
+}
+
+.vscom-icon--flick-down:before {
+	content: "\E1FD";
+}
+
+.vscom-icon--flick-left:before {
+	content: "\E1FE";
+}
+
+.vscom-icon--flick-right:before {
+	content: "\E1FF";
+}
+
+.vscom-icon--flick-up:before {
+	content: "\E200";
+}
+
+.vscom-icon--flow:before {
+	content: "\E201";
+}
+
+.vscom-icon--focal-point:before {
+	content: "\E202";
+}
+
+.vscom-icon--fog:before {
+	content: "\E203";
+}
+
+.vscom-icon--folder-fill:before {
+	content: "\E204";
+}
+
+.vscom-icon--folder-horizontal:before {
+	content: "\E205";
+}
+
+.vscom-icon--folder-list-mirrored:before {
+	content: "\E206";
+}
+
+.vscom-icon--folder-list:before {
+	content: "\E207";
+}
+
+.vscom-icon--folder-open:before {
+	content: "\E208";
+}
+
+.vscom-icon--folder-query:before {
+	content: "\E209";
+}
+
+.vscom-icon--folder-search:before {
+	content: "\E20A";
+}
+
+.vscom-icon--folder:before {
+	content: "\E20B";
+}
+
+.vscom-icon--follow-user:before {
+	content: "\E20C";
+}
+
+.vscom-icon--font-color:before {
+	content: "\E20D";
+}
+
+.vscom-icon--font-decrease:before {
+	content: "\E20E";
+}
+
+.vscom-icon--font-increase:before {
+	content: "\E20F";
+}
+
+.vscom-icon--font-size:before {
+	content: "\E210";
+}
+
+.vscom-icon--font:before {
+	content: "\E211";
+}
+
+.vscom-icon--football-2:before {
+	content: "\E212";
+}
+
+.vscom-icon--football:before {
+	content: "\E213";
+}
+
+.vscom-icon--form-library-mirrored:before {
+	content: "\E214";
+}
+
+.vscom-icon--form-library:before {
+	content: "\E215";
+}
+
+.vscom-icon--forward-event:before {
+	content: "\E216";
+}
+
+.vscom-icon--forward:before {
+	content: "\E217";
+}
+
+.vscom-icon--freezing:before {
+	content: "\E218";
+}
+
+.vscom-icon--frigid:before {
+	content: "\E219";
+}
+
+.vscom-icon--full-circle-mask:before {
+	content: "\E21A";
+}
+
+.vscom-icon--full-history:before {
+	content: "\E21B";
+}
+
+.vscom-icon--full-screen:before {
+	content: "\E21C";
+}
+
+.vscom-icon--full-width-edit:before {
+	content: "\E21D";
+}
+
+.vscom-icon--full-width:before {
+	content: "\E21E";
+}
+
+.vscom-icon--functional-manager-dashboard:before {
+	content: "\E21F";
+}
+
+.vscom-icon--generate:before {
+	content: "\E220";
+}
+
+.vscom-icon--generic-scan:before {
+	content: "\E221";
+}
+
+.vscom-icon--gift-box-solid:before {
+	content: "\E222";
+}
+
+.vscom-icon--gift-card:before {
+	content: "\E223";
+}
+
+.vscom-icon--giftbox-open:before {
+	content: "\E224";
+}
+
+.vscom-icon--giftbox:before {
+	content: "\E225";
+}
+
+.vscom-icon--git-fork:before {
+	content: "\E226";
+}
+
+.vscom-icon--git-graph:before {
+	content: "\E227";
+}
+
+.vscom-icon--git-hub-logo:before {
+	content: "\E228";
+}
+
+.vscom-icon--git-logo:before {
+	content: "\E229";
+}
+
+.vscom-icon--glasses:before {
+	content: "\E22A";
+}
+
+.vscom-icon--glimmer:before {
+	content: "\E22B";
+}
+
+.vscom-icon--global-nav-button:before {
+	content: "\E22C";
+}
+
+.vscom-icon--globe-2:before {
+	content: "\E22D";
+}
+
+.vscom-icon--globe-favorite:before {
+	content: "\E22E";
+}
+
+.vscom-icon--globe:before {
+	content: "\E22F";
+}
+
+.vscom-icon--go-to-today:before {
+	content: "\E230";
+}
+
+.vscom-icon--golf:before {
+	content: "\E231";
+}
+
+.vscom-icon--google-drive-logo:before {
+	content: "\E232";
+}
+
+.vscom-icon--gradle-logo:before {
+	content: "\E233";
+}
+
+.vscom-icon--grid-view-large:before {
+	content: "\E234";
+}
+
+.vscom-icon--grid-view-medium:before {
+	content: "\E235";
+}
+
+.vscom-icon--grid-view-small:before {
+	content: "\E236";
+}
+
+.vscom-icon--gripper-bar-horizontal:before {
+	content: "\E237";
+}
+
+.vscom-icon--gripper-bar-vertical:before {
+	content: "\E238";
+}
+
+.vscom-icon--gripper-tool:before {
+	content: "\E239";
+}
+
+.vscom-icon--group-ascending:before {
+	content: "\E23A";
+}
+
+.vscom-icon--group-descending:before {
+	content: "\E23B";
+}
+
+.vscom-icon--group-list:before {
+	content: "\E23C";
+}
+
+.vscom-icon--group:before {
+	content: "\E23D";
+}
+
+.vscom-icon--guid:before {
+	content: "\E23E";
+}
+
+.vscom-icon--hail-day:before {
+	content: "\E23F";
+}
+
+.vscom-icon--hail-night:before {
+	content: "\E240";
+}
+
+.vscom-icon--half-alpha:before {
+	content: "\E241";
+}
+
+.vscom-icon--hands-free:before {
+	content: "\E242";
+}
+
+.vscom-icon--handshake:before {
+	content: "\E243";
+}
+
+.vscom-icon--handwriting:before {
+	content: "\E244";
+}
+
+.vscom-icon--hard-drive-group:before {
+	content: "\E245";
+}
+
+.vscom-icon--hard-drive-lock:before {
+	content: "\E246";
+}
+
+.vscom-icon--hard-drive-unlock:before {
+	content: "\E247";
+}
+
+.vscom-icon--hard-drive:before {
+	content: "\E248";
+}
+
+.vscom-icon--header-1:before {
+	content: "\E249";
+}
+
+.vscom-icon--header-2:before {
+	content: "\E24A";
+}
+
+.vscom-icon--header-3:before {
+	content: "\E24B";
+}
+
+.vscom-icon--header-4:before {
+	content: "\E24C";
+}
+
+.vscom-icon--headset-solid:before {
+	content: "\E24D";
+}
+
+.vscom-icon--headset:before {
+	content: "\E24E";
+}
+
+.vscom-icon--health:before {
+	content: "\E24F";
+}
+
+.vscom-icon--heart-broken:before {
+	content: "\E250";
+}
+
+.vscom-icon--heart-fill:before {
+	content: "\E251";
+}
+
+.vscom-icon--heart-solid:before {
+	content: "\E252";
+}
+
+.vscom-icon--heart:before {
+	content: "\E253";
+}
+
+.vscom-icon--help-mirrored:before {
+	content: "\E254";
+}
+
+.vscom-icon--help:before {
+	content: "\E255";
+}
+
+.vscom-icon--hide-2:before {
+	content: "\E256";
+}
+
+.vscom-icon--hide:before {
+	content: "\E257";
+}
+
+.vscom-icon--high-speed:before {
+	content: "\E258";
+}
+
+.vscom-icon--highlight-mapped-shapes:before {
+	content: "\E259";
+}
+
+.vscom-icon--highlight:before {
+	content: "\E25A";
+}
+
+.vscom-icon--hint-text:before {
+	content: "\E25B";
+}
+
+.vscom-icon--history:before {
+	content: "\E25C";
+}
+
+.vscom-icon--hockey:before {
+	content: "\E25D";
+}
+
+.vscom-icon--home-filled:before {
+	content: "\E25E";
+}
+
+.vscom-icon--home:before {
+	content: "\E25F";
+}
+
+.vscom-icon--hospital:before {
+	content: "\E260";
+}
+
+.vscom-icon--hour-glass:before {
+	content: "\E261";
+}
+
+.vscom-icon--icon-sets-flag:before {
+	content: "\E262";
+}
+
+.vscom-icon--id-badge:before {
+	content: "\E263";
+}
+
+.vscom-icon--image-crosshair:before {
+	content: "\E264";
+}
+
+.vscom-icon--image-diff:before {
+	content: "\E265";
+}
+
+.vscom-icon--image-pixel:before {
+	content: "\E266";
+}
+
+.vscom-icon--image-search:before {
+	content: "\E267";
+}
+
+.vscom-icon--import-mirrored:before {
+	content: "\E268";
+}
+
+.vscom-icon--import:before {
+	content: "\E269";
+}
+
+.vscom-icon--important:before {
+	content: "\E26A";
+}
+
+.vscom-icon--inbox-check:before {
+	content: "\E26B";
+}
+
+.vscom-icon--inbox:before {
+	content: "\E26C";
+}
+
+.vscom-icon--incident-triangle:before {
+	content: "\E26D";
+}
+
+.vscom-icon--info-2:before {
+	content: "\E26E";
+}
+
+.vscom-icon--info-solid:before {
+	content: "\E26F";
+}
+
+.vscom-icon--info:before {
+	content: "\E270";
+}
+
+.vscom-icon--insert-columns-left:before {
+	content: "\E271";
+}
+
+.vscom-icon--insert-columns-right:before {
+	content: "\E272";
+}
+
+.vscom-icon--insert-rows-above:before {
+	content: "\E273";
+}
+
+.vscom-icon--insert-rows-below:before {
+	content: "\E274";
+}
+
+.vscom-icon--insert-text-box:before {
+	content: "\E275";
+}
+
+.vscom-icon--install-to-drive:before {
+	content: "\E276";
+}
+
+.vscom-icon--internet-sharing:before {
+	content: "\E277";
+}
+
+.vscom-icon--ios-app-store-logo:before {
+	content: "\E278";
+}
+
+.vscom-icon--irm-forward:before {
+	content: "\E279";
+}
+
+.vscom-icon--irm-reply:before {
+	content: "\E27A";
+}
+
+.vscom-icon--issue-solid:before {
+	content: "\E27B";
+}
+
+.vscom-icon--issue-tracking-mirrored:before {
+	content: "\E27C";
+}
+
+.vscom-icon--issue-tracking:before {
+	content: "\E27D";
+}
+
+.vscom-icon--italic:before {
+	content: "\E27E";
+}
+
+.vscom-icon--java-logo:before {
+	content: "\E27F";
+}
+
+.vscom-icon--jenkins-logo:before {
+	content: "\E280";
+}
+
+.vscom-icon--join-online-meeting:before {
+	content: "\E281";
+}
+
+.vscom-icon--js:before {
+	content: "\E282";
+}
+
+.vscom-icon--keubernetes-logo:before {
+	content: "\E283";
+}
+
+.vscom-icon--keyboard-classic:before {
+	content: "\E284";
+}
+
+.vscom-icon--label:before {
+	content: "\E285";
+}
+
+.vscom-icon--ladybug-solid:before {
+	content: "\E286";
+}
+
+.vscom-icon--lamp:before {
+	content: "\E287";
+}
+
+.vscom-icon--landscape-orientation:before {
+	content: "\E288";
+}
+
+.vscom-icon--laptop-secure:before {
+	content: "\E289";
+}
+
+.vscom-icon--laptop-selected:before {
+	content: "\E28A";
+}
+
+.vscom-icon--large-grid:before {
+	content: "\E28B";
+}
+
+.vscom-icon--leave:before {
+	content: "\E28C";
+}
+
+.vscom-icon--library:before {
+	content: "\E28D";
+}
+
+.vscom-icon--lifesave-lock:before {
+	content: "\E28E";
+}
+
+.vscom-icon--lifesaver:before {
+	content: "\E28F";
+}
+
+.vscom-icon--light:before {
+	content: "\E290";
+}
+
+.vscom-icon--lightbulb:before {
+	content: "\E291";
+}
+
+.vscom-icon--lightning-bolt:before {
+	content: "\E292";
+}
+
+.vscom-icon--like-solid:before {
+	content: "\E293";
+}
+
+.vscom-icon--like:before {
+	content: "\E294";
+}
+
+.vscom-icon--line-chart:before {
+	content: "\E295";
+}
+
+.vscom-icon--link:before {
+	content: "\E296";
+}
+
+.vscom-icon--linkedin-logo:before {
+	content: "\E297";
+}
+
+.vscom-icon--linux-logo:before {
+	content: "\E298";
+}
+
+.vscom-icon--list-mirrored:before {
+	content: "\E299";
+}
+
+.vscom-icon--list:before {
+	content: "\E29A";
+}
+
+.vscom-icon--locale-language:before {
+	content: "\E29B";
+}
+
+.vscom-icon--location-circle:before {
+	content: "\E29C";
+}
+
+.vscom-icon--location-dot:before {
+	content: "\E29D";
+}
+
+.vscom-icon--location-fill:before {
+	content: "\E29E";
+}
+
+.vscom-icon--location-outline:before {
+	content: "\E29F";
+}
+
+.vscom-icon--location:before {
+	content: "\E2A0";
+}
+
+.vscom-icon--lock-filled:before {
+	content: "\E2A1";
+}
+
+.vscom-icon--lock:before {
+	content: "\E2A2";
+}
+
+.vscom-icon--log-remove:before {
+	content: "\E2A3";
+}
+
+.vscom-icon--lookup-entities:before {
+	content: "\E2A4";
+}
+
+.vscom-icon--lower-brightness:before {
+	content: "\E2A5";
+}
+
+.vscom-icon--mail-alert:before {
+	content: "\E2A6";
+}
+
+.vscom-icon--mail-check:before {
+	content: "\E2A7";
+}
+
+.vscom-icon--mail-fill:before {
+	content: "\E2A8";
+}
+
+.vscom-icon--mail-forward-mirrored:before {
+	content: "\E2A9";
+}
+
+.vscom-icon--mail-forward:before {
+	content: "\E2AA";
+}
+
+.vscom-icon--mail-low-importance:before {
+	content: "\E2AB";
+}
+
+.vscom-icon--mail-pause:before {
+	content: "\E2AC";
+}
+
+.vscom-icon--mail-reminder:before {
+	content: "\E2AD";
+}
+
+.vscom-icon--mail-repeat:before {
+	content: "\E2AE";
+}
+
+.vscom-icon--mail-reply-all-mirrored:before {
+	content: "\E2AF";
+}
+
+.vscom-icon--mail-reply-all:before {
+	content: "\E2B0";
+}
+
+.vscom-icon--mail-reply-mirrored:before {
+	content: "\E2B1";
+}
+
+.vscom-icon--mail-reply:before {
+	content: "\E2B2";
+}
+
+.vscom-icon--mail-solid:before {
+	content: "\E2B3";
+}
+
+.vscom-icon--mail-tentative:before {
+	content: "\E2B4";
+}
+
+.vscom-icon--mail-undelivered:before {
+	content: "\E2B5";
+}
+
+.vscom-icon--manager-self-service:before {
+	content: "\E2B6";
+}
+
+.vscom-icon--manufacturing:before {
+	content: "\E2B7";
+}
+
+.vscom-icon--map-directions:before {
+	content: "\E2B8";
+}
+
+.vscom-icon--map-pin-solid:before {
+	content: "\E2B9";
+}
+
+.vscom-icon--map-pin:before {
+	content: "\E2BA";
+}
+
+.vscom-icon--mark-down-language:before {
+	content: "\E2BB";
+}
+
+.vscom-icon--market-down:before {
+	content: "\E2BC";
+}
+
+.vscom-icon--market:before {
+	content: "\E2BD";
+}
+
+.vscom-icon--master-database:before {
+	content: "\E2BE";
+}
+
+.vscom-icon--maximum-value:before {
+	content: "\E2BF";
+}
+
+.vscom-icon--medal:before {
+	content: "\E2C0";
+}
+
+.vscom-icon--media-add:before {
+	content: "\E2C1";
+}
+
+.vscom-icon--medical:before {
+	content: "\E2C2";
+}
+
+.vscom-icon--megaphone-solid:before {
+	content: "\E2C3";
+}
+
+.vscom-icon--megaphone:before {
+	content: "\E2C4";
+}
+
+.vscom-icon--memo:before {
+	content: "\E2C5";
+}
+
+.vscom-icon--merge-duplicate:before {
+	content: "\E2C6";
+}
+
+.vscom-icon--merge:before {
+	content: "\E2C7";
+}
+
+.vscom-icon--message-filled:before {
+	content: "\E2C8";
+}
+
+.vscom-icon--message:before {
+	content: "\E2C9";
+}
+
+.vscom-icon--mic-off:before {
+	content: "\E2CA";
+}
+
+.vscom-icon--microphone:before {
+	content: "\E2CB";
+}
+
+.vscom-icon--mini-contract:before {
+	content: "\E2CC";
+}
+
+.vscom-icon--mini-expand:before {
+	content: "\E2CD";
+}
+
+.vscom-icon--mini-link:before {
+	content: "\E2CE";
+}
+
+.vscom-icon--minimum-value:before {
+	content: "\E2CF";
+}
+
+.vscom-icon--minus:before {
+	content: "\E2D0";
+}
+
+.vscom-icon--mobile-report:before {
+	content: "\E2D1";
+}
+
+.vscom-icon--mobile-selected:before {
+	content: "\E2D2";
+}
+
+.vscom-icon--money:before {
+	content: "\E2D3";
+}
+
+.vscom-icon--more-supports:before {
+	content: "\E2D4";
+}
+
+.vscom-icon--more-vertical:before {
+	content: "\E2D5";
+}
+
+.vscom-icon--more:before {
+	content: "\E2D6";
+}
+
+.vscom-icon--move-to-folder:before {
+	content: "\E2D7";
+}
+
+.vscom-icon--move:before {
+	content: "\E2D8";
+}
+
+.vscom-icon--movers:before {
+	content: "\E2D9";
+}
+
+.vscom-icon--msn-logo:before {
+	content: "\E2DA";
+}
+
+.vscom-icon--msn-video-solid:before {
+	content: "\E2DB";
+}
+
+.vscom-icon--msn-windows:before {
+	content: "\E2DC";
+}
+
+.vscom-icon--multi-select-mirrored:before {
+	content: "\E2DD";
+}
+
+.vscom-icon--multi-select:before {
+	content: "\E2DE";
+}
+
+.vscom-icon--music-fill:before {
+	content: "\E2DF";
+}
+
+.vscom-icon--music-in-collection:before {
+	content: "\E2E0";
+}
+
+.vscom-icon--music-note:before {
+	content: "\E2E1";
+}
+
+.vscom-icon--my-movies-tv:before {
+	content: "\E2E2";
+}
+
+.vscom-icon--nav-2D-map-view:before {
+	content: "\E2E3";
+}
+
+.vscom-icon--navigate-back:before {
+	content: "\E2E4";
+}
+
+.vscom-icon--navigate-external-inline:before {
+	content: "\E2E5";
+}
+
+.vscom-icon--navigate-forward:before {
+	content: "\E2E6";
+}
+
+.vscom-icon--navigation-flipper:before {
+	content: "\E2E7";
+}
+
+.vscom-icon--network-tower:before {
+	content: "\E2E8";
+}
+
+.vscom-icon--new-analytic-query:before {
+	content: "\E2E9";
+}
+
+.vscom-icon--new-folder:before {
+	content: "\E2EA";
+}
+
+.vscom-icon--new-team-project:before {
+	content: "\E2EB";
+}
+
+.vscom-icon--news-search:before {
+	content: "\E2EC";
+}
+
+.vscom-icon--news:before {
+	content: "\E2ED";
+}
+
+.vscom-icon--next:before {
+	content: "\E2EE";
+}
+
+.vscom-icon--not-executed:before {
+	content: "\E2EF";
+}
+
+.vscom-icon--not-impacted-solid:before {
+	content: "\E2F0";
+}
+
+.vscom-icon--note-forward:before {
+	content: "\E2F1";
+}
+
+.vscom-icon--note-pinned:before {
+	content: "\E2F2";
+}
+
+.vscom-icon--note-reply:before {
+	content: "\E2F3";
+}
+
+.vscom-icon--notebook-plan:before {
+	content: "\E2F4";
+}
+
+.vscom-icon--npm-logo:before {
+	content: "\E2F5";
+}
+
+.vscom-icon--nuget-logo:before {
+	content: "\E2F6";
+}
+
+.vscom-icon--number-field:before {
+	content: "\E2F7";
+}
+
+.vscom-icon--number-sequence:before {
+	content: "\E2F8";
+}
+
+.vscom-icon--numbered-list:before {
+	content: "\E2F9";
+}
+
+.vscom-icon--oem:before {
+	content: "\E2FA";
+}
+
+.vscom-icon--office-logo:before {
+	content: "\E2FB";
+}
+
+.vscom-icon--office-video-logo-inverse:before {
+	content: "\E2FC";
+}
+
+.vscom-icon--offline-storage-solid:before {
+	content: "\E2FD";
+}
+
+.vscom-icon--one-drive-logo:before {
+	content: "\E2FE";
+}
+
+.vscom-icon--one-note-logo-inverse:before {
+	content: "\E2FF";
+}
+
+.vscom-icon--one-note-logo-solid:before {
+	content: "\E300";
+}
+
+.vscom-icon--one-note-logo:before {
+	content: "\E301";
+}
+
+.vscom-icon--open-file:before {
+	content: "\E302";
+}
+
+.vscom-icon--open-folder-horizontal:before {
+	content: "\E303";
+}
+
+.vscom-icon--open-in-new-window:before {
+	content: "\E304";
+}
+
+.vscom-icon--open-pane:before {
+	content: "\E305";
+}
+
+.vscom-icon--open-panel-mirrored:before {
+	content: "\E306";
+}
+
+.vscom-icon--open-source:before {
+	content: "\E307";
+}
+
+.vscom-icon--org:before {
+	content: "\E308";
+}
+
+.vscom-icon--orientation:before {
+	content: "\E309";
+}
+
+.vscom-icon--out-of-office:before {
+	content: "\E30A";
+}
+
+.vscom-icon--outlook-logo-reversed:before {
+	content: "\E30B";
+}
+
+.vscom-icon--package:before {
+	content: "\E30C";
+}
+
+.vscom-icon--packages:before {
+	content: "\E30D";
+}
+
+.vscom-icon--page-add:before {
+	content: "\E30E";
+}
+
+.vscom-icon--page-checked-out:before {
+	content: "\E30F";
+}
+
+.vscom-icon--page-checkedin:before {
+	content: "\E310";
+}
+
+.vscom-icon--page-edit:before {
+	content: "\E311";
+}
+
+.vscom-icon--page-left:before {
+	content: "\E312";
+}
+
+.vscom-icon--page-list-solid:before {
+	content: "\E313";
+}
+
+.vscom-icon--page-lock:before {
+	content: "\E314";
+}
+
+.vscom-icon--page-remove:before {
+	content: "\E315";
+}
+
+.vscom-icon--page-right:before {
+	content: "\E316";
+}
+
+.vscom-icon--page-solid:before {
+	content: "\E317";
+}
+
+.vscom-icon--page:before {
+	content: "\E318";
+}
+
+.vscom-icon--pano-indicator:before {
+	content: "\E319";
+}
+
+.vscom-icon--parachute-solid:before {
+	content: "\E31A";
+}
+
+.vscom-icon--parachute:before {
+	content: "\E31B";
+}
+
+.vscom-icon--parameter:before {
+	content: "\E31C";
+}
+
+.vscom-icon--parature-logo:before {
+	content: "\E31D";
+}
+
+.vscom-icon--parking-location-mirrored:before {
+	content: "\E31E";
+}
+
+.vscom-icon--parking-location:before {
+	content: "\E31F";
+}
+
+.vscom-icon--parking-solid:before {
+	content: "\E320";
+}
+
+.vscom-icon--partly-cloudy-day:before {
+	content: "\E321";
+}
+
+.vscom-icon--partly-cloudy-night:before {
+	content: "\E322";
+}
+
+.vscom-icon--party-leader:before {
+	content: "\E323";
+}
+
+.vscom-icon--passive-authentication:before {
+	content: "\E324";
+}
+
+.vscom-icon--paste-as-code:before {
+	content: "\E325";
+}
+
+.vscom-icon--paste:before {
+	content: "\E326";
+}
+
+.vscom-icon--pause:before {
+	content: "\E327";
+}
+
+.vscom-icon--pc1:before {
+	content: "\E328";
+}
+
+.vscom-icon--pdf:before {
+	content: "\E329";
+}
+
+.vscom-icon--pencil-reply:before {
+	content: "\E32A";
+}
+
+.vscom-icon--people-add:before {
+	content: "\E32B";
+}
+
+.vscom-icon--people-alert:before {
+	content: "\E32C";
+}
+
+.vscom-icon--people-block:before {
+	content: "\E32D";
+}
+
+.vscom-icon--people-pause:before {
+	content: "\E32E";
+}
+
+.vscom-icon--people-repeat:before {
+	content: "\E32F";
+}
+
+.vscom-icon--people:before {
+	content: "\E330";
+}
+
+.vscom-icon--permissions-solid:before {
+	content: "\E331";
+}
+
+.vscom-icon--permissions:before {
+	content: "\E332";
+}
+
+.vscom-icon--personalize:before {
+	content: "\E333";
+}
+
+.vscom-icon--phone:before {
+	content: "\E334";
+}
+
+.vscom-icon--photo-2:before {
+	content: "\E335";
+}
+
+.vscom-icon--photo-add:before {
+	content: "\E336";
+}
+
+.vscom-icon--photo-collection:before {
+	content: "\E337";
+}
+
+.vscom-icon--photo-remove:before {
+	content: "\E338";
+}
+
+.vscom-icon--photo:before {
+	content: "\E339";
+}
+
+.vscom-icon--picture-center:before {
+	content: "\E33A";
+}
+
+.vscom-icon--picture-fill:before {
+	content: "\E33B";
+}
+
+.vscom-icon--picture-library:before {
+	content: "\E33C";
+}
+
+.vscom-icon--picture-position:before {
+	content: "\E33D";
+}
+
+.vscom-icon--picture-stretch:before {
+	content: "\E33E";
+}
+
+.vscom-icon--picture-tile:before {
+	content: "\E33F";
+}
+
+.vscom-icon--picture:before {
+	content: "\E340";
+}
+
+.vscom-icon--pie-double:before {
+	content: "\E341";
+}
+
+.vscom-icon--pie-single-solid:before {
+	content: "\E342";
+}
+
+.vscom-icon--pie-single:before {
+	content: "\E343";
+}
+
+.vscom-icon--pill:before {
+	content: "\E344";
+}
+
+.vscom-icon--pin:before {
+	content: "\E345";
+}
+
+.vscom-icon--pinned-fill:before {
+	content: "\E346";
+}
+
+.vscom-icon--pinned:before {
+	content: "\E347";
+}
+
+.vscom-icon--pivot-chart:before {
+	content: "\E348";
+}
+
+.vscom-icon--plan-view:before {
+	content: "\E349";
+}
+
+.vscom-icon--play-resume:before {
+	content: "\E34A";
+}
+
+.vscom-icon--play:before {
+	content: "\E34B";
+}
+
+.vscom-icon--player-settings:before {
+	content: "\E34C";
+}
+
+.vscom-icon--plug-connected:before {
+	content: "\E34D";
+}
+
+.vscom-icon--plug-disconnect:before {
+	content: "\E34E";
+}
+
+.vscom-icon--plug-solid:before {
+	content: "\E34F";
+}
+
+.vscom-icon--plug:before {
+	content: "\E350";
+}
+
+.vscom-icon--poi-solid:before {
+	content: "\E351";
+}
+
+.vscom-icon--poi:before {
+	content: "\E352";
+}
+
+.vscom-icon--post-update:before {
+	content: "\E353";
+}
+
+.vscom-icon--power-apps-2-logo:before {
+	content: "\E354";
+}
+
+.vscom-icon--power-apps-logo:before {
+	content: "\E355";
+}
+
+.vscom-icon--power-apps:before {
+	content: "\E356";
+}
+
+.vscom-icon--power-button:before {
+	content: "\E357";
+}
+
+.vscom-icon--power-point-document:before {
+	content: "\E358";
+}
+
+.vscom-icon--power-point-logo-solid:before {
+	content: "\E359";
+}
+
+.vscom-icon--power-point-logo:before {
+	content: "\E35A";
+}
+
+.vscom-icon--precipitation:before {
+	content: "\E35B";
+}
+
+.vscom-icon--preview-link:before {
+	content: "\E35C";
+}
+
+.vscom-icon--preview:before {
+	content: "\E35D";
+}
+
+.vscom-icon--previous:before {
+	content: "\E35E";
+}
+
+.vscom-icon--primary-calendar:before {
+	content: "\E35F";
+}
+
+.vscom-icon--print-fax-file:before {
+	content: "\E360";
+}
+
+.vscom-icon--print:before {
+	content: "\E361";
+}
+
+.vscom-icon--process-meta-task:before {
+	content: "\E362";
+}
+
+.vscom-icon--processing:before {
+	content: "\E363";
+}
+
+.vscom-icon--product:before {
+	content: "\E364";
+}
+
+.vscom-icon--profile-search:before {
+	content: "\E365";
+}
+
+.vscom-icon--progress-loop-inner:before {
+	content: "\E366";
+}
+
+.vscom-icon--progress-loop-outer:before {
+	content: "\E367";
+}
+
+.vscom-icon--progress-ring-dots:before {
+	content: "\E368";
+}
+
+.vscom-icon--project-collection:before {
+	content: "\E369";
+}
+
+.vscom-icon--project-logo-32:before {
+	content: "\E36A";
+}
+
+.vscom-icon--project-logo-inverse:before {
+	content: "\E36B";
+}
+
+.vscom-icon--protect-restrict:before {
+	content: "\E36C";
+}
+
+.vscom-icon--protected-document:before {
+	content: "\E36D";
+}
+
+.vscom-icon--public-calendar:before {
+	content: "\E36E";
+}
+
+.vscom-icon--public-contact-cad:before {
+	content: "\E36F";
+}
+
+.vscom-icon--public-contact-card-mirrored:before {
+	content: "\E370";
+}
+
+.vscom-icon--public-email:before {
+	content: "\E371";
+}
+
+.vscom-icon--public-folder:before {
+	content: "\E372";
+}
+
+.vscom-icon--puzzle:before {
+	content: "\E373";
+}
+
+.vscom-icon--py:before {
+	content: "\E374";
+}
+
+.vscom-icon--python-language:before {
+	content: "\E375";
+}
+
+.vscom-icon--query-list:before {
+	content: "\E376";
+}
+
+.vscom-icon--questionnaire:before {
+	content: "\E377";
+}
+
+.vscom-icon--quick-note-solid:before {
+	content: "\E378";
+}
+
+.vscom-icon--quick-note:before {
+	content: "\E379";
+}
+
+.vscom-icon--radio-bullet:before {
+	content: "\E37A";
+}
+
+.vscom-icon--radio-button-off:before {
+	content: "\E37B";
+}
+
+.vscom-icon--radio-button-on:before {
+	content: "\E37C";
+}
+
+.vscom-icon--rain-shower-day:before {
+	content: "\E37D";
+}
+
+.vscom-icon--rain-showers-night:before {
+	content: "\E37E";
+}
+
+.vscom-icon--rain-snow:before {
+	content: "\E37F";
+}
+
+.vscom-icon--rain:before {
+	content: "\E380";
+}
+
+.vscom-icon--raw-source:before {
+	content: "\E381";
+}
+
+.vscom-icon--react-logo:before {
+	content: "\E382";
+}
+
+.vscom-icon--read-out-loud:before {
+	content: "\E383";
+}
+
+.vscom-icon--read:before {
+	content: "\E384";
+}
+
+.vscom-icon--reading-mode-solid:before {
+	content: "\E385";
+}
+
+.vscom-icon--reading-mode:before {
+	content: "\E386";
+}
+
+.vscom-icon--receipt-check:before {
+	content: "\E387";
+}
+
+.vscom-icon--receipt-forward:before {
+	content: "\E388";
+}
+
+.vscom-icon--receipt-reply:before {
+	content: "\E389";
+}
+
+.vscom-icon--receipt-tentative:before {
+	content: "\E38A";
+}
+
+.vscom-icon--receipt-undelivered:before {
+	content: "\E38B";
+}
+
+.vscom-icon--recent:before {
+	content: "\E38C";
+}
+
+.vscom-icon--recruitment-management:before {
+	content: "\E38D";
+}
+
+.vscom-icon--rectangle-solid:before {
+	content: "\E38E";
+}
+
+.vscom-icon--rectangular-clipping:before {
+	content: "\E38F";
+}
+
+.vscom-icon--recurring-event:before {
+	content: "\E390";
+}
+
+.vscom-icon--recycle-bin:before {
+	content: "\E391";
+}
+
+.vscom-icon--red-eye:before {
+	content: "\E392";
+}
+
+.vscom-icon--redeploy:before {
+	content: "\E393";
+}
+
+.vscom-icon--redo:before {
+	content: "\E394";
+}
+
+.vscom-icon--refresh:before {
+	content: "\E395";
+}
+
+.vscom-icon--reminder-group:before {
+	content: "\E396";
+}
+
+.vscom-icon--reminder-person:before {
+	content: "\E397";
+}
+
+.vscom-icon--remote:before {
+	content: "\E398";
+}
+
+.vscom-icon--remove-event:before {
+	content: "\E399";
+}
+
+.vscom-icon--remove-filter:before {
+	content: "\E39A";
+}
+
+.vscom-icon--remove-link:before {
+	content: "\E39B";
+}
+
+.vscom-icon--remove-ocurrence:before {
+	content: "\E39C";
+}
+
+.vscom-icon--remove:before {
+	content: "\E39D";
+}
+
+.vscom-icon--rename:before {
+	content: "\E39E";
+}
+
+.vscom-icon--renewal-current:before {
+	content: "\E39F";
+}
+
+.vscom-icon--renewal-future:before {
+	content: "\E3A0";
+}
+
+.vscom-icon--reocurring-task:before {
+	content: "\E3A1";
+}
+
+.vscom-icon--reopen-pages:before {
+	content: "\E3A2";
+}
+
+.vscom-icon--repair:before {
+	content: "\E3A3";
+}
+
+.vscom-icon--reply-all-alt:before {
+	content: "\E3A4";
+}
+
+.vscom-icon--reply-all-mirrored:before {
+	content: "\E3A5";
+}
+
+.vscom-icon--reply-all:before {
+	content: "\E3A6";
+}
+
+.vscom-icon--reply-alt:before {
+	content: "\E3A7";
+}
+
+.vscom-icon--reply:before {
+	content: "\E3A8";
+}
+
+.vscom-icon--repo-solid:before {
+	content: "\E3A9";
+}
+
+.vscom-icon--repo:before {
+	content: "\E3AA";
+}
+
+.vscom-icon--report-add:before {
+	content: "\E3AB";
+}
+
+.vscom-icon--report-hacked:before {
+	content: "\E3AC";
+}
+
+.vscom-icon--report-library-mirrored:before {
+	content: "\E3AD";
+}
+
+.vscom-icon--report-library:before {
+	content: "\E3AE";
+}
+
+.vscom-icon--return-to-session:before {
+	content: "\E3AF";
+}
+
+.vscom-icon--rev-toggle-key:before {
+	content: "\E3B0";
+}
+
+.vscom-icon--review-request-solid:before {
+	content: "\E3B1";
+}
+
+.vscom-icon--review-response-solid:before {
+	content: "\E3B2";
+}
+
+.vscom-icon--review-solid:before {
+	content: "\E3B3";
+}
+
+.vscom-icon--rewind:before {
+	content: "\E3B4";
+}
+
+.vscom-icon--ribbon-solid:before {
+	content: "\E3B5";
+}
+
+.vscom-icon--ribbon:before {
+	content: "\E3B6";
+}
+
+.vscom-icon--right-double-quote:before {
+	content: "\E3B7";
+}
+
+.vscom-icon--ringer-off:before {
+	content: "\E3B8";
+}
+
+.vscom-icon--ringer-remove:before {
+	content: "\E3B9";
+}
+
+.vscom-icon--ringer:before {
+	content: "\E3BA";
+}
+
+.vscom-icon--robot:before {
+	content: "\E3BB";
+}
+
+.vscom-icon--rocket:before {
+	content: "\E3BC";
+}
+
+.vscom-icon--room:before {
+	content: "\E3BD";
+}
+
+.vscom-icon--rotate:before {
+	content: "\E3BE";
+}
+
+.vscom-icon--rows-child:before {
+	content: "\E3BF";
+}
+
+.vscom-icon--rows-group:before {
+	content: "\E3C0";
+}
+
+.vscom-icon--rugby:before {
+	content: "\E3C1";
+}
+
+.vscom-icon--running:before {
+	content: "\E3C2";
+}
+
+.vscom-icon--sad-solid:before {
+	content: "\E3C3";
+}
+
+.vscom-icon--sad:before {
+	content: "\E3C4";
+}
+
+.vscom-icon--save-all:before {
+	content: "\E3C5";
+}
+
+.vscom-icon--save-and-close:before {
+	content: "\E3C6";
+}
+
+.vscom-icon--save-as:before {
+	content: "\E3C7";
+}
+
+.vscom-icon--save:before {
+	content: "\E3C8";
+}
+
+.vscom-icon--savings:before {
+	content: "\E3C9";
+}
+
+.vscom-icon--scale-up:before {
+	content: "\E3CA";
+}
+
+.vscom-icon--schedule-event-action:before {
+	content: "\E3CB";
+}
+
+.vscom-icon--scope-template:before {
+	content: "\E3CC";
+}
+
+.vscom-icon--script:before {
+	content: "\E3CD";
+}
+
+.vscom-icon--scroll-up-down:before {
+	content: "\E3CE";
+}
+
+.vscom-icon--search-and-apps:before {
+	content: "\E3CF";
+}
+
+.vscom-icon--search-bookmark:before {
+	content: "\E3D0";
+}
+
+.vscom-icon--search-calendar:before {
+	content: "\E3D1";
+}
+
+.vscom-icon--search-issue-mirrored:before {
+	content: "\E3D2";
+}
+
+.vscom-icon--search-issue:before {
+	content: "\E3D3";
+}
+
+.vscom-icon--search:before {
+	content: "\E3D4";
+}
+
+.vscom-icon--section:before {
+	content: "\E3D5";
+}
+
+.vscom-icon--sections:before {
+	content: "\E3D6";
+}
+
+.vscom-icon--security-group:before {
+	content: "\E3D7";
+}
+
+.vscom-icon--select-all:before {
+	content: "\E3D8";
+}
+
+.vscom-icon--sell:before {
+	content: "\E3D9";
+}
+
+.vscom-icon--send-mirrored:before {
+	content: "\E3DA";
+}
+
+.vscom-icon--send:before {
+	content: "\E3DB";
+}
+
+.vscom-icon--separator:before {
+	content: "\E3DC";
+}
+
+.vscom-icon--server-environment:before {
+	content: "\E3DD";
+}
+
+.vscom-icon--server-processes:before {
+	content: "\E3DE";
+}
+
+.vscom-icon--server:before {
+	content: "\E3DF";
+}
+
+.vscom-icon--set-action:before {
+	content: "\E3E0";
+}
+
+.vscom-icon--settings:before {
+	content: "\E3E1";
+}
+
+.vscom-icon--share-ios:before {
+	content: "\E3E2";
+}
+
+.vscom-icon--share:before {
+	content: "\E3E3";
+}
+
+.vscom-icon--sheild-solid:before {
+	content: "\E3E4";
+}
+
+.vscom-icon--sheild:before {
+	content: "\E3E5";
+}
+
+.vscom-icon--shop-server:before {
+	content: "\E3E6";
+}
+
+.vscom-icon--shop:before {
+	content: "\E3E7";
+}
+
+.vscom-icon--shopping-cart-solid:before {
+	content: "\E3E8";
+}
+
+.vscom-icon--shopping-cart:before {
+	content: "\E3E9";
+}
+
+.vscom-icon--show-results-mirrored:before {
+	content: "\E3EA";
+}
+
+.vscom-icon--show-results:before {
+	content: "\E3EB";
+}
+
+.vscom-icon--side-panel-mirrored:before {
+	content: "\E3EC";
+}
+
+.vscom-icon--sign-out:before {
+	content: "\E3ED";
+}
+
+.vscom-icon--single-bookmark-filled:before {
+	content: "\E3EE";
+}
+
+.vscom-icon--single-bookmark:before {
+	content: "\E3EF";
+}
+
+.vscom-icon--single-column-edit:before {
+	content: "\E3F0";
+}
+
+.vscom-icon--single-column:before {
+	content: "\E3F1";
+}
+
+.vscom-icon--sip-move:before {
+	content: "\E3F2";
+}
+
+.vscom-icon--site-scan:before {
+	content: "\E3F3";
+}
+
+.vscom-icon--ski-resorts:before {
+	content: "\E3F4";
+}
+
+.vscom-icon--skype-clock:before {
+	content: "\E3F5";
+}
+
+.vscom-icon--skype-logo:before {
+	content: "\E3F6";
+}
+
+.vscom-icon--skype-message:before {
+	content: "\E3F7";
+}
+
+.vscom-icon--slider-handle-size:before {
+	content: "\E3F8";
+}
+
+.vscom-icon--slider-thumb:before {
+	content: "\E3F9";
+}
+
+.vscom-icon--slider:before {
+	content: "\E3FA";
+}
+
+.vscom-icon--snooze:before {
+	content: "\E3FB";
+}
+
+.vscom-icon--snow-shower-day:before {
+	content: "\E3FC";
+}
+
+.vscom-icon--snow-shower-night:before {
+	content: "\E3FD";
+}
+
+.vscom-icon--snow:before {
+	content: "\E3FE";
+}
+
+.vscom-icon--snowflake:before {
+	content: "\E3FF";
+}
+
+.vscom-icon--soccer:before {
+	content: "\E400";
+}
+
+.vscom-icon--social-listening-logo:before {
+	content: "\E401";
+}
+
+.vscom-icon--solid-panel:before {
+	content: "\E402";
+}
+
+.vscom-icon--sort-down:before {
+	content: "\E403";
+}
+
+.vscom-icon--sort-lines:before {
+	content: "\E404";
+}
+
+.vscom-icon--sort-up:before {
+	content: "\E405";
+}
+
+.vscom-icon--sort:before {
+	content: "\E406";
+}
+
+.vscom-icon--source:before {
+	content: "\E407";
+}
+
+.vscom-icon--spacer:before {
+	content: "\E408";
+}
+
+.vscom-icon--speakers:before {
+	content: "\E409";
+}
+
+.vscom-icon--speedometer:before {
+	content: "\E40A";
+}
+
+.vscom-icon--split-object:before {
+	content: "\E40B";
+}
+
+.vscom-icon--split:before {
+	content: "\E40C";
+}
+
+.vscom-icon--sprint:before {
+	content: "\E40D";
+}
+
+.vscom-icon--squalls:before {
+	content: "\E40E";
+}
+
+.vscom-icon--square-solid:before {
+	content: "\E40F";
+}
+
+.vscom-icon--stack-bar-chart:before {
+	content: "\E410";
+}
+
+.vscom-icon--stack-indicator:before {
+	content: "\E411";
+}
+
+.vscom-icon--stack-line-chart:before {
+	content: "\E412";
+}
+
+.vscom-icon--stack:before {
+	content: "\E413";
+}
+
+.vscom-icon--starburst-solid:before {
+	content: "\E414";
+}
+
+.vscom-icon--starburst:before {
+	content: "\E415";
+}
+
+.vscom-icon--status-cicle-question-mark:before {
+	content: "\E416";
+}
+
+.vscom-icon--status-circle-block-2:before {
+	content: "\E417";
+}
+
+.vscom-icon--status-circle-check:before {
+	content: "\E418";
+}
+
+.vscom-icon--status-circle-error-x:before {
+	content: "\E419";
+}
+
+.vscom-icon--status-circle-exclamation:before {
+	content: "\E41A";
+}
+
+.vscom-icon--status-circle-info:before {
+	content: "\E41B";
+}
+
+.vscom-icon--status-circle-inner:before {
+	content: "\E41C";
+}
+
+.vscom-icon--status-circle-outer:before {
+	content: "\E41D";
+}
+
+.vscom-icon--status-circle-ring:before {
+	content: "\E41E";
+}
+
+.vscom-icon--status-error-filled:before {
+	content: "\E41F";
+}
+
+.vscom-icon--status-triangle-exclamation:before {
+	content: "\E420";
+}
+
+.vscom-icon--status-triangle-inner:before {
+	content: "\E421";
+}
+
+.vscom-icon--status-triangle-outer:before {
+	content: "\E422";
+}
+
+.vscom-icon--status-triangle:before {
+	content: "\E423";
+}
+
+.vscom-icon--step-insert:before {
+	content: "\E424";
+}
+
+.vscom-icon--step-shared-add:before {
+	content: "\E425";
+}
+
+.vscom-icon--step-shared-insert:before {
+	content: "\E426";
+}
+
+.vscom-icon--step-shared:before {
+	content: "\E427";
+}
+
+.vscom-icon--step:before {
+	content: "\E428";
+}
+
+.vscom-icon--stock-down:before {
+	content: "\E429";
+}
+
+.vscom-icon--stock-up:before {
+	content: "\E42A";
+}
+
+.vscom-icon--stop:before {
+	content: "\E42B";
+}
+
+.vscom-icon--stopwatch:before {
+	content: "\E42C";
+}
+
+.vscom-icon--store-logo-med-20:before {
+	content: "\E42D";
+}
+
+.vscom-icon--storyboard:before {
+	content: "\E42E";
+}
+
+.vscom-icon--stream-logo:before {
+	content: "\E42F";
+}
+
+.vscom-icon--streaming-off:before {
+	content: "\E430";
+}
+
+.vscom-icon--streaming:before {
+	content: "\E431";
+}
+
+.vscom-icon--subscribe:before {
+	content: "\E432";
+}
+
+.vscom-icon--subscript:before {
+	content: "\E433";
+}
+
+.vscom-icon--substitution-in:before {
+	content: "\E434";
+}
+
+.vscom-icon--suitcase:before {
+	content: "\E435";
+}
+
+.vscom-icon--sun-add:before {
+	content: "\E436";
+}
+
+.vscom-icon--sun-question-mark:before {
+	content: "\E437";
+}
+
+.vscom-icon--sunny:before {
+	content: "\E438";
+}
+
+.vscom-icon--superscript:before {
+	content: "\E439";
+}
+
+.vscom-icon--survey-questions:before {
+	content: "\E43A";
+}
+
+.vscom-icon--svn-logo:before {
+	content: "\E43B";
+}
+
+.vscom-icon--sway-logo-inverse:before {
+	content: "\E43C";
+}
+
+.vscom-icon--swift-logo:before {
+	content: "\E43D";
+}
+
+.vscom-icon--switch:before {
+	content: "\E43E";
+}
+
+.vscom-icon--switcher-start-end:before {
+	content: "\E43F";
+}
+
+.vscom-icon--sync-folder:before {
+	content: "\E440";
+}
+
+.vscom-icon--sync-ocurrence:before {
+	content: "\E441";
+}
+
+.vscom-icon--sync-to-pc:before {
+	content: "\E442";
+}
+
+.vscom-icon--sync:before {
+	content: "\E443";
+}
+
+.vscom-icon--system:before {
+	content: "\E444";
+}
+
+.vscom-icon--tab:before {
+	content: "\E445";
+}
+
+.vscom-icon--table:before {
+	content: "\E446";
+}
+
+.vscom-icon--tablet-mode:before {
+	content: "\E447";
+}
+
+.vscom-icon--tablet-selected:before {
+	content: "\E448";
+}
+
+.vscom-icon--tablet:before {
+	content: "\E449";
+}
+
+.vscom-icon--tag:before {
+	content: "\E44A";
+}
+
+.vscom-icon--task-group:before {
+	content: "\E44B";
+}
+
+.vscom-icon--task-logo:before {
+	content: "\E44C";
+}
+
+.vscom-icon--task-manager:before {
+	content: "\E44D";
+}
+
+.vscom-icon--taskboard:before {
+	content: "\E44E";
+}
+
+.vscom-icon--team-favorite:before {
+	content: "\E44F";
+}
+
+.vscom-icon--teams-logo-16:before {
+	content: "\E450";
+}
+
+.vscom-icon--teamwork:before {
+	content: "\E451";
+}
+
+.vscom-icon--temporary-user:before {
+	content: "\E452";
+}
+
+.vscom-icon--tennis:before {
+	content: "\E453";
+}
+
+.vscom-icon--test-auto-solid:before {
+	content: "\E454";
+}
+
+.vscom-icon--test-beaker-solid:before {
+	content: "\E455";
+}
+
+.vscom-icon--test-beaker:before {
+	content: "\E456";
+}
+
+.vscom-icon--test-case:before {
+	content: "\E457";
+}
+
+.vscom-icon--test-explore-solid:before {
+	content: "\E458";
+}
+
+.vscom-icon--test-impact-solid:before {
+	content: "\E459";
+}
+
+.vscom-icon--test-parameter:before {
+	content: "\E45A";
+}
+
+.vscom-icon--test-plan:before {
+	content: "\E45B";
+}
+
+.vscom-icon--test-step:before {
+	content: "\E45C";
+}
+
+.vscom-icon--test-suite:before {
+	content: "\E45D";
+}
+
+.vscom-icon--test-user-solid:before {
+	content: "\E45E";
+}
+
+.vscom-icon--text-box:before {
+	content: "\E45F";
+}
+
+.vscom-icon--text-call-out:before {
+	content: "\E460";
+}
+
+.vscom-icon--text-document-shared:before {
+	content: "\E461";
+}
+
+.vscom-icon--text-document:before {
+	content: "\E462";
+}
+
+.vscom-icon--text-field:before {
+	content: "\E463";
+}
+
+.vscom-icon--tfvc-logo:before {
+	content: "\E464";
+}
+
+.vscom-icon--this-pc:before {
+	content: "\E465";
+}
+
+.vscom-icon--thumbnail-view-mirrored:before {
+	content: "\E466";
+}
+
+.vscom-icon--thumbnail-view:before {
+	content: "\E467";
+}
+
+.vscom-icon--thunderstorms:before {
+	content: "\E468";
+}
+
+.vscom-icon--ticket:before {
+	content: "\E469";
+}
+
+.vscom-icon--tiles-2:before {
+	content: "\E46A";
+}
+
+.vscom-icon--tiles:before {
+	content: "\E46B";
+}
+
+.vscom-icon--time-entry:before {
+	content: "\E46C";
+}
+
+.vscom-icon--time-sheet:before {
+	content: "\E46D";
+}
+
+.vscom-icon--timeline-delivery:before {
+	content: "\E46E";
+}
+
+.vscom-icon--timeline-matrix-view:before {
+	content: "\E46F";
+}
+
+.vscom-icon--timeline-progress:before {
+	content: "\E470";
+}
+
+.vscom-icon--timeline:before {
+	content: "\E471";
+}
+
+.vscom-icon--timer:before {
+	content: "\E472";
+}
+
+.vscom-icon--toggle-filled:before {
+	content: "\E473";
+}
+
+.vscom-icon--toggle-off:before {
+	content: "\E474";
+}
+
+.vscom-icon--toggle-on:before {
+	content: "\E475";
+}
+
+.vscom-icon--toggle-thumb:before {
+	content: "\E476";
+}
+
+.vscom-icon--toggle:before {
+	content: "\E477";
+}
+
+.vscom-icon--toll:before {
+	content: "\E478";
+}
+
+.vscom-icon--touch-pointer:before {
+	content: "\E479";
+}
+
+.vscom-icon--touch:before {
+	content: "\E47A";
+}
+
+.vscom-icon--trackers-mirrored:before {
+	content: "\E47B";
+}
+
+.vscom-icon--trackers:before {
+	content: "\E47C";
+}
+
+.vscom-icon--train-filled:before {
+	content: "\E47D";
+}
+
+.vscom-icon--train:before {
+	content: "\E47E";
+}
+
+.vscom-icon--transfer-call:before {
+	content: "\E47F";
+}
+
+.vscom-icon--transitiobn-effect:before {
+	content: "\E480";
+}
+
+.vscom-icon--transition-pop:before {
+	content: "\E481";
+}
+
+.vscom-icon--transition-push:before {
+	content: "\E482";
+}
+
+.vscom-icon--transition:before {
+	content: "\E483";
+}
+
+.vscom-icon--trending-12:before {
+	content: "\E484";
+}
+
+.vscom-icon--triangle-down-12:before {
+	content: "\E485";
+}
+
+.vscom-icon--triangle-filled-down-12:before {
+	content: "\E486";
+}
+
+.vscom-icon--triangle-filled-left-12:before {
+	content: "\E487";
+}
+
+.vscom-icon--triangle-filled-right-12:before {
+	content: "\E488";
+}
+
+.vscom-icon--triangle-filled-up-12:before {
+	content: "\E489";
+}
+
+.vscom-icon--triangle-filled:before {
+	content: "\E48A";
+}
+
+.vscom-icon--triangle-left-12:before {
+	content: "\E48B";
+}
+
+.vscom-icon--triangle-right-12:before {
+	content: "\E48C";
+}
+
+.vscom-icon--triangle-solid:before {
+	content: "\E48D";
+}
+
+.vscom-icon--triangle-up-12:before {
+	content: "\E48E";
+}
+
+.vscom-icon--trigger-approval:before {
+	content: "\E48F";
+}
+
+.vscom-icon--trigger-auto:before {
+	content: "\E490";
+}
+
+.vscom-icon--trigger-user:before {
+	content: "\E491";
+}
+
+.vscom-icon--triple-column-edit:before {
+	content: "\E492";
+}
+
+.vscom-icon--triple-column:before {
+	content: "\E493";
+}
+
+.vscom-icon--trophy-2:before {
+	content: "\E494";
+}
+
+.vscom-icon--trophy-solid-2:before {
+	content: "\E495";
+}
+
+.vscom-icon--trophy:before {
+	content: "\E496";
+}
+
+.vscom-icon--turn-right:before {
+	content: "\E497";
+}
+
+.vscom-icon--tv-monitor-selected:before {
+	content: "\E498";
+}
+
+.vscom-icon--tv-monitor:before {
+	content: "\E499";
+}
+
+.vscom-icon--type-script-language:before {
+	content: "\E49A";
+}
+
+.vscom-icon--umbrella:before {
+	content: "\E49B";
+}
+
+.vscom-icon--underline:before {
+	content: "\E49C";
+}
+
+.vscom-icon--undo:before {
+	content: "\E49D";
+}
+
+.vscom-icon--uneditable-solid-12:before {
+	content: "\E49E";
+}
+
+.vscom-icon--uneditable:before {
+	content: "\E49F";
+}
+
+.vscom-icon--unfavorite:before {
+	content: "\E4A0";
+}
+
+.vscom-icon--unknown-call:before {
+	content: "\E4A1";
+}
+
+.vscom-icon--unknown-mirrored:before {
+	content: "\E4A2";
+}
+
+.vscom-icon--unknown-solid:before {
+	content: "\E4A3";
+}
+
+.vscom-icon--unknown:before {
+	content: "\E4A4";
+}
+
+.vscom-icon--unlock-solid:before {
+	content: "\E4A5";
+}
+
+.vscom-icon--unlock:before {
+	content: "\E4A6";
+}
+
+.vscom-icon--unpin:before {
+	content: "\E4A7";
+}
+
+.vscom-icon--unsubscribe:before {
+	content: "\E4A8";
+}
+
+.vscom-icon--unsync-folder:before {
+	content: "\E4A9";
+}
+
+.vscom-icon--unsync-ocurrence:before {
+	content: "\E4AA";
+}
+
+.vscom-icon--up:before {
+	content: "\E4AB";
+}
+
+.vscom-icon--upload:before {
+	content: "\E4AC";
+}
+
+.vscom-icon--user-followed:before {
+	content: "\E4AD";
+}
+
+.vscom-icon--user-pause:before {
+	content: "\E4AE";
+}
+
+.vscom-icon--user-sync:before {
+	content: "\E4AF";
+}
+
+.vscom-icon--variable-group:before {
+	content: "\E4B0";
+}
+
+.vscom-icon--variable:before {
+	content: "\E4B1";
+}
+
+.vscom-icon--vb:before {
+	content: "\E4B2";
+}
+
+.vscom-icon--version-control-push:before {
+	content: "\E4B3";
+}
+
+.vscom-icon--video-filled:before {
+	content: "\E4B4";
+}
+
+.vscom-icon--video-off:before {
+	content: "\E4B5";
+}
+
+.vscom-icon--video-search:before {
+	content: "\E4B6";
+}
+
+.vscom-icon--video-thin-filled:before {
+	content: "\E4B7";
+}
+
+.vscom-icon--video:before {
+	content: "\E4B8";
+}
+
+.vscom-icon--view-all-2:before {
+	content: "\E4B9";
+}
+
+.vscom-icon--view-all:before {
+	content: "\E4BA";
+}
+
+.vscom-icon--view-dashboard:before {
+	content: "\E4BB";
+}
+
+.vscom-icon--view-diagram:before {
+	content: "\E4BC";
+}
+
+.vscom-icon--view-list-group:before {
+	content: "\E4BD";
+}
+
+.vscom-icon--view-list-tree:before {
+	content: "\E4BE";
+}
+
+.vscom-icon--view-list:before {
+	content: "\E4BF";
+}
+
+.vscom-icon--view:before {
+	content: "\E4C0";
+}
+
+.vscom-icon--viso-diagram:before {
+	content: "\E4C1";
+}
+
+.vscom-icon--visual-basic-language:before {
+	content: "\E4C2";
+}
+
+.vscom-icon--visual-studio-logo:before {
+	content: "\E4C3";
+}
+
+.vscom-icon--visuals-folder:before {
+	content: "\E4C4";
+}
+
+.vscom-icon--visuls-store:before {
+	content: "\E4C5";
+}
+
+.vscom-icon--voice-mail-reply:before {
+	content: "\E4C6";
+}
+
+.vscom-icon--voicemail-forward:before {
+	content: "\E4C7";
+}
+
+.vscom-icon--voicemail-irm:before {
+	content: "\E4C8";
+}
+
+.vscom-icon--volume-0:before {
+	content: "\E4C9";
+}
+
+.vscom-icon--volume-1:before {
+	content: "\E4CA";
+}
+
+.vscom-icon--volume-2:before {
+	content: "\E4CB";
+}
+
+.vscom-icon--volume-3:before {
+	content: "\E4CC";
+}
+
+.vscom-icon--volume-disabled:before {
+	content: "\E4CD";
+}
+
+.vscom-icon--vsts-alt-logo-1:before {
+	content: "\E4CE";
+}
+
+.vscom-icon--vsts-alt-logo-2:before {
+	content: "\E4CF";
+}
+
+.vscom-icon--vsts-logo:before {
+	content: "\E4D0";
+}
+
+.vscom-icon--waffle-menu:before {
+	content: "\E4D1";
+}
+
+.vscom-icon--waffle:before {
+	content: "\E4D2";
+}
+
+.vscom-icon--waitlist-confirm:before {
+	content: "\E4D3";
+}
+
+.vscom-icon--warning-12:before {
+	content: "\E4D4";
+}
+
+.vscom-icon--warning:before {
+	content: "\E4D5";
+}
+
+.vscom-icon--web-publish:before {
+	content: "\E4D6";
+}
+
+.vscom-icon--website:before {
+	content: "\E4D7";
+}
+
+.vscom-icon--weights:before {
+	content: "\E4D8";
+}
+
+.vscom-icon--white-board-app:before {
+	content: "\E4D9";
+}
+
+.vscom-icon--wifi-ethernet:before {
+	content: "\E4DA";
+}
+
+.vscom-icon--wind-direction:before {
+	content: "\E4DB";
+}
+
+.vscom-icon--window-edit:before {
+	content: "\E4DC";
+}
+
+.vscom-icon--windows-logo:before {
+	content: "\E4DD";
+}
+
+.vscom-icon--wines:before {
+	content: "\E4DE";
+}
+
+.vscom-icon--wipe-phone:before {
+	content: "\E4DF";
+}
+
+.vscom-icon--word-document:before {
+	content: "\E4E0";
+}
+
+.vscom-icon--word-logo-16:before {
+	content: "\E4E1";
+}
+
+.vscom-icon--word-logo-inverse-16:before {
+	content: "\E4E2";
+}
+
+.vscom-icon--word-logo-solid:before {
+	content: "\E4E3";
+}
+
+.vscom-icon--word-logo:before {
+	content: "\E4E4";
+}
+
+.vscom-icon--work-flow:before {
+	content: "\E4E5";
+}
+
+.vscom-icon--work-item-bar-solid:before {
+	content: "\E4E6";
+}
+
+.vscom-icon--work-item-bar:before {
+	content: "\E4E7";
+}
+
+.vscom-icon--work-item-bug:before {
+	content: "\E4E8";
+}
+
+.vscom-icon--work-item:before {
+	content: "\E4E9";
+}
+
+.vscom-icon--work:before {
+	content: "\E4EA";
+}
+
+.vscom-icon--workforce-management:before {
+	content: "\E4EB";
+}
+
+.vscom-icon--world-clock:before {
+	content: "\E4EC";
+}
+
+.vscom-icon--world:before {
+	content: "\E4ED";
+}
+
+.vscom-icon--xamarin-logo:before {
+	content: "\E4EE";
+}
+
+.vscom-icon--zip-folder:before {
+	content: "\E4EF";
+}
+
+.vscom-icon--zoom-in:before {
+	content: "\E4F0";
+}
+
+.vscom-icon--zoom-out:before {
+	content: "\E4F1";
+}
+
+.vscom-icon--zoom:before {
+	content: "\E4F2";
+}
