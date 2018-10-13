@@ -13,7 +13,7 @@
   "devDependencies": {
     "font-blast": "^0.6.1",
     "gulp-iconfont": "^9.0.2",
-    "gulp-iconfont-css": "^2.1.0",
+    "gulp-iconfont-css": "^2.3.0",
     "gulp-ttf-svg": "^1.0.1"
   }
 }
